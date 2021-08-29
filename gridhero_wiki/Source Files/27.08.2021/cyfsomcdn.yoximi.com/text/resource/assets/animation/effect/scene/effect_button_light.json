@@ -1,0 +1,9 @@
+{"file":"effect_button_light.png","frames":{
+"effect_button_light_08":{"x":0,"y":375,"w":200,"h":109,"offX":0,"offY":13,"sourceW":200,"sourceH":128},
+"effect_button_light_01":{"x":204,"y":374,"w":200,"h":109,"offX":0,"offY":13,"sourceW":200,"sourceH":128},
+"effect_button_light_02":{"x":204,"y":250,"w":200,"h":120,"offX":0,"offY":7,"sourceW":200,"sourceH":128},
+"effect_button_light_03":{"x":0,"y":250,"w":200,"h":121,"offX":0,"offY":7,"sourceW":200,"sourceH":128},
+"effect_button_light_04":{"x":204,"y":125,"w":200,"h":121,"offX":0,"offY":7,"sourceW":200,"sourceH":128},
+"effect_button_light_05":{"x":0,"y":125,"w":200,"h":121,"offX":0,"offY":7,"sourceW":200,"sourceH":128},
+"effect_button_light_06":{"x":204,"y":0,"w":200,"h":121,"offX":0,"offY":7,"sourceW":200,"sourceH":128},
+"effect_button_light_07":{"x":0,"y":0,"w":200,"h":121,"offX":0,"offY":7,"sourceW":200,"sourceH":128}}}

@@ -1,0 +1,11 @@
+{
+	"gdXSZG":{
+			"1":{"id":1,"desc":"$0.99 optional package","item_id":200,"price":6,"propid":8300},
+			"2":{"id":2,"desc":"$4.99 optional package","item_id":201,"price":30,"propid":8301},
+			"3":{"id":3,"desc":"$9.99 optional package","item_id":202,"price":68,"propid":8302},
+			"4":{"id":4,"desc":"$14.99 optional package","item_id":203,"price":98,"propid":8303},
+			"5":{"id":5,"desc":"$19.99 optional package","item_id":204,"price":128,"propid":8304},
+			"6":{"id":6,"desc":"$49.99 optional package","item_id":205,"price":328,"propid":8305},
+			"7":{"id":7,"desc":"$99.99 optional package","item_id":206,"price":648,"propid":8306}
+		}
+}

@@ -1,0 +1,9 @@
+{"file":"effect_forging.png","frames":{
+"effect_forging_05":{"x":475,"y":0,"w":157,"h":184,"offX":51,"offY":18,"sourceW":256,"sourceH":256},
+"effect_forging_06":{"x":797,"y":0,"w":156,"h":168,"offX":46,"offY":37,"sourceW":256,"sourceH":256},
+"effect_forging_07":{"x":636,"y":171,"w":146,"h":157,"offX":52,"offY":36,"sourceW":256,"sourceH":256},
+"effect_forging_08":{"x":786,"y":172,"w":117,"h":62,"offX":72,"offY":52,"sourceW":256,"sourceH":256},
+"effect_forging_01":{"x":0,"y":0,"w":252,"h":244,"offX":3,"offY":6,"sourceW":256,"sourceH":256},
+"effect_forging_02":{"x":256,"y":0,"w":215,"h":152,"offX":22,"offY":50,"sourceW":256,"sourceH":256},
+"effect_forging_03":{"x":256,"y":156,"w":154,"h":149,"offX":50,"offY":50,"sourceW":256,"sourceH":256},
+"effect_forging_04":{"x":636,"y":0,"w":157,"h":167,"offX":51,"offY":33,"sourceW":256,"sourceH":256}}}

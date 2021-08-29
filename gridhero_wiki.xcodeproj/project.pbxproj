@@ -1,0 +1,1559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5882CADD26DBC0A70055B00B /* gridhero_wikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CADC26DBC0A70055B00B /* gridhero_wikiApp.swift */; };
+		5882CADF26DBC0A70055B00B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CADE26DBC0A70055B00B /* ContentView.swift */; };
+		5882CAE126DBC0AB0055B00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5882CAE026DBC0AB0055B00B /* Assets.xcassets */; };
+		5882CAE426DBC0AB0055B00B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5882CAE326DBC0AB0055B00B /* Preview Assets.xcassets */; };
+		5882CAEF26DBC1B30055B00B /* BossList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAEE26DBC1B30055B00B /* BossList.swift */; };
+		5882CAF126DBC2A70055B00B /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF026DBC2A70055B00B /* ItemList.swift */; };
+		5882CAF426DBC3DE0055B00B /* BossViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF326DBC3DE0055B00B /* BossViewModel.swift */; };
+		5882CAF626DBC4CE0055B00B /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF526DBC4CE0055B00B /* Monster.swift */; };
+		5882CAF826DBC53F0055B00B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF726DBC53F0055B00B /* Global.swift */; };
+		5882CAFA26DBC5590055B00B /* Loot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF926DBC5590055B00B /* Loot.swift */; };
+		5882D4B426DBC91A0055B00B /* monster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5882D4AE26DBC8F00055B00B /* monster_data.json */; };
+		5882D4B526DBC9270055B00B /* loot_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5882D46C26DBC8F00055B00B /* loot_data.json */; };
+		5882D4B926DBCB710055B00B /* BossRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4B826DBCB710055B00B /* BossRow.swift */; };
+		5882D4BB26DBCD4A0055B00B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BA26DBCD4A0055B00B /* SearchBar.swift */; };
+		5882D4BD26DBCF350055B00B /* BossDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BC26DBCF350055B00B /* BossDetail.swift */; };
+		5882D4BF26DBCFF90055B00B /* BossDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BE26DBCFF90055B00B /* BossDetailViewModel.swift */; };
+		5882D4C026DBD53E0055B00B /* item_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5882D47E26DBC8F00055B00B /* item_data.json */; };
+		5882D4C226DBD69F0055B00B /* LootRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4C126DBD69F0055B00B /* LootRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5882CAD926DBC0A70055B00B /* gridhero_wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gridhero_wiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5882CADC26DBC0A70055B00B /* gridhero_wikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridhero_wikiApp.swift; sourceTree = "<group>"; };
+		5882CADE26DBC0A70055B00B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5882CAE026DBC0AB0055B00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5882CAE326DBC0AB0055B00B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5882CAE526DBC0AB0055B00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5882CAEE26DBC1B30055B00B /* BossList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossList.swift; sourceTree = "<group>"; };
+		5882CAF026DBC2A70055B00B /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		5882CAF326DBC3DE0055B00B /* BossViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossViewModel.swift; sourceTree = "<group>"; };
+		5882CAF526DBC4CE0055B00B /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		5882CAF726DBC53F0055B00B /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		5882CAF926DBC5590055B00B /* Loot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loot.swift; sourceTree = "<group>"; };
+		5882D2BC26DBC8EF0055B00B /* face_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = face_01.json; sourceTree = "<group>"; };
+		5882D2BE26DBC8EF0055B00B /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		5882D2BF26DBC8EF0055B00B /* gameversion.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gameversion.json; sourceTree = "<group>"; };
+		5882D2C026DBC8EF0055B00B /* platform.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = platform.json; sourceTree = "<group>"; };
+		5882D2C126DBC8EF0055B00B /* description.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = description.json; sourceTree = "<group>"; };
+		5882D2C226DBC8EF0055B00B /* server_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = server_config.json; sourceTree = "<group>"; };
+		5882D2C326DBC8EF0055B00B /* cust_param_conf.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cust_param_conf.json; sourceTree = "<group>"; };
+		5882D2C426DBC8EF0055B00B /* gm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gm.json; sourceTree = "<group>"; };
+		5882D2C526DBC8EF0055B00B /* gameEui.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gameEui.json; sourceTree = "<group>"; };
+		5882D2CA26DBC8EF0055B00B /* main_common_sheet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = main_common_sheet.json; sourceTree = "<group>"; };
+		5882D2CD26DBC8EF0055B00B /* a_main_common_sheet2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = a_main_common_sheet2.json; sourceTree = "<group>"; };
+		5882D2CE26DBC8EF0055B00B /* cycj_main_common_sheet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cycj_main_common_sheet.json; sourceTree = "<group>"; };
+		5882D2D226DBC8EF0055B00B /* npc_ty_white_attack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_white_attack.json; sourceTree = "<group>"; };
+		5882D2D326DBC8EF0055B00B /* npc_ty_white_walk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_white_walk.json; sourceTree = "<group>"; };
+		5882D2D426DBC8EF0055B00B /* npc_ty_white_dead.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_white_dead.json; sourceTree = "<group>"; };
+		5882D2D526DBC8EF0055B00B /* npc_ty_white_start.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_white_start.json; sourceTree = "<group>"; };
+		5882D2D726DBC8EF0055B00B /* npc_ty_gou_walk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_gou_walk.json; sourceTree = "<group>"; };
+		5882D2D826DBC8EF0055B00B /* npc_ty_gou_attack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_gou_attack.json; sourceTree = "<group>"; };
+		5882D2D926DBC8EF0055B00B /* npc_ty_gou_start.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_gou_start.json; sourceTree = "<group>"; };
+		5882D2DA26DBC8EF0055B00B /* npc_ty_gou_dead.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_gou_dead.json; sourceTree = "<group>"; };
+		5882D2DC26DBC8EF0055B00B /* npc_ty_boss_dead.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_boss_dead.json; sourceTree = "<group>"; };
+		5882D2DD26DBC8EF0055B00B /* npc_ty_boss_start.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_boss_start.json; sourceTree = "<group>"; };
+		5882D2DE26DBC8EF0055B00B /* npc_ty_boss_attack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_boss_attack.json; sourceTree = "<group>"; };
+		5882D2DF26DBC8EF0055B00B /* npc_ty_boss_walk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_boss_walk.json; sourceTree = "<group>"; };
+		5882D2E126DBC8EF0055B00B /* male_clothes_ty_start.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = male_clothes_ty_start.json; sourceTree = "<group>"; };
+		5882D2E226DBC8EF0055B00B /* male_clothes_ty_dead.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = male_clothes_ty_dead.json; sourceTree = "<group>"; };
+		5882D2E326DBC8EF0055B00B /* male_clothes_ty_walk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = male_clothes_ty_walk.json; sourceTree = "<group>"; };
+		5882D2E426DBC8EF0055B00B /* male_clothes_ty_magic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = male_clothes_ty_magic.json; sourceTree = "<group>"; };
+		5882D2E526DBC8EF0055B00B /* male_clothes_ty_attack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = male_clothes_ty_attack.json; sourceTree = "<group>"; };
+		5882D2E726DBC8EF0055B00B /* npc_ty_magic_walk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_magic_walk.json; sourceTree = "<group>"; };
+		5882D2E826DBC8EF0055B00B /* npc_ty_magic_start.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_magic_start.json; sourceTree = "<group>"; };
+		5882D2E926DBC8EF0055B00B /* npc_ty_magic_dead.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_magic_dead.json; sourceTree = "<group>"; };
+		5882D2EA26DBC8EF0055B00B /* npc_ty_magic_attack.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_ty_magic_attack.json; sourceTree = "<group>"; };
+		5882D2ED26DBC8EF0055B00B /* skill_fs_huoqiu_1_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_huoqiu_1_l.json; sourceTree = "<group>"; };
+		5882D2EE26DBC8EF0055B00B /* skill_ds_zhanjia_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_zhanjia_b.json; sourceTree = "<group>"; };
+		5882D2EF26DBC8EF0055B00B /* skill_biankuang_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_3.json; sourceTree = "<group>"; };
+		5882D2F026DBC8EF0055B00B /* skill_boss_diyuleiguang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_diyuleiguang.json; sourceTree = "<group>"; };
+		5882D2F126DBC8EF0055B00B /* skill_boss_kangju.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_kangju.json; sourceTree = "<group>"; };
+		5882D2F226DBC8EF0055B00B /* skill_boss_ymshw2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_ymshw2.json; sourceTree = "<group>"; };
+		5882D2F326DBC8EF0055B00B /* skill_zhanshi_liehuo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zhanshi_liehuo.json; sourceTree = "<group>"; };
+		5882D2F426DBC8EF0055B00B /* skill_chibang_02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_02.json; sourceTree = "<group>"; };
+		5882D2F526DBC8EF0055B00B /* fashion_cheng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fashion_cheng.json; sourceTree = "<group>"; };
+		5882D2F626DBC8EF0055B00B /* skill_zs_liehuo_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_liehuo_l.json; sourceTree = "<group>"; };
+		5882D2F726DBC8EF0055B00B /* skill_ds_wujizhenqi_1_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_wujizhenqi_1_b.json; sourceTree = "<group>"; };
+		5882D2F826DBC8EF0055B00B /* skill_boss_bingfengbao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_bingfengbao.json; sourceTree = "<group>"; };
+		5882D2F926DBC8EF0055B00B /* skill_boss_zmjz2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_zmjz2.json; sourceTree = "<group>"; };
+		5882D2FA26DBC8EF0055B00B /* skill_boss_cyem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_cyem.json; sourceTree = "<group>"; };
+		5882D2FB26DBC8EF0055B00B /* skill_zs_banyue_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_banyue_s.json; sourceTree = "<group>"; };
+		5882D2FC26DBC8EF0055B00B /* skill_fs_bingfengbao_1_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_bingfengbao_1_s.json; sourceTree = "<group>"; };
+		5882D2FD26DBC8EF0055B00B /* skill_ds_huofu_1_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_1_b.json; sourceTree = "<group>"; };
+		5882D2FE26DBC8EF0055B00B /* skill_fashi_tianleishu_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_tianleishu_1.json; sourceTree = "<group>"; };
+		5882D2FF26DBC8EF0055B00B /* skill_fashi_huoqiang_1_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiang_1_b.json; sourceTree = "<group>"; };
+		5882D30026DBC8EF0055B00B /* skill_daoshi_huofu_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_huofu_2.json; sourceTree = "<group>"; };
+		5882D30126DBC8EF0055B00B /* skill_fashi_huoqiu_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiu_1.json; sourceTree = "<group>"; };
+		5882D30226DBC8EF0055B00B /* skill_boss_xzw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_xzw.json; sourceTree = "<group>"; };
+		5882D30326DBC8EF0055B00B /* skill_tejiebiankuang_tian.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_tejiebiankuang_tian.json; sourceTree = "<group>"; };
+		5882D30426DBC8EF0055B00B /* skill_ds_fushi_2_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_fushi_2_b.json; sourceTree = "<group>"; };
+		5882D30526DBC8EF0055B00B /* skill_zhanshi_zhuri2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zhanshi_zhuri2.json; sourceTree = "<group>"; };
+		5882D30626DBC8EF0055B00B /* effect_title_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_01.json; sourceTree = "<group>"; };
+		5882D30726DBC8EF0055B00B /* skill_zhanshi_chongzhuang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zhanshi_chongzhuang.json; sourceTree = "<group>"; };
+		5882D30826DBC8EF0055B00B /* skill_ds_fushi_1_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_fushi_1_s.json; sourceTree = "<group>"; };
+		5882D30926DBC8EF0055B00B /* skill_ds_huofu_3_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_3_b.json; sourceTree = "<group>"; };
+		5882D30A26DBC8EF0055B00B /* skill_zhanshi_cisha.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zhanshi_cisha.json; sourceTree = "<group>"; };
+		5882D30B26DBC8EF0055B00B /* skill_boss_zznw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_zznw.json; sourceTree = "<group>"; };
+		5882D30C26DBC8EF0055B00B /* skill_fs_huoqiu_4_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_huoqiu_4_b.json; sourceTree = "<group>"; };
+		5882D30D26DBC8EF0055B00B /* skill_daoshi_huofu_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_huofu_3.json; sourceTree = "<group>"; };
+		5882D30E26DBC8EF0055B00B /* skill_zs_zhuri_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_zhuri_l.json; sourceTree = "<group>"; };
+		5882D30F26DBC8EF0055B00B /* skill_ds_huofu_2_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_2_s.json; sourceTree = "<group>"; };
+		5882D31026DBC8EF0055B00B /* skill_fs_diyuleiguang_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_diyuleiguang_s.json; sourceTree = "<group>"; };
+		5882D31126DBC8EF0055B00B /* skill_zs_cisha_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_cisha_h.json; sourceTree = "<group>"; };
+		5882D31226DBC8EF0055B00B /* effect_biankuang_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_biankuang_2.json; sourceTree = "<group>"; };
+		5882D31326DBC8EF0055B00B /* skill_ds_zhaohuan_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_zhaohuan_b.json; sourceTree = "<group>"; };
+		5882D31426DBC8EF0055B00B /* skill_boss_cyem2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_cyem2.json; sourceTree = "<group>"; };
+		5882D31526DBC8EF0055B00B /* skill_fs_huoqiu_3_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_huoqiu_3_l.json; sourceTree = "<group>"; };
+		5882D31626DBC8EF0055B00B /* skill_chibang_06_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_06_xiao.json; sourceTree = "<group>"; };
+		5882D31726DBC8EF0055B00B /* skill_ds_wujizhenqi_2_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_wujizhenqi_2_s.json; sourceTree = "<group>"; };
+		5882D31826DBC8EF0055B00B /* skill_chibang_03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_03.json; sourceTree = "<group>"; };
+		5882D31926DBC8EF0055B00B /* skill_fashi_huoqiang_4_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiang_4_l.json; sourceTree = "<group>"; };
+		5882D31A26DBC8EF0055B00B /* skill_fs_tianleishu_2_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_tianleishu_2_h.json; sourceTree = "<group>"; };
+		5882D31B26DBC8EF0055B00B /* skill_daoshi_fushi_4_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_l.json; sourceTree = "<group>"; };
+		5882D31C26DBC8EF0055B00B /* skill_fs_mofahudun_1_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_mofahudun_1_s.json; sourceTree = "<group>"; };
+		5882D31D26DBC8EF0055B00B /* skill_biankuang_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_2.json; sourceTree = "<group>"; };
+		5882D31E26DBC8EF0055B00B /* skill_fs_mofahudun_2_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_mofahudun_2_h.json; sourceTree = "<group>"; };
+		5882D31F26DBC8EF0055B00B /* skill_biankuang_9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_9.json; sourceTree = "<group>"; };
+		5882D32026DBC8EF0055B00B /* skill_daoshi_zhanjia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_zhanjia.json; sourceTree = "<group>"; };
+		5882D32126DBC8EF0055B00B /* skill_ds_huofu_1_d.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_1_d.json; sourceTree = "<group>"; };
+		5882D32226DBC8EF0055B00B /* skill_fs_tianleishu_1_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_tianleishu_1_s.json; sourceTree = "<group>"; };
+		5882D32326DBC8EF0055B00B /* skill_boss_wmjz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_wmjz.json; sourceTree = "<group>"; };
+		5882D32426DBC8EF0055B00B /* skill_chibang_08.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_08.json; sourceTree = "<group>"; };
+		5882D32526DBC8EF0055B00B /* skill_daoshi_huofu_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_huofu_4.json; sourceTree = "<group>"; };
+		5882D32626DBC8EF0055B00B /* skill_fashi_mofahudun_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_mofahudun_2.json; sourceTree = "<group>"; };
+		5882D32726DBC8EF0055B00B /* skill_fashi_bingfengbao_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_bingfengbao_1.json; sourceTree = "<group>"; };
+		5882D32826DBC8EF0055B00B /* skill_zs_chongzhuang_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_chongzhuang_s.json; sourceTree = "<group>"; };
+		5882D32926DBC8EF0055B00B /* skill_zs_liehuo_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_liehuo_s.json; sourceTree = "<group>"; };
+		5882D32A26DBC8EF0055B00B /* skill_biankuang_5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_5.json; sourceTree = "<group>"; };
+		5882D32B26DBC8EF0055B00B /* skill_ds_zhanjia_d.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_zhanjia_d.json; sourceTree = "<group>"; };
+		5882D32C26DBC8EF0055B00B /* skill_chibang_04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_04.json; sourceTree = "<group>"; };
+		5882D32D26DBC8EF0055B00B /* effect_shengmingzhishu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shengmingzhishu.json; sourceTree = "<group>"; };
+		5882D32E26DBC8EF0055B00B /* skill_chibang_01_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_01_xiao.json; sourceTree = "<group>"; };
+		5882D32F26DBC8EF0055B00B /* skill_fashi_huoqiang_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiang_4.json; sourceTree = "<group>"; };
+		5882D33026DBC8EF0055B00B /* skill_boss_fushi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_fushi.json; sourceTree = "<group>"; };
+		5882D33126DBC8EF0055B00B /* skill_zs_banyue_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_banyue_l.json; sourceTree = "<group>"; };
+		5882D33226DBC8EF0055B00B /* skill_tejiebiankuang_di.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_tejiebiankuang_di.json; sourceTree = "<group>"; };
+		5882D33326DBC8EF0055B00B /* skill_fs_bingfengbao_1_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_bingfengbao_1_l.json; sourceTree = "<group>"; };
+		5882D33426DBC8EF0055B00B /* skill_boss_mljz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_mljz.json; sourceTree = "<group>"; };
+		5882D33526DBC8EF0055B00B /* skill_zs_jichugongji_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_jichugongji_h.json; sourceTree = "<group>"; };
+		5882D33626DBC8EF0055B00B /* skill_zs_zhuri_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_zhuri_s.json; sourceTree = "<group>"; };
+		5882D33726DBC8EF0055B00B /* skill_ds_wujizhenqi_4_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_wujizhenqi_4_s.json; sourceTree = "<group>"; };
+		5882D33826DBC8EF0055B00B /* skill_boss_lyzw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_lyzw.json; sourceTree = "<group>"; };
+		5882D33926DBC8EF0055B00B /* skill_daoshi_qunliao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_qunliao.json; sourceTree = "<group>"; };
+		5882D33A26DBC8EF0055B00B /* skill_ds_zhaohuan_2_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_zhaohuan_2_b.json; sourceTree = "<group>"; };
+		5882D33B26DBC8EF0055B00B /* npc_g_ctsd.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_g_ctsd.json; sourceTree = "<group>"; };
+		5882D33C26DBC8EF0055B00B /* skill_chibang_05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_05.json; sourceTree = "<group>"; };
+		5882D33D26DBC8EF0055B00B /* skill_shidushu_adv_AtoS.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_shidushu_adv_AtoS.json; sourceTree = "<group>"; };
+		5882D33E26DBC8EF0055B00B /* effect_gouhuo_guangquan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_gouhuo_guangquan.json; sourceTree = "<group>"; };
+		5882D33F26DBC8EF0055B00B /* skill_ds_qunyindun_d.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_qunyindun_d.json; sourceTree = "<group>"; };
+		5882D34026DBC8EF0055B00B /* skill_biankuang_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_4.json; sourceTree = "<group>"; };
+		5882D34126DBC8EF0055B00B /* skill_fs_mofahudun_1_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_mofahudun_1_l.json; sourceTree = "<group>"; };
+		5882D34226DBC8EF0055B00B /* skill_daoshi_fushi_4_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_s.json; sourceTree = "<group>"; };
+		5882D34326DBC8EF0055B00B /* skill_tejiebiankuang_sheng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_tejiebiankuang_sheng.json; sourceTree = "<group>"; };
+		5882D34426DBC8EF0055B00B /* skill_chibang_07_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_07_xiao.json; sourceTree = "<group>"; };
+		5882D34526DBC8EF0055B00B /* skill_ds_huofu_3_d.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_3_d.json; sourceTree = "<group>"; };
+		5882D34626DBC8EF0055B00B /* skill_daoshi_zhaohuan_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_zhaohuan_3.json; sourceTree = "<group>"; };
+		5882D34726DBC8EF0055B00B /* skill_fs_kangju_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_kangju_b.json; sourceTree = "<group>"; };
+		5882D34826DBC8EF0055B00B /* skill_fs_jiguangdianying_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_jiguangdianying_s.json; sourceTree = "<group>"; };
+		5882D34926DBC8EF0055B00B /* skill_chibang_09.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_09.json; sourceTree = "<group>"; };
+		5882D34A26DBC8EF0055B00B /* skill_daoshi_fushi_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_1.json; sourceTree = "<group>"; };
+		5882D34B26DBC8EF0055B00B /* skill_biankuang_8.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_8.json; sourceTree = "<group>"; };
+		5882D34C26DBC8EF0055B00B /* skill_daoshi_wujizhenqi_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_wujizhenqi_1.json; sourceTree = "<group>"; };
+		5882D34D26DBC8EF0055B00B /* skill_ds_huofu_1_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_1_s.json; sourceTree = "<group>"; };
+		5882D34E26DBC8EF0055B00B /* effect_title_04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_04.json; sourceTree = "<group>"; };
+		5882D34F26DBC8EF0055B00B /* skill_boss_hl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_hl.json; sourceTree = "<group>"; };
+		5882D35026DBC8EF0055B00B /* skill_fashi_diyuleiguang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_diyuleiguang.json; sourceTree = "<group>"; };
+		5882D35126DBC8EF0055B00B /* skill_fashi_bingfengbao_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_bingfengbao_3.json; sourceTree = "<group>"; };
+		5882D35226DBC8EF0055B00B /* skill_boss_tianleishu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_tianleishu.json; sourceTree = "<group>"; };
+		5882D35326DBC8EF0055B00B /* skill_ds_fushi_2_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_fushi_2_s.json; sourceTree = "<group>"; };
+		5882D35426DBC8EF0055B00B /* skill_boss_byjm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_byjm.json; sourceTree = "<group>"; };
+		5882D35526DBC8EF0055B00B /* skill_boss_cls.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_cls.json; sourceTree = "<group>"; };
+		5882D35626DBC8EF0055B00B /* skill_daoshi_fushi_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_2.json; sourceTree = "<group>"; };
+		5882D35726DBC8EF0055B00B /* skill_daoshi_wujizhenqi_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_wujizhenqi_2.json; sourceTree = "<group>"; };
+		5882D35826DBC8EF0055B00B /* skill_fs_tianleishu_1_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_tianleishu_1_h.json; sourceTree = "<group>"; };
+		5882D35926DBC8EF0055B00B /* skill_fs_mofahudun_2_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_mofahudun_2_s.json; sourceTree = "<group>"; };
+		5882D35A26DBC8EF0055B00B /* skill_ds_zhanjia_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_zhanjia_s.json; sourceTree = "<group>"; };
+		5882D35B26DBC8EF0055B00B /* skill_ds_wujizhenqi_1_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_wujizhenqi_1_s.json; sourceTree = "<group>"; };
+		5882D35C26DBC8EF0055B00B /* skill_chibang_02_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_02_xiao.json; sourceTree = "<group>"; };
+		5882D35D26DBC8EF0055B00B /* skill_tejiebiankuang_xuan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_tejiebiankuang_xuan.json; sourceTree = "<group>"; };
+		5882D35E26DBC8EF0055B00B /* skill_lei_buff.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_lei_buff.json; sourceTree = "<group>"; };
+		5882D35F26DBC8EF0055B00B /* skill_zhanshi_leihuo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zhanshi_leihuo.json; sourceTree = "<group>"; };
+		5882D36026DBC8EF0055B00B /* skill_chibang_06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_06.json; sourceTree = "<group>"; };
+		5882D36126DBC8EF0055B00B /* skill_boss_zmjz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_zmjz.json; sourceTree = "<group>"; };
+		5882D36226DBC8EF0055B00B /* skill_shenshou.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_shenshou.json; sourceTree = "<group>"; };
+		5882D36326DBC8EF0055B00B /* skill_chibang_10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_10.json; sourceTree = "<group>"; };
+		5882D36426DBC8EF0055B00B /* skill_biankuang_7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_7.json; sourceTree = "<group>"; };
+		5882D36526DBC8EF0055B00B /* skill_biankuang_6.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_6.json; sourceTree = "<group>"; };
+		5882D36626DBC8EF0055B00B /* skill_daoshi_fushi_4_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_h.json; sourceTree = "<group>"; };
+		5882D36726DBC8EF0055B00B /* skill_boss_tcjg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_tcjg.json; sourceTree = "<group>"; };
+		5882D36826DBC8EF0055B00B /* skill_ds_zhaohuan_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_zhaohuan_s.json; sourceTree = "<group>"; };
+		5882D36926DBC8EF0055B00B /* skill_yuemozhizhu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_yuemozhizhu.json; sourceTree = "<group>"; };
+		5882D36A26DBC8EF0055B00B /* skill_bingpaoxiao_adv_AtoS.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_bingpaoxiao_adv_AtoS.json; sourceTree = "<group>"; };
+		5882D36B26DBC8EF0055B00B /* skill_daoshi_quliao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_quliao.json; sourceTree = "<group>"; };
+		5882D36C26DBC8EF0055B00B /* skill_chibang_07.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_07.json; sourceTree = "<group>"; };
+		5882D36D26DBC8EF0055B00B /* skill_fs_jiguangdianying_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_jiguangdianying_h.json; sourceTree = "<group>"; };
+		5882D36E26DBC8EF0055B00B /* skill_fs_kangju_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_kangju_l.json; sourceTree = "<group>"; };
+		5882D36F26DBC8EF0055B00B /* skill_ds_wujizhenqi_2_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_wujizhenqi_2_b.json; sourceTree = "<group>"; };
+		5882D37026DBC8EF0055B00B /* skill_ds_qunyindun_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_qunyindun_s.json; sourceTree = "<group>"; };
+		5882D37126DBC8EF0055B00B /* skill_zs_cisha_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_cisha_l.json; sourceTree = "<group>"; };
+		5882D37226DBC8EF0055B00B /* skill_chibang_09_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_09_xiao.json; sourceTree = "<group>"; };
+		5882D37326DBC8EF0055B00B /* skill_daoshi_wujizhenqi_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_wujizhenqi_3.json; sourceTree = "<group>"; };
+		5882D37426DBC8EF0055B00B /* skill_daoshi_quntihuifu_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_quntihuifu_3.json; sourceTree = "<group>"; };
+		5882D37526DBC8EF0055B00B /* skill_daoshi_fushi_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_3.json; sourceTree = "<group>"; };
+		5882D37626DBC8EF0055B00B /* skill_zhanshi_banyue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zhanshi_banyue.json; sourceTree = "<group>"; };
+		5882D37726DBC8EF0055B00B /* skill_ds_fushi_1_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_fushi_1_b.json; sourceTree = "<group>"; };
+		5882D37826DBC8EF0055B00B /* skill_ds_huofu_3_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_3_s.json; sourceTree = "<group>"; };
+		5882D37926DBC8EF0055B00B /* skill_fashi_mofahudun_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_mofahudun_1.json; sourceTree = "<group>"; };
+		5882D37A26DBC8EF0055B00B /* skill_daoshi_zhaohuan_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_zhaohuan_1.json; sourceTree = "<group>"; };
+		5882D37B26DBC8EF0055B00B /* skill_chibang_10_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_10_xiao.json; sourceTree = "<group>"; };
+		5882D37C26DBC8EF0055B00B /* skill_fashi_huoqiu_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiu_4.json; sourceTree = "<group>"; };
+		5882D37D26DBC8EF0055B00B /* skill_boss_sinfirerain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_sinfirerain.json; sourceTree = "<group>"; };
+		5882D37E26DBC8EF0055B00B /* skill_chibang_04_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_04_xiao.json; sourceTree = "<group>"; };
+		5882D37F26DBC8EF0055B00B /* skill_ds_huofu_2_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_2_b.json; sourceTree = "<group>"; };
+		5882D38026DBC8EF0055B00B /* skill_fs_bingfengbao_2_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_bingfengbao_2_s.json; sourceTree = "<group>"; };
+		5882D38126DBC8EF0055B00B /* effect_title_05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_05.json; sourceTree = "<group>"; };
+		5882D38226DBC8EF0055B00B /* effect_biankuang_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_biankuang_1.json; sourceTree = "<group>"; };
+		5882D38326DBC8EF0055B00B /* skill_zs_banyue_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_banyue_h.json; sourceTree = "<group>"; };
+		5882D38426DBC8EF0055B00B /* skill_ds_zhaohuan_1_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_zhaohuan_1_b.json; sourceTree = "<group>"; };
+		5882D38526DBC8EF0055B00B /* skill_huo_buff.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_huo_buff.json; sourceTree = "<group>"; };
+		5882D38626DBC8EF0055B00B /* skill_fashi_kangju.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_kangju.json; sourceTree = "<group>"; };
+		5882D38726DBC8EF0055B00B /* skill_jichugongji.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_jichugongji.json; sourceTree = "<group>"; };
+		5882D38826DBC8EF0055B00B /* skill_fashi_huoqiang_1_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiang_1_l.json; sourceTree = "<group>"; };
+		5882D38926DBC8EF0055B00B /* skill_zhanshi_zhuri.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zhanshi_zhuri.json; sourceTree = "<group>"; };
+		5882D38A26DBC8EF0055B00B /* skill_biankuang_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_biankuang_1.json; sourceTree = "<group>"; };
+		5882D38B26DBC8EF0055B00B /* effect_title_02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_02.json; sourceTree = "<group>"; };
+		5882D38C26DBC8EF0055B00B /* skill_chibang_03_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_03_xiao.json; sourceTree = "<group>"; };
+		5882D38D26DBC8EF0055B00B /* skill_ds_fushi_4_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_fushi_4_s.json; sourceTree = "<group>"; };
+		5882D38E26DBC8EF0055B00B /* skill_fashi_huoqiu_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiu_3.json; sourceTree = "<group>"; };
+		5882D38F26DBC8EF0055B00B /* skill_boss_nmw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_nmw.json; sourceTree = "<group>"; };
+		5882D39026DBC8EF0055B00B /* skill_fashi_tianleishu_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_tianleishu_3.json; sourceTree = "<group>"; };
+		5882D39126DBC8EF0055B00B /* skill_daoshi_fushi_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4.json; sourceTree = "<group>"; };
+		5882D39226DBC8EF0055B00B /* skill_daoshi_wujizhenqi_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_wujizhenqi_4.json; sourceTree = "<group>"; };
+		5882D39326DBC8EF0055B00B /* skill_fs_huoqiu_1_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_huoqiu_1_b.json; sourceTree = "<group>"; };
+		5882D39426DBC8EF0055B00B /* skill_boss_dybl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_dybl.json; sourceTree = "<group>"; };
+		5882D39526DBC8EF0055B00B /* skill_fs_mofahudun_2_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_mofahudun_2_l.json; sourceTree = "<group>"; };
+		5882D39626DBC8EF0055B00B /* skill_daoshi_fushi_4_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_b.json; sourceTree = "<group>"; };
+		5882D39726DBC8EF0055B00B /* skill_zs_cisha_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_cisha_s.json; sourceTree = "<group>"; };
+		5882D39826DBC8EF0055B00B /* skill_fs_kangju_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_kangju_s.json; sourceTree = "<group>"; };
+		5882D39926DBC8EF0055B00B /* skill_fashi_huoqiang_4_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiang_4_b.json; sourceTree = "<group>"; };
+		5882D39A26DBC8EF0055B00B /* skill_daoshi_huofu_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_huofu_1.json; sourceTree = "<group>"; };
+		5882D39B26DBC8EF0055B00B /* skill_boss_fullfirerain3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_fullfirerain3.json; sourceTree = "<group>"; };
+		5882D39C26DBC8EF0055B00B /* skill_fs_huoqiu_3_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_huoqiu_3_b.json; sourceTree = "<group>"; };
+		5882D39D26DBC8EF0055B00B /* skill_fs_jiguangdianying_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_jiguangdianying_b.json; sourceTree = "<group>"; };
+		5882D39E26DBC8EF0055B00B /* skill_boss_be.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_be.json; sourceTree = "<group>"; };
+		5882D39F26DBC8EF0055B00B /* skill_bing_buff.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_bing_buff.json; sourceTree = "<group>"; };
+		5882D3A026DBC8EF0055B00B /* skill_chibang_08_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_08_xiao.json; sourceTree = "<group>"; };
+		5882D3A126DBC8EF0055B00B /* skill_fs_mofahudun_1_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_mofahudun_1_h.json; sourceTree = "<group>"; };
+		5882D3A226DBC8EF0055B00B /* skill_daoshi_qunyindun.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_qunyindun.json; sourceTree = "<group>"; };
+		5882D3A326DBC8EF0055B00B /* fashion_hong.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fashion_hong.json; sourceTree = "<group>"; };
+		5882D3A426DBC8EF0055B00B /* skill_fs_tianleishu_2_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_tianleishu_2_s.json; sourceTree = "<group>"; };
+		5882D3A526DBC8EF0055B00B /* skill_ds_huofu_2_d.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_huofu_2_d.json; sourceTree = "<group>"; };
+		5882D3A626DBC8EF0055B00B /* effect_title_03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_03.json; sourceTree = "<group>"; };
+		5882D3A726DBC8EF0055B00B /* skill_ds_wujizhenqi_4_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_ds_wujizhenqi_4_b.json; sourceTree = "<group>"; };
+		5882D3A826DBC8EF0055B00B /* skill_fs_bingfengbao_2_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_bingfengbao_2_l.json; sourceTree = "<group>"; };
+		5882D3A926DBC8EF0055B00B /* skill_boss_ymshw1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_ymshw1.json; sourceTree = "<group>"; };
+		5882D3AA26DBC8EF0055B00B /* skill_boss_leiting.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_leiting.json; sourceTree = "<group>"; };
+		5882D3AB26DBC8EF0055B00B /* skill_boss_fullfirerain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_fullfirerain.json; sourceTree = "<group>"; };
+		5882D3AC26DBC8EF0055B00B /* skill_chibang_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_01.json; sourceTree = "<group>"; };
+		5882D3AD26DBC8EF0055B00B /* skill_fs_huoqiu_4_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_huoqiu_4_l.json; sourceTree = "<group>"; };
+		5882D3AE26DBC8EF0055B00B /* skill_g_ctsd.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_g_ctsd.json; sourceTree = "<group>"; };
+		5882D3AF26DBC8EF0055B00B /* skill_chibang_05_xiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_chibang_05_xiao.json; sourceTree = "<group>"; };
+		5882D3B026DBC8EF0055B00B /* skill_fashi_huoqiang_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fashi_huoqiang_1.json; sourceTree = "<group>"; };
+		5882D3B126DBC8EF0055B00B /* skill_boss_mfst.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_boss_mfst.json; sourceTree = "<group>"; };
+		5882D3B226DBC8EF0055B00B /* effect_mubei.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_mubei.json; sourceTree = "<group>"; };
+		5882D3B326DBC8F00055B00B /* skill_zs_jichugongji_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_zs_jichugongji_l.json; sourceTree = "<group>"; };
+		5882D3B426DBC8F00055B00B /* skill_fs_diyuleiguang_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_fs_diyuleiguang_h.json; sourceTree = "<group>"; };
+		5882D3B626DBC8F00055B00B /* effect_autofight.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_autofight.json; sourceTree = "<group>"; };
+		5882D3B726DBC8F00055B00B /* effect_god.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_god.json; sourceTree = "<group>"; };
+		5882D3B826DBC8F00055B00B /* Eff_ywshibai.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Eff_ywshibai.json; sourceTree = "<group>"; };
+		5882D3B926DBC8F00055B00B /* effect_godbsz3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_godbsz3.json; sourceTree = "<group>"; };
+		5882D3BA26DBC8F00055B00B /* effect_year.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_year.json; sourceTree = "<group>"; };
+		5882D3BB26DBC8F00055B00B /* effect_denglu_dahuo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_dahuo.json; sourceTree = "<group>"; };
+		5882D3BC26DBC8F00055B00B /* effect_task_kejie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_task_kejie.json; sourceTree = "<group>"; };
+		5882D3BD26DBC8F00055B00B /* effect_yiling_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yiling_2.json; sourceTree = "<group>"; };
+		5882D3BE26DBC8F00055B00B /* effect_guaji_boss.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_guaji_boss.json; sourceTree = "<group>"; };
+		5882D3BF26DBC8F00055B00B /* effect_guaji_gold.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_guaji_gold.json; sourceTree = "<group>"; };
+		5882D3C026DBC8F00055B00B /* effect_zaixianjiangli.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_zaixianjiangli.json; sourceTree = "<group>"; };
+		5882D3C126DBC8F00055B00B /* effect_vip_qt.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_vip_qt.json; sourceTree = "<group>"; };
+		5882D3C226DBC8F00055B00B /* effect_bossjiaodiguangquan_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_bossjiaodiguangquan_01.json; sourceTree = "<group>"; };
+		5882D3C326DBC8F00055B00B /* effect_task_finish.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_task_finish.json; sourceTree = "<group>"; };
+		5882D3C426DBC8F00055B00B /* effect_title_shuiyuzhengfeng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_shuiyuzhengfeng.json; sourceTree = "<group>"; };
+		5882D3C526DBC8F00055B00B /* effect_title_shenjingbaizhan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_shenjingbaizhan.json; sourceTree = "<group>"; };
+		5882D3C626DBC8F00055B00B /* effect_denglu_longzhu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_longzhu.json; sourceTree = "<group>"; };
+		5882D3C726DBC8F00055B00B /* effect_jiantou_5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jiantou_5.json; sourceTree = "<group>"; };
+		5882D3C826DBC8F00055B00B /* effect_xunbaochangzhu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xunbaochangzhu.json; sourceTree = "<group>"; };
+		5882D3C926DBC8F00055B00B /* effect_jiantou_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jiantou_4.json; sourceTree = "<group>"; };
+		5882D3CA26DBC8F00055B00B /* effect_title_hengsaoqianjun.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_hengsaoqianjun.json; sourceTree = "<group>"; };
+		5882D3CB26DBC8F00055B00B /* effect_jingyanhuishou.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jingyanhuishou.json; sourceTree = "<group>"; };
+		5882D3CC26DBC8F00055B00B /* effect_nvdao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_nvdao.json; sourceTree = "<group>"; };
+		5882D3CD26DBC8F00055B00B /* effect_mp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_mp.json; sourceTree = "<group>"; };
+		5882D3CE26DBC8F00055B00B /* effect_denglu_xiaohuo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_xiaohuo.json; sourceTree = "<group>"; };
+		5882D3CF26DBC8F00055B00B /* Eff_yw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Eff_yw.json; sourceTree = "<group>"; };
+		5882D3D026DBC8F00055B00B /* effect_qianghongbao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_qianghongbao.json; sourceTree = "<group>"; };
+		5882D3D126DBC8F00055B00B /* effect_yiling_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yiling_3.json; sourceTree = "<group>"; };
+		5882D3D226DBC8F00055B00B /* effect_jinengyindao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jinengyindao.json; sourceTree = "<group>"; };
+		5882D3D326DBC8F00055B00B /* effect_godbsz2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_godbsz2.json; sourceTree = "<group>"; };
+		5882D3D426DBC8F00055B00B /* effect_guyu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_guyu.json; sourceTree = "<group>"; };
+		5882D3D526DBC8F00055B00B /* effect_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_cs.json; sourceTree = "<group>"; };
+		5882D3D626DBC8F00055B00B /* skill_daoshi_fushi_4_l.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_l.json; sourceTree = "<group>"; };
+		5882D3D726DBC8F00055B00B /* effect_task_bukejiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_task_bukejiao.json; sourceTree = "<group>"; };
+		5882D3D826DBC8F00055B00B /* effect_denglu_huoyan01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_huoyan01.json; sourceTree = "<group>"; };
+		5882D3D926DBC8F00055B00B /* effect_hp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_hp.json; sourceTree = "<group>"; };
+		5882D3DA26DBC8F00055B00B /* effect_shouchonganniu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shouchonganniu.json; sourceTree = "<group>"; };
+		5882D3DB26DBC8F00055B00B /* effect_vip_zz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_vip_zz.json; sourceTree = "<group>"; };
+		5882D3DC26DBC8F00055B00B /* effect_task_kejiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_task_kejiao.json; sourceTree = "<group>"; };
+		5882D3DD26DBC8F00055B00B /* effect_activity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_activity.json; sourceTree = "<group>"; };
+		5882D3DE26DBC8F00055B00B /* effect_vip_light.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_vip_light.json; sourceTree = "<group>"; };
+		5882D3DF26DBC8F00055B00B /* effect_task_accept.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_task_accept.json; sourceTree = "<group>"; };
+		5882D3E026DBC8F00055B00B /* effect_jiantou_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jiantou_3.json; sourceTree = "<group>"; };
+		5882D3E126DBC8F00055B00B /* effect_main_boss.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_main_boss.json; sourceTree = "<group>"; };
+		5882D3E226DBC8F00055B00B /* effect_xunbao_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xunbao_1.json; sourceTree = "<group>"; };
+		5882D3E326DBC8F00055B00B /* effect_level_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_level_01.json; sourceTree = "<group>"; };
+		5882D3E426DBC8F00055B00B /* effect_jifen_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jifen_1.json; sourceTree = "<group>"; };
+		5882D3E526DBC8F00055B00B /* effect_shacheng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shacheng.json; sourceTree = "<group>"; };
+		5882D3E626DBC8F00055B00B /* effect_shouchong_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shouchong_3.json; sourceTree = "<group>"; };
+		5882D3E726DBC8F00055B00B /* effect_yuanquan_tips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yuanquan_tips.json; sourceTree = "<group>"; };
+		5882D3E826DBC8F00055B00B /* effect_shouchong_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shouchong_2.json; sourceTree = "<group>"; };
+		5882D3E926DBC8F00055B00B /* effect_mo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_mo.json; sourceTree = "<group>"; };
+		5882D3EA26DBC8F00055B00B /* effect_title_worker.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_worker.json; sourceTree = "<group>"; };
+		5882D3EB26DBC8F00055B00B /* effect_gouhuo_guangquan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_gouhuo_guangquan.json; sourceTree = "<group>"; };
+		5882D3EC26DBC8F00055B00B /* effect_sclick.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_sclick.json; sourceTree = "<group>"; };
+		5882D3ED26DBC8F00055B00B /* effect_lunhui_yuanhuan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_lunhui_yuanhuan.json; sourceTree = "<group>"; };
+		5882D3EE26DBC8F00055B00B /* effect_xunbao_center.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xunbao_center.json; sourceTree = "<group>"; };
+		5882D3EF26DBC8F00055B00B /* effect_neigongshengji_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_neigongshengji_01.json; sourceTree = "<group>"; };
+		5882D3F026DBC8F00055B00B /* effect_jiantou_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jiantou_2.json; sourceTree = "<group>"; };
+		5882D3F126DBC8F00055B00B /* effect_title_fashi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_fashi.json; sourceTree = "<group>"; };
+		5882D3F226DBC8F00055B00B /* effect_hp_bo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_hp_bo.json; sourceTree = "<group>"; };
+		5882D3F326DBC8F00055B00B /* skill_daoshi_fushi_4_s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_s.json; sourceTree = "<group>"; };
+		5882D3F426DBC8F00055B00B /* effect_main_open.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_main_open.json; sourceTree = "<group>"; };
+		5882D3F526DBC8F00055B00B /* effect_title_chuanqitanbao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_chuanqitanbao.json; sourceTree = "<group>"; };
+		5882D3F626DBC8F00055B00B /* effect_vip_hj.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_vip_hj.json; sourceTree = "<group>"; };
+		5882D3F726DBC8F00055B00B /* effect_tulong.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_tulong.json; sourceTree = "<group>"; };
+		5882D3F826DBC8F00055B00B /* effect_title_zhanshi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_zhanshi.json; sourceTree = "<group>"; };
+		5882D3F926DBC8F00055B00B /* effect_jiantou_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jiantou_1.json; sourceTree = "<group>"; };
+		5882D3FA26DBC8F00055B00B /* effect_shouchongbaoxiang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shouchongbaoxiang.json; sourceTree = "<group>"; };
+		5882D3FB26DBC8F00055B00B /* effect_huishou_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_huishou_3.json; sourceTree = "<group>"; };
+		5882D3FC26DBC8F00055B00B /* effect_nvfa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_nvfa.json; sourceTree = "<group>"; };
+		5882D3FD26DBC8F00055B00B /* effect_yindaotishi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yindaotishi.json; sourceTree = "<group>"; };
+		5882D3FE26DBC8F00055B00B /* effect_return.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_return.json; sourceTree = "<group>"; };
+		5882D3FF26DBC8F00055B00B /* effect_shouchong_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shouchong_1.json; sourceTree = "<group>"; };
+		5882D40026DBC8F00055B00B /* effect_anquanqu_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_anquanqu_01.json; sourceTree = "<group>"; };
+		5882D40126DBC8F00055B00B /* effect_jifen_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jifen_3.json; sourceTree = "<group>"; };
+		5882D40226DBC8F00055B00B /* effect_title_zhizundaren.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_zhizundaren.json; sourceTree = "<group>"; };
+		5882D40326DBC8F00055B00B /* effect_fail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_fail.json; sourceTree = "<group>"; };
+		5882D40426DBC8F00055B00B /* effect_hongdiantishi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_hongdiantishi.json; sourceTree = "<group>"; };
+		5882D40526DBC8F00055B00B /* effect_title_fukediguo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_fukediguo.json; sourceTree = "<group>"; };
+		5882D40626DBC8F00055B00B /* skill_lei_buff.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_lei_buff.json; sourceTree = "<group>"; };
+		5882D40726DBC8F00055B00B /* effect_neigongshengji.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_neigongshengji.json; sourceTree = "<group>"; };
+		5882D40826DBC8F00055B00B /* effect_ui_quan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_ui_quan.json; sourceTree = "<group>"; };
+		5882D40926DBC8F00055B00B /* effect_text.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_text.json; sourceTree = "<group>"; };
+		5882D40A26DBC8F00055B00B /* effect_title_zhuzai.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_zhuzai.json; sourceTree = "<group>"; };
+		5882D40B26DBC8F00055B00B /* effect_xunbao_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xunbao_3.json; sourceTree = "<group>"; };
+		5882D40C26DBC8F00055B00B /* effect_xunbao_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xunbao_2.json; sourceTree = "<group>"; };
+		5882D40D26DBC8F00055B00B /* effect_mp_bo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_mp_bo.json; sourceTree = "<group>"; };
+		5882D40E26DBC8F00055B00B /* skill_daoshi_fushi_4_h.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_h.json; sourceTree = "<group>"; };
+		5882D40F26DBC8F00055B00B /* effect_tongyonganniu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_tongyonganniu.json; sourceTree = "<group>"; };
+		5882D41026DBC8F00055B00B /* effect_button_light.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_button_light.json; sourceTree = "<group>"; };
+		5882D41126DBC8F00055B00B /* effect_month.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_month.json; sourceTree = "<group>"; };
+		5882D41226DBC8F00055B00B /* effect_title_suoxiangwudi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_suoxiangwudi.json; sourceTree = "<group>"; };
+		5882D41326DBC8F00055B00B /* effect_forging.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_forging.json; sourceTree = "<group>"; };
+		5882D41426DBC8F00055B00B /* effect_wupinkuang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_wupinkuang.json; sourceTree = "<group>"; };
+		5882D41526DBC8F00055B00B /* effect_shengjichenggong.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_shengjichenggong.json; sourceTree = "<group>"; };
+		5882D41626DBC8F00055B00B /* effect_jiantou.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jiantou.json; sourceTree = "<group>"; };
+		5882D41726DBC8F00055B00B /* Eff_ywchenggong.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Eff_ywchenggong.json; sourceTree = "<group>"; };
+		5882D41826DBC8F00055B00B /* effect_chongzhi_guangquan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_chongzhi_guangquan.json; sourceTree = "<group>"; };
+		5882D41926DBC8F00055B00B /* effect_jifen_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jifen_2.json; sourceTree = "<group>"; };
+		5882D41A26DBC8F00055B00B /* effect_denglu_jiaodi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_jiaodi.json; sourceTree = "<group>"; };
+		5882D41B26DBC8F00055B00B /* effect_title_wangzhedaren.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_wangzhedaren.json; sourceTree = "<group>"; };
+		5882D41C26DBC8F00055B00B /* effect_dead_01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_dead_01.json; sourceTree = "<group>"; };
+		5882D41D26DBC8F00055B00B /* effect_huishou_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_huishou_2.json; sourceTree = "<group>"; };
+		5882D41E26DBC8F00055B00B /* effect_xsrw_tx.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xsrw_tx.json; sourceTree = "<group>"; };
+		5882D41F26DBC8F00055B00B /* effect_xunbao_baoxiangtexiao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xunbao_baoxiangtexiao.json; sourceTree = "<group>"; };
+		5882D42026DBC8F00055B00B /* effect_denglulong.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglulong.json; sourceTree = "<group>"; };
+		5882D42126DBC8F00055B00B /* effect_godbsz1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_godbsz1.json; sourceTree = "<group>"; };
+		5882D42226DBC8F00055B00B /* effect_fullstar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_fullstar.json; sourceTree = "<group>"; };
+		5882D42326DBC8F00055B00B /* effect_title_duobao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_duobao.json; sourceTree = "<group>"; };
+		5882D42426DBC8F00055B00B /* effect_task_light.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_task_light.json; sourceTree = "<group>"; };
+		5882D42526DBC8F00055B00B /* effect_zhanlifire.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_zhanlifire.json; sourceTree = "<group>"; };
+		5882D42626DBC8F00055B00B /* skill_huo_buff.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_huo_buff.json; sourceTree = "<group>"; };
+		5882D42726DBC8F00055B00B /* effect_title_fujiayifang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_fujiayifang.json; sourceTree = "<group>"; };
+		5882D42826DBC8F00055B00B /* effect_chuansongmen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_chuansongmen.json; sourceTree = "<group>"; };
+		5882D42926DBC8F00055B00B /* effect_denglu_huoyan02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_huoyan02.json; sourceTree = "<group>"; };
+		5882D42A26DBC8F00055B00B /* effect_zhuangbeicheng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_zhuangbeicheng.json; sourceTree = "<group>"; };
+		5882D42B26DBC8F00055B00B /* effect_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_success.json; sourceTree = "<group>"; };
+		5882D42C26DBC8F00055B00B /* effect_loading.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_loading.json; sourceTree = "<group>"; };
+		5882D42D26DBC8F00055B00B /* effect_title_daoshi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_daoshi.json; sourceTree = "<group>"; };
+		5882D42E26DBC8F00055B00B /* effect_arrow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_arrow.json; sourceTree = "<group>"; };
+		5882D42F26DBC8F00055B00B /* effect_huishou_5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_huishou_5.json; sourceTree = "<group>"; };
+		5882D43026DBC8F00055B00B /* effect_zhuangbeifenjie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_zhuangbeifenjie.json; sourceTree = "<group>"; };
+		5882D43126DBC8F00055B00B /* effect_title_fujiatianxia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_fujiatianxia.json; sourceTree = "<group>"; };
+		5882D43226DBC8F00055B00B /* skill_daoshi_fushi_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4.json; sourceTree = "<group>"; };
+		5882D43326DBC8F00055B00B /* effect_autoxunlu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_autoxunlu.json; sourceTree = "<group>"; };
+		5882D43426DBC8F00055B00B /* skill_daoshi_fushi_4_b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_daoshi_fushi_4_b.json; sourceTree = "<group>"; };
+		5882D43526DBC8F00055B00B /* effect_yiling_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yiling_1.json; sourceTree = "<group>"; };
+		5882D43626DBC8F00055B00B /* skill_huoyudianran.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_huoyudianran.json; sourceTree = "<group>"; };
+		5882D43726DBC8F00055B00B /* effect_yezhantuteng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yezhantuteng.json; sourceTree = "<group>"; };
+		5882D43826DBC8F00055B00B /* effect_title_guajiking.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_guajiking.json; sourceTree = "<group>"; };
+		5882D43926DBC8F00055B00B /* effect_zidongzhandou.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_zidongzhandou.json; sourceTree = "<group>"; };
+		5882D43A26DBC8F00055B00B /* effect_jiazai.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jiazai.json; sourceTree = "<group>"; };
+		5882D43B26DBC8F00055B00B /* effect_huishou_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_huishou_4.json; sourceTree = "<group>"; };
+		5882D43C26DBC8F00055B00B /* effect_vip_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_vip_cs.json; sourceTree = "<group>"; };
+		5882D43D26DBC8F00055B00B /* skill_bing_buff.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_bing_buff.json; sourceTree = "<group>"; };
+		5882D43E26DBC8F00055B00B /* effect_yindaobeijing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yindaobeijing.json; sourceTree = "<group>"; };
+		5882D43F26DBC8F00055B00B /* effect_zun.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_zun.json; sourceTree = "<group>"; };
+		5882D44026DBC8F00055B00B /* effect_task_bukejie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_task_bukejie.json; sourceTree = "<group>"; };
+		5882D44126DBC8F00055B00B /* effect_vip_wz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_vip_wz.json; sourceTree = "<group>"; };
+		5882D44226DBC8F00055B00B /* effect_yindaodianji.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yindaodianji.json; sourceTree = "<group>"; };
+		5882D44326DBC8F00055B00B /* effect_denglu_huoyan03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_huoyan03.json; sourceTree = "<group>"; };
+		5882D44426DBC8F00055B00B /* effect_ui_fang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_ui_fang.json; sourceTree = "<group>"; };
+		5882D44526DBC8F00055B00B /* effect_lunhui_huoyan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_lunhui_huoyan.json; sourceTree = "<group>"; };
+		5882D44626DBC8F00055B00B /* effect_yindaolingqu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_yindaolingqu.json; sourceTree = "<group>"; };
+		5882D44726DBC8F00055B00B /* effect_denglu_guang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_denglu_guang.json; sourceTree = "<group>"; };
+		5882D44826DBC8F00055B00B /* effect_title_guizudaren.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_guizudaren.json; sourceTree = "<group>"; };
+		5882D44926DBC8F00055B00B /* effect_toudingbaoxiang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_toudingbaoxiang.json; sourceTree = "<group>"; };
+		5882D44A26DBC8F00055B00B /* effect_dice.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_dice.json; sourceTree = "<group>"; };
+		5882D44B26DBC8F00055B00B /* effect_daoju_kuang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_daoju_kuang.json; sourceTree = "<group>"; };
+		5882D44C26DBC8F00055B00B /* effect_zun_07.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_zun_07.json; sourceTree = "<group>"; };
+		5882D44D26DBC8F00055B00B /* Eff_recharge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Eff_recharge.json; sourceTree = "<group>"; };
+		5882D44E26DBC8F00055B00B /* effect_chibangshengji.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_chibangshengji.json; sourceTree = "<group>"; };
+		5882D44F26DBC8F00055B00B /* effect_honglongguaijineng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_honglongguaijineng.json; sourceTree = "<group>"; };
+		5882D45026DBC8F00055B00B /* effect_jifen_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_jifen_4.json; sourceTree = "<group>"; };
+		5882D45126DBC8F00055B00B /* effect_title_zhuanyesongrentou.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_title_zhuanyesongrentou.json; sourceTree = "<group>"; };
+		5882D45226DBC8F00055B00B /* effect_click.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_click.json; sourceTree = "<group>"; };
+		5882D45326DBC8F00055B00B /* effect_mubei.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_mubei.json; sourceTree = "<group>"; };
+		5882D45426DBC8F00055B00B /* effect_xiaoyaoshan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_xiaoyaoshan.json; sourceTree = "<group>"; };
+		5882D45526DBC8F00055B00B /* effect_vip_by.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = effect_vip_by.json; sourceTree = "<group>"; };
+		5882D45826DBC8F00055B00B /* tongyong_version.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tongyong_version.json; sourceTree = "<group>"; };
+		5882D45A26DBC8F00055B00B /* huanjing_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = huanjing_data.json; sourceTree = "<group>"; };
+		5882D45B26DBC8F00055B00B /* zqlb_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zqlb_data.json; sourceTree = "<group>"; };
+		5882D45C26DBC8F00055B00B /* unfindmap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = unfindmap.json; sourceTree = "<group>"; };
+		5882D45D26DBC8F00055B00B /* shenlu_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = shenlu_data.json; sourceTree = "<group>"; };
+		5882D45E26DBC8F00055B00B /* gene_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gene_data.json; sourceTree = "<group>"; };
+		5882D45F26DBC8F00055B00B /* headtitile_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = headtitile_data.json; sourceTree = "<group>"; };
+		5882D46026DBC8F00055B00B /* equipforge_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = equipforge_data.json; sourceTree = "<group>"; };
+		5882D46126DBC8F00055B00B /* huoyue_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = huoyue_data.json; sourceTree = "<group>"; };
+		5882D46226DBC8F00055B00B /* czlj_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = czlj_data.json; sourceTree = "<group>"; };
+		5882D46326DBC8F00055B00B /* xilian_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xilian_data.json; sourceTree = "<group>"; };
+		5882D46426DBC8F00055B00B /* bestronger_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bestronger_data.json; sourceTree = "<group>"; };
+		5882D46526DBC8F00055B00B /* jieridrop_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jieridrop_data.json; sourceTree = "<group>"; };
+		5882D46626DBC8F00055B00B /* monstermap_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = monstermap_data.json; sourceTree = "<group>"; };
+		5882D46726DBC8F00055B00B /* alleqp_eff_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = alleqp_eff_data.json; sourceTree = "<group>"; };
+		5882D46826DBC8F00055B00B /* npc_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = npc_data.json; sourceTree = "<group>"; };
+		5882D46926DBC8F00055B00B /* force_guide_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = force_guide_data.json; sourceTree = "<group>"; };
+		5882D46A26DBC8F00055B00B /* activitygift_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activitygift_data.json; sourceTree = "<group>"; };
+		5882D46B26DBC8F00055B00B /* maps_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maps_data.json; sourceTree = "<group>"; };
+		5882D46C26DBC8F00055B00B /* loot_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = loot_data.json; sourceTree = "<group>"; };
+		5882D46D26DBC8F00055B00B /* wanfa_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wanfa_data.json; sourceTree = "<group>"; };
+		5882D46E26DBC8F00055B00B /* mrboss_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mrboss_data.json; sourceTree = "<group>"; };
+		5882D46F26DBC8F00055B00B /* gnhd_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gnhd_data.json; sourceTree = "<group>"; };
+		5882D47026DBC8F00055B00B /* role_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = role_data.json; sourceTree = "<group>"; };
+		5882D47126DBC8F00055B00B /* dog_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dog_data.json; sourceTree = "<group>"; };
+		5882D47226DBC8F00055B00B /* slgg_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = slgg_data.json; sourceTree = "<group>"; };
+		5882D47326DBC8F00055B00B /* lhd_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lhd_data.json; sourceTree = "<group>"; };
+		5882D47426DBC8F00055B00B /* frame_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = frame_data.json; sourceTree = "<group>"; };
+		5882D47526DBC8F00055B00B /* hefu_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hefu_data.json; sourceTree = "<group>"; };
+		5882D47626DBC8F00055B00B /* suits_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = suits_data.json; sourceTree = "<group>"; };
+		5882D47726DBC8F00055B00B /* remains_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = remains_data.json; sourceTree = "<group>"; };
+		5882D47826DBC8F00055B00B /* vipreturn_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vipreturn_data.json; sourceTree = "<group>"; };
+		5882D47926DBC8F00055B00B /* offline_exp_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = offline_exp_data.json; sourceTree = "<group>"; };
+		5882D47A26DBC8F00055B00B /* wings_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wings_data.json; sourceTree = "<group>"; };
+		5882D47B26DBC8F00055B00B /* attribute_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = attribute_data.json; sourceTree = "<group>"; };
+		5882D47C26DBC8F00055B00B /* event_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = event_data.json; sourceTree = "<group>"; };
+		5882D47D26DBC8F00055B00B /* bossScore_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bossScore_data.json; sourceTree = "<group>"; };
+		5882D47E26DBC8F00055B00B /* item_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = item_data.json; sourceTree = "<group>"; };
+		5882D47F26DBC8F00055B00B /* zhanshen_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhanshen_data.json; sourceTree = "<group>"; };
+		5882D48026DBC8F00055B00B /* shops_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = shops_data.json; sourceTree = "<group>"; };
+		5882D48126DBC8F00055B00B /* item_attr_add_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = item_attr_add_data.json; sourceTree = "<group>"; };
+		5882D48226DBC8F00055B00B /* ui_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ui_data.json; sourceTree = "<group>"; };
+		5882D48326DBC8F00055B00B /* giftpacks_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = giftpacks_data.json; sourceTree = "<group>"; };
+		5882D48426DBC8F00055B00B /* mapview_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mapview_data.json; sourceTree = "<group>"; };
+		5882D48526DBC8F00055B00B /* vip_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vip_data.json; sourceTree = "<group>"; };
+		5882D48626DBC8F00055B00B /* wings_data_ex.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wings_data_ex.json; sourceTree = "<group>"; };
+		5882D48726DBC8F00055B00B /* item_data_ex.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = item_data_ex.json; sourceTree = "<group>"; };
+		5882D48826DBC8F00055B00B /* equiptips_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = equiptips_data.json; sourceTree = "<group>"; };
+		5882D48926DBC8F00055B00B /* global_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = global_config.json; sourceTree = "<group>"; };
+		5882D48A26DBC8F00055B00B /* robot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = robot.json; sourceTree = "<group>"; };
+		5882D48B26DBC8F00055B00B /* level_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = level_data.json; sourceTree = "<group>"; };
+		5882D48C26DBC8F00055B00B /* guide_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guide_data.json; sourceTree = "<group>"; };
+		5882D48D26DBC8F00055B00B /* guaji_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guaji_data.json; sourceTree = "<group>"; };
+		5882D48E26DBC8F00055B00B /* giftpackschoose_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = giftpackschoose_data.json; sourceTree = "<group>"; };
+		5882D48F26DBC8F00055B00B /* preview_eff_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = preview_eff_data.json; sourceTree = "<group>"; };
+		5882D49026DBC8F00055B00B /* top_attr_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = top_attr_data.json; sourceTree = "<group>"; };
+		5882D49126DBC8F00055B00B /* zhanling_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhanling_data.json; sourceTree = "<group>"; };
+		5882D49226DBC8F00055B00B /* tips_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tips_data.json; sourceTree = "<group>"; };
+		5882D49326DBC8F00055B00B /* czlc_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = czlc_data.json; sourceTree = "<group>"; };
+		5882D49426DBC8F00055B00B /* raveparty_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = raveparty_data.json; sourceTree = "<group>"; };
+		5882D49526DBC8F00055B00B /* exercise_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exercise_data.json; sourceTree = "<group>"; };
+		5882D49626DBC8F00055B00B /* redpoint_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = redpoint_data.json; sourceTree = "<group>"; };
+		5882D49726DBC8F00055B00B /* sell_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sell_data.json; sourceTree = "<group>"; };
+		5882D49826DBC8F00055B00B /* tejieshendian_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tejieshendian_data.json; sourceTree = "<group>"; };
+		5882D49926DBC8F00055B00B /* language_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = language_data.json; sourceTree = "<group>"; };
+		5882D49A26DBC8F00055B00B /* quest_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quest_data.json; sourceTree = "<group>"; };
+		5882D49B26DBC8F00055B00B /* rewardex_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rewardex_data.json; sourceTree = "<group>"; };
+		5882D49C26DBC8F00055B00B /* recycle_set_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recycle_set_data.json; sourceTree = "<group>"; };
+		5882D49D26DBC8F00055B00B /* samsara_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = samsara_data.json; sourceTree = "<group>"; };
+		5882D49E26DBC8F00055B00B /* wakuang_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wakuang_data.json; sourceTree = "<group>"; };
+		5882D49F26DBC8F00055B00B /* skill_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_data.json; sourceTree = "<group>"; };
+		5882D4A026DBC8F00055B00B /* holiday_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = holiday_data.json; sourceTree = "<group>"; };
+		5882D4A126DBC8F00055B00B /* skill_rune_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_rune_data.json; sourceTree = "<group>"; };
+		5882D4A226DBC8F00055B00B /* openfunc_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = openfunc_data.json; sourceTree = "<group>"; };
+		5882D4A326DBC8F00055B00B /* special_ring_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = special_ring_data.json; sourceTree = "<group>"; };
+		5882D4A426DBC8F00055B00B /* systeminfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = systeminfo.json; sourceTree = "<group>"; };
+		5882D4A526DBC8F00055B00B /* achievement_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = achievement_data.json; sourceTree = "<group>"; };
+		5882D4A626DBC8F00055B00B /* yuansushendian_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = yuansushendian_data.json; sourceTree = "<group>"; };
+		5882D4A726DBC8F00055B00B /* bable_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bable_data.json; sourceTree = "<group>"; };
+		5882D4A826DBC8F00055B00B /* privilege_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = privilege_data.json; sourceTree = "<group>"; };
+		5882D4A926DBC8F00055B00B /* offline_rwd_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = offline_rwd_data.json; sourceTree = "<group>"; };
+		5882D4AA26DBC8F00055B00B /* skill_player.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skill_player.json; sourceTree = "<group>"; };
+		5882D4AB26DBC8F00055B00B /* help_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = help_data.json; sourceTree = "<group>"; };
+		5882D4AC26DBC8F00055B00B /* quest_data_ex.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quest_data_ex.json; sourceTree = "<group>"; };
+		5882D4AD26DBC8F00055B00B /* name_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = name_data.json; sourceTree = "<group>"; };
+		5882D4AE26DBC8F00055B00B /* monster_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = monster_data.json; sourceTree = "<group>"; };
+		5882D4AF26DBC8F00055B00B /* ftchongzhi_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ftchongzhi_data.json; sourceTree = "<group>"; };
+		5882D4B026DBC8F00055B00B /* xszg_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xszg_data.json; sourceTree = "<group>"; };
+		5882D4B126DBC8F00055B00B /* chengzhang_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chengzhang_data.json; sourceTree = "<group>"; };
+		5882D4B226DBC8F00055B00B /* guild_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guild_data.json; sourceTree = "<group>"; };
+		5882D4B326DBC8F00055B00B /* tyqb_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tyqb_data.json; sourceTree = "<group>"; };
+		5882D4B826DBCB710055B00B /* BossRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossRow.swift; sourceTree = "<group>"; };
+		5882D4BA26DBCD4A0055B00B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		5882D4BC26DBCF350055B00B /* BossDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDetail.swift; sourceTree = "<group>"; };
+		5882D4BE26DBCFF90055B00B /* BossDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDetailViewModel.swift; sourceTree = "<group>"; };
+		5882D4C126DBD69F0055B00B /* LootRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5882CAD626DBC0A70055B00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5882CAD026DBC0A70055B00B = {
+			isa = PBXGroup;
+			children = (
+				5882CADB26DBC0A70055B00B /* gridhero_wiki */,
+				5882CADA26DBC0A70055B00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5882CADA26DBC0A70055B00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5882CAD926DBC0A70055B00B /* gridhero_wiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5882CADB26DBC0A70055B00B /* gridhero_wiki */ = {
+			isa = PBXGroup;
+			children = (
+				5882D4B726DBCB610055B00B /* Item */,
+				5882D4B626DBCB5A0055B00B /* Boss */,
+				5882CAF226DBC3CD0055B00B /* Models */,
+				5882CAEB26DBC0B60055B00B /* Source Files */,
+				5882CADC26DBC0A70055B00B /* gridhero_wikiApp.swift */,
+				5882CADE26DBC0A70055B00B /* ContentView.swift */,
+				5882CAE026DBC0AB0055B00B /* Assets.xcassets */,
+				5882CAE526DBC0AB0055B00B /* Info.plist */,
+				5882CAE226DBC0AB0055B00B /* Preview Content */,
+				5882D4BA26DBCD4A0055B00B /* SearchBar.swift */,
+			);
+			path = gridhero_wiki;
+			sourceTree = "<group>";
+		};
+		5882CAE226DBC0AB0055B00B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5882CAE326DBC0AB0055B00B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5882CAEB26DBC0B60055B00B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2BA26DBC8EF0055B00B /* resource */,
+			);
+			path = "Source Files";
+			sourceTree = "<group>";
+		};
+		5882CAF226DBC3CD0055B00B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5882D4BE26DBCFF90055B00B /* BossDetailViewModel.swift */,
+				5882CAF326DBC3DE0055B00B /* BossViewModel.swift */,
+				5882CAF526DBC4CE0055B00B /* Monster.swift */,
+				5882CAF726DBC53F0055B00B /* Global.swift */,
+				5882CAF926DBC5590055B00B /* Loot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5882D2BA26DBC8EF0055B00B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2BB26DBC8EF0055B00B /* face */,
+				5882D2BD26DBC8EF0055B00B /* config */,
+				5882D2C426DBC8EF0055B00B /* gm.json */,
+				5882D2C526DBC8EF0055B00B /* gameEui.json */,
+				5882D2C626DBC8EF0055B00B /* assets */,
+			);
+			name = resource;
+			path = ../../../gamedata/27.08.2021/cyfsomcdn.yoximi.com/text/resource;
+			sourceTree = "<group>";
+		};
+		5882D2BB26DBC8EF0055B00B /* face */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2BC26DBC8EF0055B00B /* face_01.json */,
+			);
+			path = face;
+			sourceTree = "<group>";
+		};
+		5882D2BD26DBC8EF0055B00B /* config */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2BE26DBC8EF0055B00B /* config.json */,
+				5882D2BF26DBC8EF0055B00B /* gameversion.json */,
+				5882D2C026DBC8EF0055B00B /* platform.json */,
+				5882D2C126DBC8EF0055B00B /* description.json */,
+				5882D2C226DBC8EF0055B00B /* server_config.json */,
+				5882D2C326DBC8EF0055B00B /* cust_param_conf.json */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		5882D2C626DBC8EF0055B00B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2C726DBC8EF0055B00B /* res */,
+				5882D2CB26DBC8EF0055B00B /* resource_cy */,
+				5882D2CF26DBC8EF0055B00B /* animation */,
+				5882D45626DBC8F00055B00B /* map */,
+				5882D45926DBC8F00055B00B /* data */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		5882D2C726DBC8EF0055B00B /* res */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2C826DBC8EF0055B00B /* main */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		5882D2C826DBC8EF0055B00B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2C926DBC8EF0055B00B /* main_common */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		5882D2C926DBC8EF0055B00B /* main_common */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2CA26DBC8EF0055B00B /* main_common_sheet.json */,
+			);
+			path = main_common;
+			sourceTree = "<group>";
+		};
+		5882D2CB26DBC8EF0055B00B /* resource_cy */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2CC26DBC8EF0055B00B /* main */,
+			);
+			path = resource_cy;
+			sourceTree = "<group>";
+		};
+		5882D2CC26DBC8EF0055B00B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2CD26DBC8EF0055B00B /* a_main_common_sheet2.json */,
+				5882D2CE26DBC8EF0055B00B /* cycj_main_common_sheet.json */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		5882D2CF26DBC8EF0055B00B /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2D026DBC8EF0055B00B /* clothes */,
+				5882D2EB26DBC8EF0055B00B /* effect */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		5882D2D026DBC8EF0055B00B /* clothes */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2D126DBC8EF0055B00B /* npc_ty_white */,
+				5882D2D626DBC8EF0055B00B /* npc_ty_gou */,
+				5882D2DB26DBC8EF0055B00B /* npc_ty_boss */,
+				5882D2E026DBC8EF0055B00B /* male_clothes_ty */,
+				5882D2E626DBC8EF0055B00B /* npc_ty_magic */,
+			);
+			path = clothes;
+			sourceTree = "<group>";
+		};
+		5882D2D126DBC8EF0055B00B /* npc_ty_white */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2D226DBC8EF0055B00B /* npc_ty_white_attack.json */,
+				5882D2D326DBC8EF0055B00B /* npc_ty_white_walk.json */,
+				5882D2D426DBC8EF0055B00B /* npc_ty_white_dead.json */,
+				5882D2D526DBC8EF0055B00B /* npc_ty_white_start.json */,
+			);
+			path = npc_ty_white;
+			sourceTree = "<group>";
+		};
+		5882D2D626DBC8EF0055B00B /* npc_ty_gou */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2D726DBC8EF0055B00B /* npc_ty_gou_walk.json */,
+				5882D2D826DBC8EF0055B00B /* npc_ty_gou_attack.json */,
+				5882D2D926DBC8EF0055B00B /* npc_ty_gou_start.json */,
+				5882D2DA26DBC8EF0055B00B /* npc_ty_gou_dead.json */,
+			);
+			path = npc_ty_gou;
+			sourceTree = "<group>";
+		};
+		5882D2DB26DBC8EF0055B00B /* npc_ty_boss */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2DC26DBC8EF0055B00B /* npc_ty_boss_dead.json */,
+				5882D2DD26DBC8EF0055B00B /* npc_ty_boss_start.json */,
+				5882D2DE26DBC8EF0055B00B /* npc_ty_boss_attack.json */,
+				5882D2DF26DBC8EF0055B00B /* npc_ty_boss_walk.json */,
+			);
+			path = npc_ty_boss;
+			sourceTree = "<group>";
+		};
+		5882D2E026DBC8EF0055B00B /* male_clothes_ty */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2E126DBC8EF0055B00B /* male_clothes_ty_start.json */,
+				5882D2E226DBC8EF0055B00B /* male_clothes_ty_dead.json */,
+				5882D2E326DBC8EF0055B00B /* male_clothes_ty_walk.json */,
+				5882D2E426DBC8EF0055B00B /* male_clothes_ty_magic.json */,
+				5882D2E526DBC8EF0055B00B /* male_clothes_ty_attack.json */,
+			);
+			path = male_clothes_ty;
+			sourceTree = "<group>";
+		};
+		5882D2E626DBC8EF0055B00B /* npc_ty_magic */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2E726DBC8EF0055B00B /* npc_ty_magic_walk.json */,
+				5882D2E826DBC8EF0055B00B /* npc_ty_magic_start.json */,
+				5882D2E926DBC8EF0055B00B /* npc_ty_magic_dead.json */,
+				5882D2EA26DBC8EF0055B00B /* npc_ty_magic_attack.json */,
+			);
+			path = npc_ty_magic;
+			sourceTree = "<group>";
+		};
+		5882D2EB26DBC8EF0055B00B /* effect */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2EC26DBC8EF0055B00B /* skill */,
+				5882D3B526DBC8F00055B00B /* scene */,
+			);
+			path = effect;
+			sourceTree = "<group>";
+		};
+		5882D2EC26DBC8EF0055B00B /* skill */ = {
+			isa = PBXGroup;
+			children = (
+				5882D2ED26DBC8EF0055B00B /* skill_fs_huoqiu_1_l.json */,
+				5882D2EE26DBC8EF0055B00B /* skill_ds_zhanjia_b.json */,
+				5882D2EF26DBC8EF0055B00B /* skill_biankuang_3.json */,
+				5882D2F026DBC8EF0055B00B /* skill_boss_diyuleiguang.json */,
+				5882D2F126DBC8EF0055B00B /* skill_boss_kangju.json */,
+				5882D2F226DBC8EF0055B00B /* skill_boss_ymshw2.json */,
+				5882D2F326DBC8EF0055B00B /* skill_zhanshi_liehuo.json */,
+				5882D2F426DBC8EF0055B00B /* skill_chibang_02.json */,
+				5882D2F526DBC8EF0055B00B /* fashion_cheng.json */,
+				5882D2F626DBC8EF0055B00B /* skill_zs_liehuo_l.json */,
+				5882D2F726DBC8EF0055B00B /* skill_ds_wujizhenqi_1_b.json */,
+				5882D2F826DBC8EF0055B00B /* skill_boss_bingfengbao.json */,
+				5882D2F926DBC8EF0055B00B /* skill_boss_zmjz2.json */,
+				5882D2FA26DBC8EF0055B00B /* skill_boss_cyem.json */,
+				5882D2FB26DBC8EF0055B00B /* skill_zs_banyue_s.json */,
+				5882D2FC26DBC8EF0055B00B /* skill_fs_bingfengbao_1_s.json */,
+				5882D2FD26DBC8EF0055B00B /* skill_ds_huofu_1_b.json */,
+				5882D2FE26DBC8EF0055B00B /* skill_fashi_tianleishu_1.json */,
+				5882D2FF26DBC8EF0055B00B /* skill_fashi_huoqiang_1_b.json */,
+				5882D30026DBC8EF0055B00B /* skill_daoshi_huofu_2.json */,
+				5882D30126DBC8EF0055B00B /* skill_fashi_huoqiu_1.json */,
+				5882D30226DBC8EF0055B00B /* skill_boss_xzw.json */,
+				5882D30326DBC8EF0055B00B /* skill_tejiebiankuang_tian.json */,
+				5882D30426DBC8EF0055B00B /* skill_ds_fushi_2_b.json */,
+				5882D30526DBC8EF0055B00B /* skill_zhanshi_zhuri2.json */,
+				5882D30626DBC8EF0055B00B /* effect_title_01.json */,
+				5882D30726DBC8EF0055B00B /* skill_zhanshi_chongzhuang.json */,
+				5882D30826DBC8EF0055B00B /* skill_ds_fushi_1_s.json */,
+				5882D30926DBC8EF0055B00B /* skill_ds_huofu_3_b.json */,
+				5882D30A26DBC8EF0055B00B /* skill_zhanshi_cisha.json */,
+				5882D30B26DBC8EF0055B00B /* skill_boss_zznw.json */,
+				5882D30C26DBC8EF0055B00B /* skill_fs_huoqiu_4_b.json */,
+				5882D30D26DBC8EF0055B00B /* skill_daoshi_huofu_3.json */,
+				5882D30E26DBC8EF0055B00B /* skill_zs_zhuri_l.json */,
+				5882D30F26DBC8EF0055B00B /* skill_ds_huofu_2_s.json */,
+				5882D31026DBC8EF0055B00B /* skill_fs_diyuleiguang_s.json */,
+				5882D31126DBC8EF0055B00B /* skill_zs_cisha_h.json */,
+				5882D31226DBC8EF0055B00B /* effect_biankuang_2.json */,
+				5882D31326DBC8EF0055B00B /* skill_ds_zhaohuan_b.json */,
+				5882D31426DBC8EF0055B00B /* skill_boss_cyem2.json */,
+				5882D31526DBC8EF0055B00B /* skill_fs_huoqiu_3_l.json */,
+				5882D31626DBC8EF0055B00B /* skill_chibang_06_xiao.json */,
+				5882D31726DBC8EF0055B00B /* skill_ds_wujizhenqi_2_s.json */,
+				5882D31826DBC8EF0055B00B /* skill_chibang_03.json */,
+				5882D31926DBC8EF0055B00B /* skill_fashi_huoqiang_4_l.json */,
+				5882D31A26DBC8EF0055B00B /* skill_fs_tianleishu_2_h.json */,
+				5882D31B26DBC8EF0055B00B /* skill_daoshi_fushi_4_l.json */,
+				5882D31C26DBC8EF0055B00B /* skill_fs_mofahudun_1_s.json */,
+				5882D31D26DBC8EF0055B00B /* skill_biankuang_2.json */,
+				5882D31E26DBC8EF0055B00B /* skill_fs_mofahudun_2_h.json */,
+				5882D31F26DBC8EF0055B00B /* skill_biankuang_9.json */,
+				5882D32026DBC8EF0055B00B /* skill_daoshi_zhanjia.json */,
+				5882D32126DBC8EF0055B00B /* skill_ds_huofu_1_d.json */,
+				5882D32226DBC8EF0055B00B /* skill_fs_tianleishu_1_s.json */,
+				5882D32326DBC8EF0055B00B /* skill_boss_wmjz.json */,
+				5882D32426DBC8EF0055B00B /* skill_chibang_08.json */,
+				5882D32526DBC8EF0055B00B /* skill_daoshi_huofu_4.json */,
+				5882D32626DBC8EF0055B00B /* skill_fashi_mofahudun_2.json */,
+				5882D32726DBC8EF0055B00B /* skill_fashi_bingfengbao_1.json */,
+				5882D32826DBC8EF0055B00B /* skill_zs_chongzhuang_s.json */,
+				5882D32926DBC8EF0055B00B /* skill_zs_liehuo_s.json */,
+				5882D32A26DBC8EF0055B00B /* skill_biankuang_5.json */,
+				5882D32B26DBC8EF0055B00B /* skill_ds_zhanjia_d.json */,
+				5882D32C26DBC8EF0055B00B /* skill_chibang_04.json */,
+				5882D32D26DBC8EF0055B00B /* effect_shengmingzhishu.json */,
+				5882D32E26DBC8EF0055B00B /* skill_chibang_01_xiao.json */,
+				5882D32F26DBC8EF0055B00B /* skill_fashi_huoqiang_4.json */,
+				5882D33026DBC8EF0055B00B /* skill_boss_fushi.json */,
+				5882D33126DBC8EF0055B00B /* skill_zs_banyue_l.json */,
+				5882D33226DBC8EF0055B00B /* skill_tejiebiankuang_di.json */,
+				5882D33326DBC8EF0055B00B /* skill_fs_bingfengbao_1_l.json */,
+				5882D33426DBC8EF0055B00B /* skill_boss_mljz.json */,
+				5882D33526DBC8EF0055B00B /* skill_zs_jichugongji_h.json */,
+				5882D33626DBC8EF0055B00B /* skill_zs_zhuri_s.json */,
+				5882D33726DBC8EF0055B00B /* skill_ds_wujizhenqi_4_s.json */,
+				5882D33826DBC8EF0055B00B /* skill_boss_lyzw.json */,
+				5882D33926DBC8EF0055B00B /* skill_daoshi_qunliao.json */,
+				5882D33A26DBC8EF0055B00B /* skill_ds_zhaohuan_2_b.json */,
+				5882D33B26DBC8EF0055B00B /* npc_g_ctsd.json */,
+				5882D33C26DBC8EF0055B00B /* skill_chibang_05.json */,
+				5882D33D26DBC8EF0055B00B /* skill_shidushu_adv_AtoS.json */,
+				5882D33E26DBC8EF0055B00B /* effect_gouhuo_guangquan.json */,
+				5882D33F26DBC8EF0055B00B /* skill_ds_qunyindun_d.json */,
+				5882D34026DBC8EF0055B00B /* skill_biankuang_4.json */,
+				5882D34126DBC8EF0055B00B /* skill_fs_mofahudun_1_l.json */,
+				5882D34226DBC8EF0055B00B /* skill_daoshi_fushi_4_s.json */,
+				5882D34326DBC8EF0055B00B /* skill_tejiebiankuang_sheng.json */,
+				5882D34426DBC8EF0055B00B /* skill_chibang_07_xiao.json */,
+				5882D34526DBC8EF0055B00B /* skill_ds_huofu_3_d.json */,
+				5882D34626DBC8EF0055B00B /* skill_daoshi_zhaohuan_3.json */,
+				5882D34726DBC8EF0055B00B /* skill_fs_kangju_b.json */,
+				5882D34826DBC8EF0055B00B /* skill_fs_jiguangdianying_s.json */,
+				5882D34926DBC8EF0055B00B /* skill_chibang_09.json */,
+				5882D34A26DBC8EF0055B00B /* skill_daoshi_fushi_1.json */,
+				5882D34B26DBC8EF0055B00B /* skill_biankuang_8.json */,
+				5882D34C26DBC8EF0055B00B /* skill_daoshi_wujizhenqi_1.json */,
+				5882D34D26DBC8EF0055B00B /* skill_ds_huofu_1_s.json */,
+				5882D34E26DBC8EF0055B00B /* effect_title_04.json */,
+				5882D34F26DBC8EF0055B00B /* skill_boss_hl.json */,
+				5882D35026DBC8EF0055B00B /* skill_fashi_diyuleiguang.json */,
+				5882D35126DBC8EF0055B00B /* skill_fashi_bingfengbao_3.json */,
+				5882D35226DBC8EF0055B00B /* skill_boss_tianleishu.json */,
+				5882D35326DBC8EF0055B00B /* skill_ds_fushi_2_s.json */,
+				5882D35426DBC8EF0055B00B /* skill_boss_byjm.json */,
+				5882D35526DBC8EF0055B00B /* skill_boss_cls.json */,
+				5882D35626DBC8EF0055B00B /* skill_daoshi_fushi_2.json */,
+				5882D35726DBC8EF0055B00B /* skill_daoshi_wujizhenqi_2.json */,
+				5882D35826DBC8EF0055B00B /* skill_fs_tianleishu_1_h.json */,
+				5882D35926DBC8EF0055B00B /* skill_fs_mofahudun_2_s.json */,
+				5882D35A26DBC8EF0055B00B /* skill_ds_zhanjia_s.json */,
+				5882D35B26DBC8EF0055B00B /* skill_ds_wujizhenqi_1_s.json */,
+				5882D35C26DBC8EF0055B00B /* skill_chibang_02_xiao.json */,
+				5882D35D26DBC8EF0055B00B /* skill_tejiebiankuang_xuan.json */,
+				5882D35E26DBC8EF0055B00B /* skill_lei_buff.json */,
+				5882D35F26DBC8EF0055B00B /* skill_zhanshi_leihuo.json */,
+				5882D36026DBC8EF0055B00B /* skill_chibang_06.json */,
+				5882D36126DBC8EF0055B00B /* skill_boss_zmjz.json */,
+				5882D36226DBC8EF0055B00B /* skill_shenshou.json */,
+				5882D36326DBC8EF0055B00B /* skill_chibang_10.json */,
+				5882D36426DBC8EF0055B00B /* skill_biankuang_7.json */,
+				5882D36526DBC8EF0055B00B /* skill_biankuang_6.json */,
+				5882D36626DBC8EF0055B00B /* skill_daoshi_fushi_4_h.json */,
+				5882D36726DBC8EF0055B00B /* skill_boss_tcjg.json */,
+				5882D36826DBC8EF0055B00B /* skill_ds_zhaohuan_s.json */,
+				5882D36926DBC8EF0055B00B /* skill_yuemozhizhu.json */,
+				5882D36A26DBC8EF0055B00B /* skill_bingpaoxiao_adv_AtoS.json */,
+				5882D36B26DBC8EF0055B00B /* skill_daoshi_quliao.json */,
+				5882D36C26DBC8EF0055B00B /* skill_chibang_07.json */,
+				5882D36D26DBC8EF0055B00B /* skill_fs_jiguangdianying_h.json */,
+				5882D36E26DBC8EF0055B00B /* skill_fs_kangju_l.json */,
+				5882D36F26DBC8EF0055B00B /* skill_ds_wujizhenqi_2_b.json */,
+				5882D37026DBC8EF0055B00B /* skill_ds_qunyindun_s.json */,
+				5882D37126DBC8EF0055B00B /* skill_zs_cisha_l.json */,
+				5882D37226DBC8EF0055B00B /* skill_chibang_09_xiao.json */,
+				5882D37326DBC8EF0055B00B /* skill_daoshi_wujizhenqi_3.json */,
+				5882D37426DBC8EF0055B00B /* skill_daoshi_quntihuifu_3.json */,
+				5882D37526DBC8EF0055B00B /* skill_daoshi_fushi_3.json */,
+				5882D37626DBC8EF0055B00B /* skill_zhanshi_banyue.json */,
+				5882D37726DBC8EF0055B00B /* skill_ds_fushi_1_b.json */,
+				5882D37826DBC8EF0055B00B /* skill_ds_huofu_3_s.json */,
+				5882D37926DBC8EF0055B00B /* skill_fashi_mofahudun_1.json */,
+				5882D37A26DBC8EF0055B00B /* skill_daoshi_zhaohuan_1.json */,
+				5882D37B26DBC8EF0055B00B /* skill_chibang_10_xiao.json */,
+				5882D37C26DBC8EF0055B00B /* skill_fashi_huoqiu_4.json */,
+				5882D37D26DBC8EF0055B00B /* skill_boss_sinfirerain.json */,
+				5882D37E26DBC8EF0055B00B /* skill_chibang_04_xiao.json */,
+				5882D37F26DBC8EF0055B00B /* skill_ds_huofu_2_b.json */,
+				5882D38026DBC8EF0055B00B /* skill_fs_bingfengbao_2_s.json */,
+				5882D38126DBC8EF0055B00B /* effect_title_05.json */,
+				5882D38226DBC8EF0055B00B /* effect_biankuang_1.json */,
+				5882D38326DBC8EF0055B00B /* skill_zs_banyue_h.json */,
+				5882D38426DBC8EF0055B00B /* skill_ds_zhaohuan_1_b.json */,
+				5882D38526DBC8EF0055B00B /* skill_huo_buff.json */,
+				5882D38626DBC8EF0055B00B /* skill_fashi_kangju.json */,
+				5882D38726DBC8EF0055B00B /* skill_jichugongji.json */,
+				5882D38826DBC8EF0055B00B /* skill_fashi_huoqiang_1_l.json */,
+				5882D38926DBC8EF0055B00B /* skill_zhanshi_zhuri.json */,
+				5882D38A26DBC8EF0055B00B /* skill_biankuang_1.json */,
+				5882D38B26DBC8EF0055B00B /* effect_title_02.json */,
+				5882D38C26DBC8EF0055B00B /* skill_chibang_03_xiao.json */,
+				5882D38D26DBC8EF0055B00B /* skill_ds_fushi_4_s.json */,
+				5882D38E26DBC8EF0055B00B /* skill_fashi_huoqiu_3.json */,
+				5882D38F26DBC8EF0055B00B /* skill_boss_nmw.json */,
+				5882D39026DBC8EF0055B00B /* skill_fashi_tianleishu_3.json */,
+				5882D39126DBC8EF0055B00B /* skill_daoshi_fushi_4.json */,
+				5882D39226DBC8EF0055B00B /* skill_daoshi_wujizhenqi_4.json */,
+				5882D39326DBC8EF0055B00B /* skill_fs_huoqiu_1_b.json */,
+				5882D39426DBC8EF0055B00B /* skill_boss_dybl.json */,
+				5882D39526DBC8EF0055B00B /* skill_fs_mofahudun_2_l.json */,
+				5882D39626DBC8EF0055B00B /* skill_daoshi_fushi_4_b.json */,
+				5882D39726DBC8EF0055B00B /* skill_zs_cisha_s.json */,
+				5882D39826DBC8EF0055B00B /* skill_fs_kangju_s.json */,
+				5882D39926DBC8EF0055B00B /* skill_fashi_huoqiang_4_b.json */,
+				5882D39A26DBC8EF0055B00B /* skill_daoshi_huofu_1.json */,
+				5882D39B26DBC8EF0055B00B /* skill_boss_fullfirerain3.json */,
+				5882D39C26DBC8EF0055B00B /* skill_fs_huoqiu_3_b.json */,
+				5882D39D26DBC8EF0055B00B /* skill_fs_jiguangdianying_b.json */,
+				5882D39E26DBC8EF0055B00B /* skill_boss_be.json */,
+				5882D39F26DBC8EF0055B00B /* skill_bing_buff.json */,
+				5882D3A026DBC8EF0055B00B /* skill_chibang_08_xiao.json */,
+				5882D3A126DBC8EF0055B00B /* skill_fs_mofahudun_1_h.json */,
+				5882D3A226DBC8EF0055B00B /* skill_daoshi_qunyindun.json */,
+				5882D3A326DBC8EF0055B00B /* fashion_hong.json */,
+				5882D3A426DBC8EF0055B00B /* skill_fs_tianleishu_2_s.json */,
+				5882D3A526DBC8EF0055B00B /* skill_ds_huofu_2_d.json */,
+				5882D3A626DBC8EF0055B00B /* effect_title_03.json */,
+				5882D3A726DBC8EF0055B00B /* skill_ds_wujizhenqi_4_b.json */,
+				5882D3A826DBC8EF0055B00B /* skill_fs_bingfengbao_2_l.json */,
+				5882D3A926DBC8EF0055B00B /* skill_boss_ymshw1.json */,
+				5882D3AA26DBC8EF0055B00B /* skill_boss_leiting.json */,
+				5882D3AB26DBC8EF0055B00B /* skill_boss_fullfirerain.json */,
+				5882D3AC26DBC8EF0055B00B /* skill_chibang_01.json */,
+				5882D3AD26DBC8EF0055B00B /* skill_fs_huoqiu_4_l.json */,
+				5882D3AE26DBC8EF0055B00B /* skill_g_ctsd.json */,
+				5882D3AF26DBC8EF0055B00B /* skill_chibang_05_xiao.json */,
+				5882D3B026DBC8EF0055B00B /* skill_fashi_huoqiang_1.json */,
+				5882D3B126DBC8EF0055B00B /* skill_boss_mfst.json */,
+				5882D3B226DBC8EF0055B00B /* effect_mubei.json */,
+				5882D3B326DBC8F00055B00B /* skill_zs_jichugongji_l.json */,
+				5882D3B426DBC8F00055B00B /* skill_fs_diyuleiguang_h.json */,
+			);
+			path = skill;
+			sourceTree = "<group>";
+		};
+		5882D3B526DBC8F00055B00B /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				5882D3B626DBC8F00055B00B /* effect_autofight.json */,
+				5882D3B726DBC8F00055B00B /* effect_god.json */,
+				5882D3B826DBC8F00055B00B /* Eff_ywshibai.json */,
+				5882D3B926DBC8F00055B00B /* effect_godbsz3.json */,
+				5882D3BA26DBC8F00055B00B /* effect_year.json */,
+				5882D3BB26DBC8F00055B00B /* effect_denglu_dahuo.json */,
+				5882D3BC26DBC8F00055B00B /* effect_task_kejie.json */,
+				5882D3BD26DBC8F00055B00B /* effect_yiling_2.json */,
+				5882D3BE26DBC8F00055B00B /* effect_guaji_boss.json */,
+				5882D3BF26DBC8F00055B00B /* effect_guaji_gold.json */,
+				5882D3C026DBC8F00055B00B /* effect_zaixianjiangli.json */,
+				5882D3C126DBC8F00055B00B /* effect_vip_qt.json */,
+				5882D3C226DBC8F00055B00B /* effect_bossjiaodiguangquan_01.json */,
+				5882D3C326DBC8F00055B00B /* effect_task_finish.json */,
+				5882D3C426DBC8F00055B00B /* effect_title_shuiyuzhengfeng.json */,
+				5882D3C526DBC8F00055B00B /* effect_title_shenjingbaizhan.json */,
+				5882D3C626DBC8F00055B00B /* effect_denglu_longzhu.json */,
+				5882D3C726DBC8F00055B00B /* effect_jiantou_5.json */,
+				5882D3C826DBC8F00055B00B /* effect_xunbaochangzhu.json */,
+				5882D3C926DBC8F00055B00B /* effect_jiantou_4.json */,
+				5882D3CA26DBC8F00055B00B /* effect_title_hengsaoqianjun.json */,
+				5882D3CB26DBC8F00055B00B /* effect_jingyanhuishou.json */,
+				5882D3CC26DBC8F00055B00B /* effect_nvdao.json */,
+				5882D3CD26DBC8F00055B00B /* effect_mp.json */,
+				5882D3CE26DBC8F00055B00B /* effect_denglu_xiaohuo.json */,
+				5882D3CF26DBC8F00055B00B /* Eff_yw.json */,
+				5882D3D026DBC8F00055B00B /* effect_qianghongbao.json */,
+				5882D3D126DBC8F00055B00B /* effect_yiling_3.json */,
+				5882D3D226DBC8F00055B00B /* effect_jinengyindao.json */,
+				5882D3D326DBC8F00055B00B /* effect_godbsz2.json */,
+				5882D3D426DBC8F00055B00B /* effect_guyu.json */,
+				5882D3D526DBC8F00055B00B /* effect_cs.json */,
+				5882D3D626DBC8F00055B00B /* skill_daoshi_fushi_4_l.json */,
+				5882D3D726DBC8F00055B00B /* effect_task_bukejiao.json */,
+				5882D3D826DBC8F00055B00B /* effect_denglu_huoyan01.json */,
+				5882D3D926DBC8F00055B00B /* effect_hp.json */,
+				5882D3DA26DBC8F00055B00B /* effect_shouchonganniu.json */,
+				5882D3DB26DBC8F00055B00B /* effect_vip_zz.json */,
+				5882D3DC26DBC8F00055B00B /* effect_task_kejiao.json */,
+				5882D3DD26DBC8F00055B00B /* effect_activity.json */,
+				5882D3DE26DBC8F00055B00B /* effect_vip_light.json */,
+				5882D3DF26DBC8F00055B00B /* effect_task_accept.json */,
+				5882D3E026DBC8F00055B00B /* effect_jiantou_3.json */,
+				5882D3E126DBC8F00055B00B /* effect_main_boss.json */,
+				5882D3E226DBC8F00055B00B /* effect_xunbao_1.json */,
+				5882D3E326DBC8F00055B00B /* effect_level_01.json */,
+				5882D3E426DBC8F00055B00B /* effect_jifen_1.json */,
+				5882D3E526DBC8F00055B00B /* effect_shacheng.json */,
+				5882D3E626DBC8F00055B00B /* effect_shouchong_3.json */,
+				5882D3E726DBC8F00055B00B /* effect_yuanquan_tips.json */,
+				5882D3E826DBC8F00055B00B /* effect_shouchong_2.json */,
+				5882D3E926DBC8F00055B00B /* effect_mo.json */,
+				5882D3EA26DBC8F00055B00B /* effect_title_worker.json */,
+				5882D3EB26DBC8F00055B00B /* effect_gouhuo_guangquan.json */,
+				5882D3EC26DBC8F00055B00B /* effect_sclick.json */,
+				5882D3ED26DBC8F00055B00B /* effect_lunhui_yuanhuan.json */,
+				5882D3EE26DBC8F00055B00B /* effect_xunbao_center.json */,
+				5882D3EF26DBC8F00055B00B /* effect_neigongshengji_01.json */,
+				5882D3F026DBC8F00055B00B /* effect_jiantou_2.json */,
+				5882D3F126DBC8F00055B00B /* effect_title_fashi.json */,
+				5882D3F226DBC8F00055B00B /* effect_hp_bo.json */,
+				5882D3F326DBC8F00055B00B /* skill_daoshi_fushi_4_s.json */,
+				5882D3F426DBC8F00055B00B /* effect_main_open.json */,
+				5882D3F526DBC8F00055B00B /* effect_title_chuanqitanbao.json */,
+				5882D3F626DBC8F00055B00B /* effect_vip_hj.json */,
+				5882D3F726DBC8F00055B00B /* effect_tulong.json */,
+				5882D3F826DBC8F00055B00B /* effect_title_zhanshi.json */,
+				5882D3F926DBC8F00055B00B /* effect_jiantou_1.json */,
+				5882D3FA26DBC8F00055B00B /* effect_shouchongbaoxiang.json */,
+				5882D3FB26DBC8F00055B00B /* effect_huishou_3.json */,
+				5882D3FC26DBC8F00055B00B /* effect_nvfa.json */,
+				5882D3FD26DBC8F00055B00B /* effect_yindaotishi.json */,
+				5882D3FE26DBC8F00055B00B /* effect_return.json */,
+				5882D3FF26DBC8F00055B00B /* effect_shouchong_1.json */,
+				5882D40026DBC8F00055B00B /* effect_anquanqu_01.json */,
+				5882D40126DBC8F00055B00B /* effect_jifen_3.json */,
+				5882D40226DBC8F00055B00B /* effect_title_zhizundaren.json */,
+				5882D40326DBC8F00055B00B /* effect_fail.json */,
+				5882D40426DBC8F00055B00B /* effect_hongdiantishi.json */,
+				5882D40526DBC8F00055B00B /* effect_title_fukediguo.json */,
+				5882D40626DBC8F00055B00B /* skill_lei_buff.json */,
+				5882D40726DBC8F00055B00B /* effect_neigongshengji.json */,
+				5882D40826DBC8F00055B00B /* effect_ui_quan.json */,
+				5882D40926DBC8F00055B00B /* effect_text.json */,
+				5882D40A26DBC8F00055B00B /* effect_title_zhuzai.json */,
+				5882D40B26DBC8F00055B00B /* effect_xunbao_3.json */,
+				5882D40C26DBC8F00055B00B /* effect_xunbao_2.json */,
+				5882D40D26DBC8F00055B00B /* effect_mp_bo.json */,
+				5882D40E26DBC8F00055B00B /* skill_daoshi_fushi_4_h.json */,
+				5882D40F26DBC8F00055B00B /* effect_tongyonganniu.json */,
+				5882D41026DBC8F00055B00B /* effect_button_light.json */,
+				5882D41126DBC8F00055B00B /* effect_month.json */,
+				5882D41226DBC8F00055B00B /* effect_title_suoxiangwudi.json */,
+				5882D41326DBC8F00055B00B /* effect_forging.json */,
+				5882D41426DBC8F00055B00B /* effect_wupinkuang.json */,
+				5882D41526DBC8F00055B00B /* effect_shengjichenggong.json */,
+				5882D41626DBC8F00055B00B /* effect_jiantou.json */,
+				5882D41726DBC8F00055B00B /* Eff_ywchenggong.json */,
+				5882D41826DBC8F00055B00B /* effect_chongzhi_guangquan.json */,
+				5882D41926DBC8F00055B00B /* effect_jifen_2.json */,
+				5882D41A26DBC8F00055B00B /* effect_denglu_jiaodi.json */,
+				5882D41B26DBC8F00055B00B /* effect_title_wangzhedaren.json */,
+				5882D41C26DBC8F00055B00B /* effect_dead_01.json */,
+				5882D41D26DBC8F00055B00B /* effect_huishou_2.json */,
+				5882D41E26DBC8F00055B00B /* effect_xsrw_tx.json */,
+				5882D41F26DBC8F00055B00B /* effect_xunbao_baoxiangtexiao.json */,
+				5882D42026DBC8F00055B00B /* effect_denglulong.json */,
+				5882D42126DBC8F00055B00B /* effect_godbsz1.json */,
+				5882D42226DBC8F00055B00B /* effect_fullstar.json */,
+				5882D42326DBC8F00055B00B /* effect_title_duobao.json */,
+				5882D42426DBC8F00055B00B /* effect_task_light.json */,
+				5882D42526DBC8F00055B00B /* effect_zhanlifire.json */,
+				5882D42626DBC8F00055B00B /* skill_huo_buff.json */,
+				5882D42726DBC8F00055B00B /* effect_title_fujiayifang.json */,
+				5882D42826DBC8F00055B00B /* effect_chuansongmen.json */,
+				5882D42926DBC8F00055B00B /* effect_denglu_huoyan02.json */,
+				5882D42A26DBC8F00055B00B /* effect_zhuangbeicheng.json */,
+				5882D42B26DBC8F00055B00B /* effect_success.json */,
+				5882D42C26DBC8F00055B00B /* effect_loading.json */,
+				5882D42D26DBC8F00055B00B /* effect_title_daoshi.json */,
+				5882D42E26DBC8F00055B00B /* effect_arrow.json */,
+				5882D42F26DBC8F00055B00B /* effect_huishou_5.json */,
+				5882D43026DBC8F00055B00B /* effect_zhuangbeifenjie.json */,
+				5882D43126DBC8F00055B00B /* effect_title_fujiatianxia.json */,
+				5882D43226DBC8F00055B00B /* skill_daoshi_fushi_4.json */,
+				5882D43326DBC8F00055B00B /* effect_autoxunlu.json */,
+				5882D43426DBC8F00055B00B /* skill_daoshi_fushi_4_b.json */,
+				5882D43526DBC8F00055B00B /* effect_yiling_1.json */,
+				5882D43626DBC8F00055B00B /* skill_huoyudianran.json */,
+				5882D43726DBC8F00055B00B /* effect_yezhantuteng.json */,
+				5882D43826DBC8F00055B00B /* effect_title_guajiking.json */,
+				5882D43926DBC8F00055B00B /* effect_zidongzhandou.json */,
+				5882D43A26DBC8F00055B00B /* effect_jiazai.json */,
+				5882D43B26DBC8F00055B00B /* effect_huishou_4.json */,
+				5882D43C26DBC8F00055B00B /* effect_vip_cs.json */,
+				5882D43D26DBC8F00055B00B /* skill_bing_buff.json */,
+				5882D43E26DBC8F00055B00B /* effect_yindaobeijing.json */,
+				5882D43F26DBC8F00055B00B /* effect_zun.json */,
+				5882D44026DBC8F00055B00B /* effect_task_bukejie.json */,
+				5882D44126DBC8F00055B00B /* effect_vip_wz.json */,
+				5882D44226DBC8F00055B00B /* effect_yindaodianji.json */,
+				5882D44326DBC8F00055B00B /* effect_denglu_huoyan03.json */,
+				5882D44426DBC8F00055B00B /* effect_ui_fang.json */,
+				5882D44526DBC8F00055B00B /* effect_lunhui_huoyan.json */,
+				5882D44626DBC8F00055B00B /* effect_yindaolingqu.json */,
+				5882D44726DBC8F00055B00B /* effect_denglu_guang.json */,
+				5882D44826DBC8F00055B00B /* effect_title_guizudaren.json */,
+				5882D44926DBC8F00055B00B /* effect_toudingbaoxiang.json */,
+				5882D44A26DBC8F00055B00B /* effect_dice.json */,
+				5882D44B26DBC8F00055B00B /* effect_daoju_kuang.json */,
+				5882D44C26DBC8F00055B00B /* effect_zun_07.json */,
+				5882D44D26DBC8F00055B00B /* Eff_recharge.json */,
+				5882D44E26DBC8F00055B00B /* effect_chibangshengji.json */,
+				5882D44F26DBC8F00055B00B /* effect_honglongguaijineng.json */,
+				5882D45026DBC8F00055B00B /* effect_jifen_4.json */,
+				5882D45126DBC8F00055B00B /* effect_title_zhuanyesongrentou.json */,
+				5882D45226DBC8F00055B00B /* effect_click.json */,
+				5882D45326DBC8F00055B00B /* effect_mubei.json */,
+				5882D45426DBC8F00055B00B /* effect_xiaoyaoshan.json */,
+				5882D45526DBC8F00055B00B /* effect_vip_by.json */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		5882D45626DBC8F00055B00B /* map */ = {
+			isa = PBXGroup;
+			children = (
+				5882D45726DBC8F00055B00B /* tongyong */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		5882D45726DBC8F00055B00B /* tongyong */ = {
+			isa = PBXGroup;
+			children = (
+				5882D45826DBC8F00055B00B /* tongyong_version.json */,
+			);
+			path = tongyong;
+			sourceTree = "<group>";
+		};
+		5882D45926DBC8F00055B00B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				5882D45A26DBC8F00055B00B /* huanjing_data.json */,
+				5882D45B26DBC8F00055B00B /* zqlb_data.json */,
+				5882D45C26DBC8F00055B00B /* unfindmap.json */,
+				5882D45D26DBC8F00055B00B /* shenlu_data.json */,
+				5882D45E26DBC8F00055B00B /* gene_data.json */,
+				5882D45F26DBC8F00055B00B /* headtitile_data.json */,
+				5882D46026DBC8F00055B00B /* equipforge_data.json */,
+				5882D46126DBC8F00055B00B /* huoyue_data.json */,
+				5882D46226DBC8F00055B00B /* czlj_data.json */,
+				5882D46326DBC8F00055B00B /* xilian_data.json */,
+				5882D46426DBC8F00055B00B /* bestronger_data.json */,
+				5882D46526DBC8F00055B00B /* jieridrop_data.json */,
+				5882D46626DBC8F00055B00B /* monstermap_data.json */,
+				5882D46726DBC8F00055B00B /* alleqp_eff_data.json */,
+				5882D46826DBC8F00055B00B /* npc_data.json */,
+				5882D46926DBC8F00055B00B /* force_guide_data.json */,
+				5882D46A26DBC8F00055B00B /* activitygift_data.json */,
+				5882D46B26DBC8F00055B00B /* maps_data.json */,
+				5882D46C26DBC8F00055B00B /* loot_data.json */,
+				5882D46D26DBC8F00055B00B /* wanfa_data.json */,
+				5882D46E26DBC8F00055B00B /* mrboss_data.json */,
+				5882D46F26DBC8F00055B00B /* gnhd_data.json */,
+				5882D47026DBC8F00055B00B /* role_data.json */,
+				5882D47126DBC8F00055B00B /* dog_data.json */,
+				5882D47226DBC8F00055B00B /* slgg_data.json */,
+				5882D47326DBC8F00055B00B /* lhd_data.json */,
+				5882D47426DBC8F00055B00B /* frame_data.json */,
+				5882D47526DBC8F00055B00B /* hefu_data.json */,
+				5882D47626DBC8F00055B00B /* suits_data.json */,
+				5882D47726DBC8F00055B00B /* remains_data.json */,
+				5882D47826DBC8F00055B00B /* vipreturn_data.json */,
+				5882D47926DBC8F00055B00B /* offline_exp_data.json */,
+				5882D47A26DBC8F00055B00B /* wings_data.json */,
+				5882D47B26DBC8F00055B00B /* attribute_data.json */,
+				5882D47C26DBC8F00055B00B /* event_data.json */,
+				5882D47D26DBC8F00055B00B /* bossScore_data.json */,
+				5882D47E26DBC8F00055B00B /* item_data.json */,
+				5882D47F26DBC8F00055B00B /* zhanshen_data.json */,
+				5882D48026DBC8F00055B00B /* shops_data.json */,
+				5882D48126DBC8F00055B00B /* item_attr_add_data.json */,
+				5882D48226DBC8F00055B00B /* ui_data.json */,
+				5882D48326DBC8F00055B00B /* giftpacks_data.json */,
+				5882D48426DBC8F00055B00B /* mapview_data.json */,
+				5882D48526DBC8F00055B00B /* vip_data.json */,
+				5882D48626DBC8F00055B00B /* wings_data_ex.json */,
+				5882D48726DBC8F00055B00B /* item_data_ex.json */,
+				5882D48826DBC8F00055B00B /* equiptips_data.json */,
+				5882D48926DBC8F00055B00B /* global_config.json */,
+				5882D48A26DBC8F00055B00B /* robot.json */,
+				5882D48B26DBC8F00055B00B /* level_data.json */,
+				5882D48C26DBC8F00055B00B /* guide_data.json */,
+				5882D48D26DBC8F00055B00B /* guaji_data.json */,
+				5882D48E26DBC8F00055B00B /* giftpackschoose_data.json */,
+				5882D48F26DBC8F00055B00B /* preview_eff_data.json */,
+				5882D49026DBC8F00055B00B /* top_attr_data.json */,
+				5882D49126DBC8F00055B00B /* zhanling_data.json */,
+				5882D49226DBC8F00055B00B /* tips_data.json */,
+				5882D49326DBC8F00055B00B /* czlc_data.json */,
+				5882D49426DBC8F00055B00B /* raveparty_data.json */,
+				5882D49526DBC8F00055B00B /* exercise_data.json */,
+				5882D49626DBC8F00055B00B /* redpoint_data.json */,
+				5882D49726DBC8F00055B00B /* sell_data.json */,
+				5882D49826DBC8F00055B00B /* tejieshendian_data.json */,
+				5882D49926DBC8F00055B00B /* language_data.json */,
+				5882D49A26DBC8F00055B00B /* quest_data.json */,
+				5882D49B26DBC8F00055B00B /* rewardex_data.json */,
+				5882D49C26DBC8F00055B00B /* recycle_set_data.json */,
+				5882D49D26DBC8F00055B00B /* samsara_data.json */,
+				5882D49E26DBC8F00055B00B /* wakuang_data.json */,
+				5882D49F26DBC8F00055B00B /* skill_data.json */,
+				5882D4A026DBC8F00055B00B /* holiday_data.json */,
+				5882D4A126DBC8F00055B00B /* skill_rune_data.json */,
+				5882D4A226DBC8F00055B00B /* openfunc_data.json */,
+				5882D4A326DBC8F00055B00B /* special_ring_data.json */,
+				5882D4A426DBC8F00055B00B /* systeminfo.json */,
+				5882D4A526DBC8F00055B00B /* achievement_data.json */,
+				5882D4A626DBC8F00055B00B /* yuansushendian_data.json */,
+				5882D4A726DBC8F00055B00B /* bable_data.json */,
+				5882D4A826DBC8F00055B00B /* privilege_data.json */,
+				5882D4A926DBC8F00055B00B /* offline_rwd_data.json */,
+				5882D4AA26DBC8F00055B00B /* skill_player.json */,
+				5882D4AB26DBC8F00055B00B /* help_data.json */,
+				5882D4AC26DBC8F00055B00B /* quest_data_ex.json */,
+				5882D4AD26DBC8F00055B00B /* name_data.json */,
+				5882D4AE26DBC8F00055B00B /* monster_data.json */,
+				5882D4AF26DBC8F00055B00B /* ftchongzhi_data.json */,
+				5882D4B026DBC8F00055B00B /* xszg_data.json */,
+				5882D4B126DBC8F00055B00B /* chengzhang_data.json */,
+				5882D4B226DBC8F00055B00B /* guild_data.json */,
+				5882D4B326DBC8F00055B00B /* tyqb_data.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		5882D4B626DBCB5A0055B00B /* Boss */ = {
+			isa = PBXGroup;
+			children = (
+				5882CAEE26DBC1B30055B00B /* BossList.swift */,
+				5882D4B826DBCB710055B00B /* BossRow.swift */,
+				5882D4BC26DBCF350055B00B /* BossDetail.swift */,
+				5882D4C126DBD69F0055B00B /* LootRow.swift */,
+			);
+			path = Boss;
+			sourceTree = "<group>";
+		};
+		5882D4B726DBCB610055B00B /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				5882CAF026DBC2A70055B00B /* ItemList.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5882CAD826DBC0A70055B00B /* gridhero_wiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5882CAE826DBC0AB0055B00B /* Build configuration list for PBXNativeTarget "gridhero_wiki" */;
+			buildPhases = (
+				5882CAD526DBC0A70055B00B /* Sources */,
+				5882CAD626DBC0A70055B00B /* Frameworks */,
+				5882CAD726DBC0A70055B00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gridhero_wiki;
+			productName = gridhero_wiki;
+			productReference = 5882CAD926DBC0A70055B00B /* gridhero_wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5882CAD126DBC0A70055B00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = bjurner;
+				TargetAttributes = {
+					5882CAD826DBC0A70055B00B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5882CAD426DBC0A70055B00B /* Build configuration list for PBXProject "gridhero_wiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5882CAD026DBC0A70055B00B;
+			productRefGroup = 5882CADA26DBC0A70055B00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5882CAD826DBC0A70055B00B /* gridhero_wiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5882CAD726DBC0A70055B00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5882D4C026DBD53E0055B00B /* item_data.json in Resources */,
+				5882CAE426DBC0AB0055B00B /* Preview Assets.xcassets in Resources */,
+				5882D4B526DBC9270055B00B /* loot_data.json in Resources */,
+				5882D4B426DBC91A0055B00B /* monster_data.json in Resources */,
+				5882CAE126DBC0AB0055B00B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5882CAD526DBC0A70055B00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5882D4B926DBCB710055B00B /* BossRow.swift in Sources */,
+				5882CAF126DBC2A70055B00B /* ItemList.swift in Sources */,
+				5882CAF426DBC3DE0055B00B /* BossViewModel.swift in Sources */,
+				5882CADF26DBC0A70055B00B /* ContentView.swift in Sources */,
+				5882CAFA26DBC5590055B00B /* Loot.swift in Sources */,
+				5882CAEF26DBC1B30055B00B /* BossList.swift in Sources */,
+				5882D4C226DBD69F0055B00B /* LootRow.swift in Sources */,
+				5882D4BD26DBCF350055B00B /* BossDetail.swift in Sources */,
+				5882CAF626DBC4CE0055B00B /* Monster.swift in Sources */,
+				5882D4BF26DBCFF90055B00B /* BossDetailViewModel.swift in Sources */,
+				5882D4BB26DBCD4A0055B00B /* SearchBar.swift in Sources */,
+				5882CADD26DBC0A70055B00B /* gridhero_wikiApp.swift in Sources */,
+				5882CAF826DBC53F0055B00B /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5882CAE626DBC0AB0055B00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5882CAE726DBC0AB0055B00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5882CAE926DBC0AB0055B00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gridhero_wiki/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gridhero_wiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.bjurner.gridhero-wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5882CAEA26DBC0AB0055B00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gridhero_wiki/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gridhero_wiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.bjurner.gridhero-wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5882CAD426DBC0A70055B00B /* Build configuration list for PBXProject "gridhero_wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5882CAE626DBC0AB0055B00B /* Debug */,
+				5882CAE726DBC0AB0055B00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5882CAE826DBC0AB0055B00B /* Build configuration list for PBXNativeTarget "gridhero_wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5882CAE926DBC0AB0055B00B /* Debug */,
+				5882CAEA26DBC0AB0055B00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5882CAD126DBC0A70055B00B /* Project object */;
+}

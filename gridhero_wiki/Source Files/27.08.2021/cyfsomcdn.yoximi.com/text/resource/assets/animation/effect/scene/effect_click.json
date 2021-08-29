@@ -1,0 +1,8 @@
+{"file":"effect_click.png","frames":{
+"effect_click_01":{"x":0,"y":329,"w":76,"h":84,"offX":82,"offY":55,"sourceW":256,"sourceH":256},
+"effect_click_02":{"x":113,"y":238,"w":93,"h":118,"offX":82,"offY":55,"sourceW":256,"sourceH":256},
+"effect_click_03":{"x":0,"y":0,"w":117,"h":129,"offX":70,"offY":60,"sourceW":256,"sourceH":256},
+"effect_click_04":{"x":121,"y":0,"w":117,"h":116,"offX":70,"offY":73,"sourceW":256,"sourceH":256},
+"effect_click_05":{"x":121,"y":120,"w":116,"h":114,"offX":71,"offY":73,"sourceW":256,"sourceH":256},
+"effect_click_06":{"x":0,"y":133,"w":109,"h":105,"offX":74,"offY":79,"sourceW":256,"sourceH":256},
+"effect_click_07":{"x":0,"y":242,"w":98,"h":83,"offX":80,"offY":95,"sourceW":256,"sourceH":256}}}

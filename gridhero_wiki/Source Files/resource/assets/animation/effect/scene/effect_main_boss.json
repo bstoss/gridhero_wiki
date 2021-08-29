@@ -1,0 +1,11 @@
+{"file":"effect_main_boss.png","frames":{
+"effect_main_boss_07":{"x":0,"y":250,"w":121,"h":120,"offX":4,"offY":4,"sourceW":128,"sourceH":128},
+"effect_main_boss_08":{"x":375,"y":249,"w":121,"h":120,"offX":4,"offY":4,"sourceW":128,"sourceH":128},
+"effect_main_boss_09":{"x":375,"y":125,"w":121,"h":120,"offX":4,"offY":4,"sourceW":128,"sourceH":128},
+"effect_main_boss_10":{"x":250,"y":125,"w":121,"h":121,"offX":4,"offY":3,"sourceW":128,"sourceH":128},
+"effect_main_boss_01":{"x":125,"y":125,"w":121,"h":121,"offX":4,"offY":3,"sourceW":128,"sourceH":128},
+"effect_main_boss_02":{"x":0,"y":125,"w":121,"h":121,"offX":4,"offY":3,"sourceW":128,"sourceH":128},
+"effect_main_boss_03":{"x":375,"y":0,"w":121,"h":121,"offX":4,"offY":3,"sourceW":128,"sourceH":128},
+"effect_main_boss_04":{"x":250,"y":0,"w":121,"h":121,"offX":4,"offY":3,"sourceW":128,"sourceH":128},
+"effect_main_boss_05":{"x":125,"y":0,"w":121,"h":121,"offX":4,"offY":3,"sourceW":128,"sourceH":128},
+"effect_main_boss_06":{"x":0,"y":0,"w":121,"h":121,"offX":4,"offY":3,"sourceW":128,"sourceH":128}}}

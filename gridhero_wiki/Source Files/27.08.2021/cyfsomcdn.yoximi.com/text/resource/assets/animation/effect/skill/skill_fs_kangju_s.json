@@ -1,0 +1,9 @@
+{"file":"skill_fs_kangju_s.png","frames":{
+"skill_fs_kangju_s_01":{"x":767,"y":165,"w":146,"h":134,"offX":125,"offY":84,"sourceW":390,"sourceH":310},
+"skill_fs_kangju_s_02":{"x":767,"y":0,"w":217,"h":165,"offX":91,"offY":69,"sourceW":390,"sourceH":310},
+"skill_fs_kangju_s_03":{"x":0,"y":599,"w":308,"h":228,"offX":38,"offY":43,"sourceW":390,"sourceH":310},
+"skill_fs_kangju_s_04":{"x":376,"y":593,"w":347,"h":266,"offX":20,"offY":24,"sourceW":390,"sourceH":310},
+"skill_fs_kangju_s_05":{"x":376,"y":310,"w":361,"h":283,"offX":14,"offY":22,"sourceW":390,"sourceH":310},
+"skill_fs_kangju_s_06":{"x":0,"y":306,"w":376,"h":293,"offX":8,"offY":16,"sourceW":390,"sourceH":310},
+"skill_fs_kangju_s_07":{"x":386,"y":0,"w":381,"h":310,"offX":5,"offY":0,"sourceW":390,"sourceH":310},
+"skill_fs_kangju_s_08":{"x":0,"y":0,"w":386,"h":306,"offX":4,"offY":1,"sourceW":390,"sourceH":310}}}

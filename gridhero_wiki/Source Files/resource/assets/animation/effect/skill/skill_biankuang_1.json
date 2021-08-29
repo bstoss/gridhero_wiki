@@ -1,0 +1,13 @@
+{"file":"skill_biankuang_1.png","frames":{
+"skill_biankuang_1_01":{"x":0,"y":0,"w":168,"h":139,"offX":1,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_02":{"x":0,"y":139,"w":166,"h":140,"offX":2,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_03":{"x":0,"y":279,"w":166,"h":140,"offX":2,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_04":{"x":166,"y":139,"w":167,"h":139,"offX":1,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_05":{"x":333,"y":139,"w":167,"h":138,"offX":1,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_06":{"x":500,"y":139,"w":167,"h":137,"offX":1,"offY":1,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_07":{"x":166,"y":278,"w":167,"h":138,"offX":1,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_08":{"x":335,"y":0,"w":166,"h":139,"offX":2,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_09":{"x":333,"y":277,"w":167,"h":138,"offX":1,"offY":1,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_10":{"x":168,"y":0,"w":167,"h":139,"offX":1,"offY":0,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_11":{"x":500,"y":276,"w":167,"h":137,"offX":1,"offY":1,"sourceW":170,"sourceH":140},
+"skill_biankuang_1_12":{"x":501,"y":0,"w":167,"h":137,"offX":1,"offY":1,"sourceW":170,"sourceH":140}}}

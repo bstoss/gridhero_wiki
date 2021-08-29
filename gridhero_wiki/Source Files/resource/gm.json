@@ -1,0 +1,103 @@
+{
+	"1": {
+		"text": "一键满级",
+		"type": 1,
+		"command": "sl 90"
+	},
+	"2": {
+		"text": "一键转生",
+		"type": 1,
+		"command": "setreborn 12"
+	},
+	"3": {
+		"text": "增加道具",
+		"type": 2,
+		"command": "ai "
+	},
+	"4": {
+		"text": "所有技能",
+		"type": 1,
+		"command": "asa"
+	},
+	"5": {
+		"text": "清理包裹",
+		"type": 1,
+		"command": "clearbag player;clearbag npc;clearbag warehouse"
+	},
+	"6": {
+		"text": "清理怪物",
+		"type": 1,
+		"command": "ka"
+	},
+	"7": {
+		"text": "查看时间",
+		"type": 3,
+		"command": "server"
+	},
+	"8": {
+		"text": "定时批量",
+		"type": 1,
+		"command": "ai 620297;ai 620295;ai 620299",
+		"extra":500
+	},
+	"9": {
+		"text": "增加金币",
+		"type": 1,
+		"command": "addcoin 100000000;addingot 100000000;addboundcoin 100000000;addboundingot 100000000;recharge 100000000"
+	},
+	"10": {
+		"text": "使用所有道具",
+		"type": 3,
+		"command": "useall"
+	},
+	"11": {
+		"text": "限制次数道具",
+		"type": 1,
+		"command": "ai 30039 99;ai 30040 99;ai 30005 99;ai 30006 99;ai 30007 99;ai 30021 99;ai 30016 99;ai 30034 99;ai 30077 99;ai 30118 99;"
+	},
+	"12": {
+		"text": "全部特权",
+		"type": 1,
+		"command": "buymonth 34 12800;buytuoguan 38 6000"
+	},
+	"13": {
+		"text": "重置竞技场次数",
+		"type": 1,
+		"command": "seteventdata 10942 0 0 0"
+	},
+	"14": {
+		"text": "首充600",
+		"type": 1,
+		"command": "recharge 600"
+	},
+	"15": {
+		"text": "战力+60000",
+		"type": 1,
+		"command": "addcombat 36 60000;addcombat 5 60000;addcombat 6 60000;addcombat 7 60000;addcombat 8 60000;addcombat 9 60000;addcombat 10 60000;"
+	},
+	"16": {
+		"text": "boss托管月卡",
+		"type": 1,
+		"command": "buytuoguan 37 2500"
+	},
+	"17": {
+		"text": "战士套装",
+		"type": 1,
+		"command": "ai 760911 2;ai 760912 2;ai 760913 2;ai 760914 2;ai 760915 2;ai 760916 2;ai 760917 2;ai 760918 2;ai 46041 256;"
+	},
+	"18": {
+		"text": "法师套装",
+		"type": 1,
+		"command": "ai 760921 2;ai 760922 2;ai 760923 2;ai 760924 2;ai 760925 2;ai 760926 2;ai 760927 2;ai 760928 2;ai 46041 256;"
+	},
+	"19": {
+		"text": "道士套装",
+		"type": 1,
+		"command": "ai 760931 2;ai 760932 2;ai 760933 2;ai 760934 2;ai 760935 2;ai 760936 2;ai 760937 2;ai 760938 2;ai 46041 256;"
+	},
+	"20": {
+		"text": "结算竞技场",
+		"type": 1,
+		"command": "arenaseasonend"
+	}
+}

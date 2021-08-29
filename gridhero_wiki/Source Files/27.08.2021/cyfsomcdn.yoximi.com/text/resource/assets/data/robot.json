@@ -1,0 +1,50 @@
+{
+    "13": {
+        "eid": 99999997,
+        "job": 3,
+        "gender": 1,
+        "hp": 1000,
+        "skill": "30101",
+        "weapon": 600066,
+        "cloth": 600067,
+        "wing": 4,
+        "title": 91,
+        "name": "那一夜你的溫柔",
+        "posx": 18,
+        "posy": 25,
+        "pic": "robot1",
+        "talk": "str_2863"
+    },
+    "403": {
+        "eid": 99999998,
+        "job": 2,
+        "gender": 2,
+        "hp": 1000,
+        "skill": "20201",
+        "weapon": 600063,
+        "cloth": 600065,
+        "wing": 5,
+        "title": 92,
+        "name": "做個好孩子",
+        "posx": 18,
+        "posy": 25,
+        "pic": "robot1",
+        "talk": "str_2863"
+    },
+    "407": {
+        "eid": 99999999,
+        "job": 2,
+        "gender": 1,
+        "hp": 1000,
+        "skill": "20601",
+        "weapon": 600072,
+        "cloth": 600073,
+        "wing": 6,
+        "title": 93,
+        "name": "爸的爸叫爺爺",
+        "posx": 18,
+        "posy": 25,
+        "pic": "robot1",
+        "talk": "str_2863"
+    }
+}

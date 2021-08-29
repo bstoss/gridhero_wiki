@@ -1,0 +1,8 @@
+{"file":"effect_god.png","frames":{
+"effect_god_07":{"x":0,"y":0,"w":55,"h":55,"offX":24,"offY":26,"sourceW":100,"sourceH":100},
+"effect_god_01":{"x":59,"y":58,"w":54,"h":55,"offX":25,"offY":25,"sourceW":100,"sourceH":100},
+"effect_god_02":{"x":59,"y":0,"w":56,"h":54,"offX":23,"offY":22,"sourceW":100,"sourceH":100},
+"effect_god_03":{"x":0,"y":173,"w":50,"h":57,"offX":26,"offY":22,"sourceW":100,"sourceH":100},
+"effect_god_04":{"x":60,"y":117,"w":51,"h":57,"offX":25,"offY":22,"sourceW":100,"sourceH":100},
+"effect_god_05":{"x":0,"y":59,"w":54,"h":52,"offX":24,"offY":25,"sourceW":100,"sourceH":100},
+"effect_god_06":{"x":0,"y":117,"w":56,"h":52,"offX":22,"offY":26,"sourceW":100,"sourceH":100}}}

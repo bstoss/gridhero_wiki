@@ -1,0 +1,7 @@
+{"file":"skill_huo_buff.png","frames":{
+"skill_huo_buff_06":{"x":576,"y":429,"w":285,"h":426,"offX":612,"offY":492,"sourceW":1500,"sourceH":1500},
+"skill_huo_buff_01":{"x":300,"y":0,"w":294,"h":429,"offX":603,"offY":489,"sourceW":1500,"sourceH":1500},
+"skill_huo_buff_02":{"x":0,"y":0,"w":300,"h":429,"offX":594,"offY":489,"sourceW":1500,"sourceH":1500},
+"skill_huo_buff_03":{"x":594,"y":0,"w":288,"h":429,"offX":609,"offY":489,"sourceW":1500,"sourceH":1500},
+"skill_huo_buff_04":{"x":288,"y":429,"w":288,"h":429,"offX":609,"offY":489,"sourceW":1500,"sourceH":1500},
+"skill_huo_buff_05":{"x":0,"y":429,"w":288,"h":429,"offX":606,"offY":486,"sourceW":1500,"sourceH":1500}}}

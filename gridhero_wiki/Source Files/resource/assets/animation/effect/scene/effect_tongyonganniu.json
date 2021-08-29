@@ -1,0 +1,11 @@
+{"file":"effect_tongyonganniu.png","frames":{
+"effect_tongyonganniu_10":{"x":0,"y":0,"w":168,"h":100,"offX":2,"offY":0,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_01":{"x":0,"y":307,"w":169,"h":92,"offX":1,"offY":5,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_02":{"x":171,"y":104,"w":168,"h":97,"offX":2,"offY":2,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_03":{"x":172,"y":0,"w":167,"h":100,"offX":3,"offY":0,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_04":{"x":171,"y":205,"w":166,"h":98,"offX":3,"offY":0,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_05":{"x":343,"y":0,"w":162,"h":98,"offX":5,"offY":0,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_06":{"x":343,"y":102,"w":155,"h":90,"offX":9,"offY":8,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_07":{"x":0,"y":206,"w":149,"h":89,"offX":14,"offY":8,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_08":{"x":343,"y":196,"w":148,"h":93,"offX":14,"offY":6,"sourceW":170,"sourceH":100},
+"effect_tongyonganniu_09":{"x":0,"y":104,"w":167,"h":98,"offX":3,"offY":2,"sourceW":170,"sourceH":100}}}

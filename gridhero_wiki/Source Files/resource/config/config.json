@@ -1,0 +1,21 @@
+{
+    "version":202108271556,
+    "thmNum": 8,
+    "gm": 0,
+    "showGm": 0,
+    "hideAD": 0,
+    "channel": 0,
+    "log": 0,
+    "wss": 1, 
+    "gmUrl": "cyfstwclient.yoximi.com:8080/fire-service/jsp/gmcc/indexh5.jsp",
+    "channelUrl": "cyfstwclient.yoximi.com:8080/fire-service/jsp/gmcc/index.jsp",
+    "reporturl": "cyfstwhome.yoximi.com/fire-ams-web/report/client/statistics?",
+    "apiurl": "cyfstwgameproxya1.yoximi.com/fire-statistics/api/account/operation?",
+    "iphonexTop":60,
+    "iphonexBottom":10,
+	"packageId1":1001725,
+	"packageId":1003906,
+	"showVip":0,
+	"iospayAdd":"https://mirh5.xf.com/pay",
+    "noShowMoreGameScene":"1011,1012,1013,1025,1031,1032,1047,1048,1049"
+}

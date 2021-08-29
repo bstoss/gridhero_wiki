@@ -1,0 +1,52 @@
+{
+	"gdAllEquipEff":{
+			"1":{"id":1,"cond_color":4,"cond_lv":0,"cond_reborn":0,"cond_type":1,"desc":"This skin can be activated by a full body of [rUnique Equipment] or higher rarity (except Orbs)","desc2":"This skin is activated and can be equipped","egroup":1,"showicon":"0","src":"skill_biankuang_3"},
+			"2":{"id":2,"cond_color":5,"cond_lv":0,"cond_reborn":0,"cond_type":1,"desc":"This skin can be activated by a full body of [yLegendary Equipment] (except Orbs)","desc2":"This skin is activated and can be equipped","egroup":1,"showicon":"0","src":"skill_biankuang_2"},
+			"3":{
+					"id":3,
+					"cond_color":0,
+					"cond_itm":{
+							"1":{"count":100,"sid":30027}
+						},
+					"cond_lv":30,
+					"cond_reborn":0,
+					"cond_type":2,
+					"desc":"After level 30, it consumes 100 Holyfire to unlock, and already has {@1:} Holyfire",
+					"desc2":"It has been activated, you can upgrade this skin in the [r【Role】]-[r【Stigmata】] interface",
+					"egroup":2,
+					"showicon":"0",
+					"src":"skill_chibang_01_xiao"
+				},
+			"4":{"id":4,"cond_color":3,"cond_lv":0,"cond_reborn":0,"cond_type":1,"desc":"This skin can be activated by a full body of [rEpic Equipment] or higher rarity (except Orbs)","desc2":"This skin is activated and can be equipped","egroup":1,"showicon":"0","src":"effect_biankuang_1"},
+			"5":{"id":5,"cond_color":0,"cond_lv":0,"cond_reborn":0,"cond_type":3,"desc":"Activate this skin for the No.1- No.3 in the [rAncient Arena] season settlement [r(valid for 1 week after distribution)]","desc2":"This skin is activated and can be equipped","egroup":1,"showicon":"0","src":"skill_biankuang_9"},
+			"6":{"id":6,"cond_color":0,"cond_lv":0,"cond_reborn":0,"cond_type":3,"desc":"This skin can be activated by receiving the rewards of the [rFirst Charge]","desc2":"This skin is activated and can be equipped","egroup":1,"showicon":"0","src":"effect_biankuang_2"}
+		},
+	"gdNamePlate":{
+			"1":{"id":1,"desc":"This skin can be activated by the [rBP Ranking] No.1","desc2":"This skin is activated and can be equipped","eff":"effect_title_05","event_id":20501},
+			"2":{"id":2,"desc":"This skin can be activated by the [rLevel Ranking] No.1","desc2":"This skin is activated and can be equipped","eff":"effect_title_03","event_id":20502},
+			"3":{"id":3,"desc":"This skin can be activated by the [rOrb Ranking] No.1","desc2":"This skin is activated and can be equipped","eff":"effect_title_04","event_id":20503},
+			"4":{"id":4,"desc":"This skin can be activated by the [rArchive Ranking] No.1","desc2":"This skin is activated and can be equipped","eff":"effect_title_01","event_id":20504},
+			"5":{"id":5,"desc":"This skin can be activated by the [rWeapon Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20505,"src":"UI_CQ_Title_05"},
+			"6":{"id":6,"desc":"This skin can be activated by the [rClothes Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20506,"src":"UI_CQ_Title_06"},
+			"7":{"id":7,"desc":"This skin can be activated by the [rHelmet Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20507,"src":"UI_CQ_Title_07"},
+			"8":{"id":8,"desc":"This skin can be activated by the [rNecklace Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20508,"src":"UI_CQ_Title_08"},
+			"9":{"id":9,"desc":"This skin can be activated by the [rBracer Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20509,"src":"UI_CQ_Title_09"},
+			"10":{"id":10,"desc":"This skin can be activated by the [rRing Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20510,"src":"UI_CQ_Title_10"},
+			"11":{"id":11,"desc":"This skin can be activated by the [rBelt Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20511,"src":"UI_CQ_Title_11"},
+			"12":{"id":12,"desc":"This skin can be activated by the [rShoes Ranking] No.1","desc2":"This skin is activated and can be equipped","event_id":20512,"src":"UI_CQ_Title_12"},
+			"13":{"id":13,"desc":"This skin can be activated by the [rArena] No.1","desc2":"This skin is activated and can be equipped","eff":"effect_title_02","event_id":20513},
+			"14":{"id":14,"desc":"This skin can be activated by receiving the rewards of the [rFirst Charge]","desc2":"This skin is activated and can be equipped","event_id":20514,"src":"UI_CQ_Title_14"}
+		},
+	"gdStigmata":{
+			"1":{"id":1,"desc":"This skin can be activated after the Stigmata reaches [rT1]","desc2":"This skin is activated and can be equipped","lv":1,"src":"skill_chibang_01_xiao"},
+			"2":{"id":2,"desc":"This skin can be activated after the Stigmata reaches [rT2]","desc2":"This skin is activated and can be equipped","lv":2,"src":"skill_chibang_02_xiao"},
+			"3":{"id":3,"desc":"This skin can be activated after the Stigmata reaches [rT3]","desc2":"This skin is activated and can be equipped","lv":3,"src":"skill_chibang_03_xiao"},
+			"4":{"id":4,"desc":"This skin can be activated after the Stigmata reaches [rT4]","desc2":"This skin is activated and can be equipped","lv":4,"src":"skill_chibang_04_xiao"},
+			"5":{"id":5,"desc":"This skin can be activated after the Stigmata reaches [rT5]","desc2":"This skin is activated and can be equipped","lv":5,"src":"skill_chibang_05_xiao"},
+			"6":{"id":6,"desc":"This skin can be activated after the Stigmata reaches [rT6]","desc2":"This skin is activated and can be equipped","lv":6,"src":"skill_chibang_06_xiao"},
+			"7":{"id":7,"desc":"This skin can be activated after the Stigmata reaches [rT7]","desc2":"This skin is activated and can be equipped","lv":7,"src":"skill_chibang_07_xiao"},
+			"8":{"id":8,"desc":"This skin can be activated after the Stigmata reaches [rT8]","desc2":"This skin is activated and can be equipped","lv":8,"src":"skill_chibang_08_xiao"},
+			"9":{"id":9,"desc":"This skin can be activated after the Stigmata reaches [rT9]","desc2":"This skin is activated and can be equipped","lv":9,"src":"skill_chibang_09_xiao"},
+			"10":{"id":10,"desc":"This skin can be activated after the Stigmata reaches [rT10]","desc2":"This skin is activated and can be equipped","lv":10,"src":"skill_chibang_10_xiao"}
+		}
+}

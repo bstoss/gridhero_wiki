@@ -1,0 +1,13 @@
+{"file":"skill_boss_kangju.png","frames":{
+"skill_boss_kangju_11":{"x":708,"y":177,"w":263,"h":160,"offX":69,"offY":23,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_12":{"x":0,"y":423,"w":195,"h":148,"offX":111,"offY":30,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_01":{"x":925,"y":341,"w":91,"h":73,"offX":144,"offY":67,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_02":{"x":683,"y":493,"w":159,"h":105,"offX":115,"offY":52,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_03":{"x":702,"y":341,"w":219,"h":148,"offX":85,"offY":31,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_04":{"x":708,"y":0,"w":276,"h":173,"offX":57,"offY":20,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_05":{"x":345,"y":412,"w":334,"h":206,"offX":29,"offY":9,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_06":{"x":0,"y":211,"w":341,"h":208,"offX":25,"offY":6,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_07":{"x":359,"y":0,"w":345,"h":209,"offX":19,"offY":7,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_08":{"x":0,"y":0,"w":355,"h":207,"offX":11,"offY":4,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_09":{"x":345,"y":213,"w":353,"h":195,"offX":5,"offY":3,"sourceW":366,"sourceH":216},
+"skill_boss_kangju_10":{"x":0,"y":622,"w":355,"h":189,"offX":0,"offY":0,"sourceW":366,"sourceH":216}}}

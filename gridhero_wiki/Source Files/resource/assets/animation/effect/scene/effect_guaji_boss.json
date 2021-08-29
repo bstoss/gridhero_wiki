@@ -1,0 +1,11 @@
+{"file":"effect_guaji_boss.png","frames":{
+"effect_guaji_boss_06":{"x":365,"y":0,"w":361,"h":381,"offX":71,"offY":17,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_07":{"x":365,"y":1450,"w":361,"h":351,"offX":71,"offY":47,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_08":{"x":0,"y":1102,"w":361,"h":351,"offX":71,"offY":47,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_09":{"x":365,"y":1095,"w":361,"h":351,"offX":71,"offY":47,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_10":{"x":0,"y":747,"w":361,"h":351,"offX":71,"offY":47,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_01":{"x":0,"y":0,"w":361,"h":381,"offX":71,"offY":17,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_02":{"x":365,"y":385,"w":361,"h":351,"offX":71,"offY":47,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_03":{"x":0,"y":1457,"w":361,"h":351,"offX":71,"offY":47,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_04":{"x":365,"y":740,"w":361,"h":351,"offX":71,"offY":47,"sourceW":512,"sourceH":512},
+"effect_guaji_boss_05":{"x":0,"y":385,"w":361,"h":358,"offX":71,"offY":40,"sourceW":512,"sourceH":512}}}

@@ -1,0 +1,125 @@
+{
+	"gdRecycleSetting":{
+			"1":{
+					"id":1,
+					"dftsub":1,
+					"na":"白色装备",
+					"sub":{
+							"1":{"subid":1,"subna":"Below level 30"},
+							"2":{"subid":2,"subna":"Below level 40"},
+							"3":{"subid":3,"subna":"Below level 50"},
+							"4":{"subid":4,"subna":"Below level 60"},
+							"5":{"subid":5,"subna":"Below level 70"},
+							"6":{"subid":6,"subna":"Below level 80"},
+							"7":{"subid":7,"subna":"Below level 90"},
+							"8":{"subid":8,"subna":"All"}
+						}
+				},
+			"2":{
+					"id":2,
+					"dftsub":1,
+					"na":"绿色装备",
+					"sub":{
+							"1":{"subid":1,"subna":"Below level 30"},
+							"2":{"subid":2,"subna":"Below level 40"},
+							"3":{"subid":3,"subna":"Below level 50"},
+							"4":{"subid":4,"subna":"Below level 60"},
+							"5":{"subid":5,"subna":"Below level 70"},
+							"6":{"subid":6,"subna":"Below level 80"},
+							"7":{"subid":7,"subna":"Below level 90"},
+							"8":{"subid":8,"subna":"All"}
+						}
+				},
+			"3":{
+					"id":3,
+					"dftsub":1,
+					"na":"蓝色装备",
+					"sub":{
+							"1":{"subid":1,"subna":"Below level 30"},
+							"2":{"subid":2,"subna":"Below level 40"},
+							"3":{"subid":3,"subna":"Below level 50"},
+							"4":{"subid":4,"subna":"Below level 60"},
+							"5":{"subid":5,"subna":"Below level 70"},
+							"6":{"subid":6,"subna":"Below level 80"},
+							"7":{"subid":7,"subna":"Below level 90"},
+							"8":{"subid":8,"subna":"All"}
+						}
+				},
+			"4":{
+					"id":4,
+					"dftsub":1,
+					"na":"紫色装备",
+					"sub":{
+							"1":{"subid":1,"subna":"Below level 30"},
+							"2":{"subid":2,"subna":"Below level 40"},
+							"3":{"subid":3,"subna":"Below level 50"},
+							"4":{"subid":4,"subna":"Below level 60"},
+							"5":{"subid":5,"subna":"Below level 70"},
+							"6":{"subid":6,"subna":"Below level 80"},
+							"7":{"subid":7,"subna":"Below level 90"},
+							"8":{"subid":8,"subna":"All"}
+						}
+				},
+			"5":{
+					"id":5,
+					"dftsub":1,
+					"na":"红色装备",
+					"sub":{
+							"1":{"subid":1,"subna":"Below level 30"},
+							"2":{"subid":2,"subna":"Below level 40"},
+							"3":{"subid":3,"subna":"Below level 50"},
+							"4":{"subid":4,"subna":"Below level 60"},
+							"5":{"subid":5,"subna":"Below level 70"},
+							"6":{"subid":6,"subna":"Below level 80"},
+							"7":{"subid":7,"subna":"Below level 90"},
+							"8":{"subid":8,"subna":"All"}
+						}
+				},
+			"7":{
+					"id":7,
+					"dftsub":9,
+					"na":"空白符",
+					"sub":{
+							"1":{"subid":9,"subna":"[bRare or less]"},
+							"2":{"subid":10,"subna":"[pEpic or less]"},
+							"3":{"subid":11,"subna":"[rUnique or less]"}
+						}
+				},
+			"9":{
+					"id":9,
+					"dftsub":13,
+					"na":"特戒",
+					"sub":{
+							"1":{"subid":13,"subna":"[bRare or less]"},
+							"2":{"subid":14,"subna":"[pEpic or less]"},
+							"3":{"subid":15,"subna":"[rUnique or less]"}
+						}
+				},
+			"14":{
+					"id":14,
+					"dftsub":17,
+					"na":"金疮药",
+					"sub":{
+							"1":{"subid":17,"subna":"[wCommon]"},
+							"2":{"subid":18,"subna":"[gUncommon or less]"},
+							"3":{"subid":19,"subna":"[bRare or less]"},
+							"4":{"subid":20,"subna":"[pEpic or less]"},
+							"5":{"subid":21,"subna":"[rUnique or less]"},
+							"6":{"subid":22,"subna":"[yLegendary or less]"}
+						}
+				},
+			"15":{
+					"id":15,
+					"dftsub":23,
+					"na":"法力药",
+					"sub":{
+							"1":{"subid":23,"subna":"[wCommon]"},
+							"2":{"subid":24,"subna":"[gUncommon or less]"},
+							"3":{"subid":25,"subna":"[bRare or less]"},
+							"4":{"subid":26,"subna":"[pEpic or less]"},
+							"5":{"subid":27,"subna":"[rUnique or less]"},
+							"6":{"subid":28,"subna":"[yLegendary or less]"}
+						}
+				}
+		}
+}

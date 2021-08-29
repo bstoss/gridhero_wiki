@@ -1,0 +1,17 @@
+{"file":"skill_boss_lyzw.png","frames":{
+"skill_boss_lyzw_01":{"x":3967,"y":0,"w":108,"h":306,"offX":282,"offY":24,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_02":{"x":2252,"y":429,"w":410,"h":520,"offX":146,"offY":217,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_03":{"x":1138,"y":0,"w":532,"h":471,"offX":74,"offY":272,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_04":{"x":3419,"y":0,"w":546,"h":439,"offX":74,"offY":308,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_05":{"x":570,"y":0,"w":566,"h":450,"offX":74,"offY":298,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_06":{"x":0,"y":0,"w":568,"h":455,"offX":74,"offY":293,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_07":{"x":2253,"y":0,"w":570,"h":427,"offX":71,"offY":327,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_08":{"x":1672,"y":0,"w":579,"h":424,"offX":66,"offY":332,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_09":{"x":1672,"y":426,"w":578,"h":396,"offX":65,"offY":362,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_10":{"x":2825,"y":412,"w":588,"h":405,"offX":60,"offY":356,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_11":{"x":2825,"y":0,"w":592,"h":410,"offX":59,"offY":353,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_12":{"x":3415,"y":441,"w":583,"h":345,"offX":63,"offY":412,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_13":{"x":570,"y":452,"w":514,"h":277,"offX":74,"offY":426,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_14":{"x":1086,"y":473,"w":514,"h":277,"offX":74,"offY":426,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_15":{"x":0,"y":457,"w":514,"h":277,"offX":74,"offY":426,"sourceW":700,"sourceH":800},
+"skill_boss_lyzw_16":{"x":516,"y":731,"w":512,"h":277,"offX":76,"offY":426,"sourceW":700,"sourceH":800}}}

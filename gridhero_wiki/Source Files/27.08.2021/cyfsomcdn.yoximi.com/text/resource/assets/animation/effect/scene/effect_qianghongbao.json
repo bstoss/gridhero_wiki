@@ -1,0 +1,11 @@
+{"file":"effect_qianghongbao.png","frames":{
+"effect_qianghongbao_10":{"x":0,"y":247,"w":234,"h":238,"offX":12,"offY":7,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_01":{"x":245,"y":0,"w":238,"h":242,"offX":8,"offY":5,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_02":{"x":245,"y":246,"w":233,"h":241,"offX":10,"offY":5,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_03":{"x":726,"y":244,"w":235,"h":239,"offX":8,"offY":6,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_04":{"x":487,"y":0,"w":239,"h":240,"offX":7,"offY":4,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_05":{"x":0,"y":0,"w":241,"h":243,"offX":8,"offY":3,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_06":{"x":730,"y":0,"w":235,"h":240,"offX":8,"offY":4,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_07":{"x":482,"y":488,"w":232,"h":237,"offX":8,"offY":5,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_08":{"x":726,"y":487,"w":232,"h":240,"offX":9,"offY":5,"sourceW":250,"sourceH":250},
+"effect_qianghongbao_09":{"x":487,"y":244,"w":235,"h":240,"offX":11,"offY":6,"sourceW":250,"sourceH":250}}}

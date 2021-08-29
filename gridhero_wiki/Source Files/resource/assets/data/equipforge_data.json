@@ -1,0 +1,23 @@
+{
+	"gdEquipForge":{
+			"1":{"formula_fs":2201,"formula_ts":2301,"formula_zs":2101,"lv":10},
+			"2":{"formula_fs":2202,"formula_ts":2302,"formula_zs":2102,"lv":20},
+			"3":{"formula_fs":2203,"formula_ts":2303,"formula_zs":2103,"lv":30},
+			"4":{"formula_fs":2204,"formula_ts":2304,"formula_zs":2104,"lv":40},
+			"5":{"formula_fs":2205,"formula_ts":2305,"formula_zs":2105,"lv":50},
+			"6":{"formula_fs":2206,"formula_ts":2306,"formula_zs":2106,"lv":60},
+			"7":{"formula_fs":2207,"formula_ts":2307,"formula_zs":2107,"lv":70},
+			"8":{"formula_fs":2208,"formula_ts":2308,"formula_zs":2108,"lv":80},
+			"9":{"formula_fs":2209,"formula_ts":2309,"formula_zs":2109,"lv":90}
+		},
+	"gdEquipForgeHC":{
+			"1":{"color":4,"cost":20000,"formula_fs":6501,"formula_ts":6601,"formula_zs":6401,"maxlvl":49,"minlvl":40,"uprate":16,"weight":512},
+			"2":{"color":4,"cost":40000,"formula_fs":6502,"formula_ts":6602,"formula_zs":6402,"maxlvl":59,"minlvl":50,"uprate":14,"weight":128},
+			"3":{"color":4,"cost":60000,"formula_fs":6503,"formula_ts":6603,"formula_zs":6403,"maxlvl":69,"minlvl":60,"uprate":12,"weight":32},
+			"4":{"color":4,"cost":80000,"formula_fs":6504,"formula_ts":6604,"formula_zs":6404,"maxlvl":79,"minlvl":70,"uprate":4,"weight":8},
+			"5":{"color":4,"cost":100000,"formula_fs":6505,"formula_ts":6605,"formula_zs":6405,"maxlvl":89,"minlvl":80,"uprate":0,"weight":2},
+			"6":{"color":5,"cost":80000,"formula_fs":6506,"formula_ts":6606,"formula_zs":6406,"maxlvl":69,"minlvl":60,"uprate":8,"weight":81},
+			"7":{"color":5,"cost":100000,"formula_fs":6507,"formula_ts":6607,"formula_zs":6407,"maxlvl":79,"minlvl":70,"uprate":2,"weight":9},
+			"8":{"color":5,"cost":120000,"formula_fs":6508,"formula_ts":6608,"formula_zs":6408,"maxlvl":89,"minlvl":80,"uprate":0,"weight":1}
+		}
+}

@@ -1,0 +1,12 @@
+{"file":"skill_boss_bingfengbao.png","frames":{
+"skill_boss_bingfengbao_01":{"x":0,"y":3724,"w":796,"h":350,"offX":102,"offY":437,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_02":{"x":934,"y":1047,"w":796,"h":840,"offX":102,"offY":192,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_03":{"x":934,"y":0,"w":930,"h":1045,"offX":35,"offY":89,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_04":{"x":0,"y":0,"w":932,"h":1164,"offX":34,"offY":126,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_05":{"x":945,"y":3177,"w":968,"h":610,"offX":4,"offY":680,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_06":{"x":976,"y":2547,"w":974,"h":628,"offX":7,"offY":668,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_07":{"x":0,"y":1889,"w":974,"h":658,"offX":7,"offY":667,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_08":{"x":976,"y":1889,"w":968,"h":656,"offX":9,"offY":669,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_09":{"x":0,"y":2549,"w":943,"h":644,"offX":20,"offY":679,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_10":{"x":0,"y":1166,"w":790,"h":618,"offX":77,"offY":700,"sourceW":1000,"sourceH":1400},
+"skill_boss_bingfengbao_11":{"x":0,"y":3195,"w":765,"h":527,"offX":88,"offY":737,"sourceW":1000,"sourceH":1400}}}

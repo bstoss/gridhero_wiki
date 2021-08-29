@@ -1,0 +1,9 @@
+{"file":"skill_boss_mfst.png","frames":{
+"skill_boss_mfst_08":{"x":0,"y":0,"w":800,"h":564,"offX":100,"offY":196,"sourceW":1000,"sourceH":1000},
+"skill_boss_mfst_01":{"x":322,"y":1828,"w":346,"h":190,"offX":327,"offY":401,"sourceW":1000,"sourceH":1000},
+"skill_boss_mfst_02":{"x":470,"y":1478,"w":402,"h":346,"offX":299,"offY":228,"sourceW":1000,"sourceH":1000},
+"skill_boss_mfst_03":{"x":470,"y":1090,"w":386,"h":384,"offX":307,"offY":202,"sourceW":1000,"sourceH":1000},
+"skill_boss_mfst_04":{"x":646,"y":568,"w":372,"h":418,"offX":314,"offY":183,"sourceW":1000,"sourceH":1000},
+"skill_boss_mfst_05":{"x":0,"y":1566,"w":318,"h":418,"offX":341,"offY":214,"sourceW":1000,"sourceH":1000},
+"skill_boss_mfst_06":{"x":0,"y":1090,"w":466,"h":472,"offX":267,"offY":196,"sourceW":1000,"sourceH":1000},
+"skill_boss_mfst_07":{"x":0,"y":568,"w":642,"h":518,"offX":179,"offY":196,"sourceW":1000,"sourceH":1000}}}

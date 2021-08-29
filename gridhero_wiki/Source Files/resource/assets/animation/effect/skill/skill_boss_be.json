@@ -1,0 +1,8 @@
+{"file":"skill_boss_be.png","frames":{
+"skill_boss_be_07":{"x":0,"y":699,"w":622,"h":309,"offX":92,"offY":161,"sourceW":800,"sourceH":600},
+"skill_boss_be_01":{"x":611,"y":377,"w":494,"h":310,"offX":154,"offY":157,"sourceW":800,"sourceH":600},
+"skill_boss_be_02":{"x":1216,"y":365,"w":575,"h":352,"offX":117,"offY":137,"sourceW":800,"sourceH":600},
+"skill_boss_be_03":{"x":1216,"y":0,"w":565,"h":361,"offX":136,"offY":131,"sourceW":800,"sourceH":600},
+"skill_boss_be_04":{"x":626,"y":0,"w":586,"h":373,"offX":119,"offY":130,"sourceW":800,"sourceH":600},
+"skill_boss_be_05":{"x":0,"y":0,"w":622,"h":371,"offX":98,"offY":129,"sourceW":800,"sourceH":600},
+"skill_boss_be_06":{"x":0,"y":375,"w":607,"h":320,"offX":104,"offY":150,"sourceW":800,"sourceH":600}}}

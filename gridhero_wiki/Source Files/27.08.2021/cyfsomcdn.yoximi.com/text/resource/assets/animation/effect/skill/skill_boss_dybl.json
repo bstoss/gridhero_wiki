@@ -1,0 +1,9 @@
+{"file":"skill_boss_dybl.png","frames":{
+"skill_boss_dybl_08":{"x":785,"y":277,"w":281,"h":265,"offX":52,"offY":49,"sourceW":400,"sourceH":400},
+"skill_boss_dybl_01":{"x":1561,"y":242,"w":378,"h":234,"offX":11,"offY":83,"sourceW":400,"sourceH":400},
+"skill_boss_dybl_02":{"x":1178,"y":256,"w":378,"h":232,"offX":11,"offY":84,"sourceW":400,"sourceH":400},
+"skill_boss_dybl_03":{"x":1561,"y":1,"w":379,"h":239,"offX":11,"offY":79,"sourceW":400,"sourceH":400},
+"skill_boss_dybl_04":{"x":1178,"y":1,"w":381,"h":253,"offX":10,"offY":65,"sourceW":400,"sourceH":400},
+"skill_boss_dybl_05":{"x":394,"y":1,"w":389,"h":279,"offX":5,"offY":39,"sourceW":400,"sourceH":400},
+"skill_boss_dybl_06":{"x":785,"y":1,"w":391,"h":274,"offX":3,"offY":43,"sourceW":400,"sourceH":400},
+"skill_boss_dybl_07":{"x":1,"y":1,"w":391,"h":282,"offX":3,"offY":33,"sourceW":400,"sourceH":400}}}

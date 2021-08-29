@@ -1,0 +1,13 @@
+{"file":"skill_daoshi_zhanjia.png","frames":{
+"skill_daoshi_zhanjia_01":{"x":202,"y":347,"w":158,"h":38,"offX":390,"offY":370,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_02":{"x":364,"y":517,"w":187,"h":102,"offX":370,"offY":309,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_03":{"x":364,"y":326,"w":258,"h":189,"offX":322,"offY":223,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_04":{"x":0,"y":0,"w":362,"h":345,"offX":264,"offY":68,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_05":{"x":364,"y":0,"w":326,"h":324,"offX":296,"offY":89,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_06":{"x":692,"y":0,"w":304,"h":233,"offX":308,"offY":180,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_07":{"x":692,"y":235,"w":256,"h":223,"offX":309,"offY":190,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_08":{"x":0,"y":347,"w":200,"h":167,"offX":357,"offY":246,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_09":{"x":0,"y":516,"w":181,"h":151,"offX":376,"offY":262,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_10":{"x":807,"y":460,"w":181,"h":151,"offX":376,"offY":262,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_11":{"x":624,"y":460,"w":181,"h":151,"offX":376,"offY":262,"sourceW":928,"sourceH":688},
+"skill_daoshi_zhanjia_12":{"x":183,"y":516,"w":179,"h":145,"offX":377,"offY":264,"sourceW":928,"sourceH":688}}}

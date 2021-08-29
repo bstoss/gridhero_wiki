@@ -1,0 +1,16 @@
+{"file":"skill_boss_leiting.png","frames":{
+"skill_boss_leiting_01":{"x":1911,"y":0,"w":110,"h":480,"offX":480,"offY":23,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_02":{"x":0,"y":2162,"w":383,"h":739,"offX":333,"offY":0,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_03":{"x":1261,"y":1439,"w":595,"h":731,"offX":243,"offY":0,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_04":{"x":1278,"y":0,"w":631,"h":739,"offX":202,"offY":0,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_05":{"x":616,"y":741,"w":643,"h":696,"offX":207,"offY":3,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_06":{"x":0,"y":0,"w":643,"h":739,"offX":202,"offY":0,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_07":{"x":0,"y":741,"w":614,"h":731,"offX":236,"offY":0,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_08":{"x":645,"y":0,"w":631,"h":739,"offX":202,"offY":0,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_09":{"x":1261,"y":741,"w":643,"h":696,"offX":207,"offY":3,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_10":{"x":616,"y":1439,"w":643,"h":678,"offX":202,"offY":21,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_11":{"x":0,"y":1474,"w":614,"h":686,"offX":236,"offY":13,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_12":{"x":616,"y":2119,"w":589,"h":548,"offX":236,"offY":97,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_13":{"x":1207,"y":2172,"w":588,"h":403,"offX":237,"offY":225,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_14":{"x":1207,"y":2577,"w":418,"h":335,"offX":403,"offY":225,"sourceW":1096,"sourceH":848},
+"skill_boss_leiting_15":{"x":1627,"y":2577,"w":280,"h":251,"offX":404,"offY":309,"sourceW":1096,"sourceH":848}}}

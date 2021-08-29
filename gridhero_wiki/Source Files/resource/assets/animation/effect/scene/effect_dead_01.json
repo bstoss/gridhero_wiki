@@ -1,0 +1,13 @@
+{"file":"effect_dead_01.png","frames":{
+"effect_dead_01_01":{"x":0,"y":423,"w":113,"h":84,"offX":44,"offY":33,"sourceW":200,"sourceH":149},
+"effect_dead_01_02":{"x":129,"y":395,"w":113,"h":84,"offX":44,"offY":33,"sourceW":200,"sourceH":149},
+"effect_dead_01_03":{"x":348,"y":388,"w":113,"h":105,"offX":44,"offY":20,"sourceW":200,"sourceH":149},
+"effect_dead_01_04":{"x":0,"y":293,"w":127,"h":128,"offX":37,"offY":2,"sourceW":200,"sourceH":149},
+"effect_dead_01_05":{"x":353,"y":264,"w":143,"h":122,"offX":28,"offY":17,"sourceW":200,"sourceH":149},
+"effect_dead_01_06":{"x":355,"y":0,"w":152,"h":132,"offX":23,"offY":1,"sourceW":200,"sourceH":149},
+"effect_dead_01_07":{"x":355,"y":134,"w":151,"h":128,"offX":25,"offY":12,"sourceW":200,"sourceH":149},
+"effect_dead_01_08":{"x":182,"y":0,"w":171,"h":148,"offX":3,"offY":1,"sourceW":200,"sourceH":149},
+"effect_dead_01_09":{"x":0,"y":145,"w":170,"h":146,"offX":30,"offY":3,"sourceW":200,"sourceH":149},
+"effect_dead_01_10":{"x":0,"y":0,"w":180,"h":143,"offX":15,"offY":6,"sourceW":200,"sourceH":149},
+"effect_dead_01_11":{"x":172,"y":150,"w":179,"h":120,"offX":8,"offY":27,"sourceW":200,"sourceH":149},
+"effect_dead_01_12":{"x":172,"y":272,"w":174,"h":121,"offX":11,"offY":24,"sourceW":200,"sourceH":149}}}

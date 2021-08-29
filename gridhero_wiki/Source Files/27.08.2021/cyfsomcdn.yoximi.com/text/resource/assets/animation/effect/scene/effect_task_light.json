@@ -1,0 +1,11 @@
+{"file":"effect_task_light.png","frames":{
+"effect_task_light_01":{"x":673,"y":305,"w":336,"h":93,"offX":27,"offY":30,"sourceW":400,"sourceH":150},
+"effect_task_light_02":{"x":0,"y":109,"w":339,"h":95,"offX":24,"offY":29,"sourceW":400,"sourceH":150},
+"effect_task_light_03":{"x":0,"y":208,"w":333,"h":95,"offX":31,"offY":29,"sourceW":400,"sourceH":150},
+"effect_task_light_04":{"x":337,"y":305,"w":332,"h":95,"offX":33,"offY":29,"sourceW":400,"sourceH":150},
+"effect_task_light_05":{"x":0,"y":0,"w":332,"h":105,"offX":33,"offY":28,"sourceW":400,"sourceH":150},
+"effect_task_light_06":{"x":672,"y":104,"w":332,"h":98,"offX":33,"offY":28,"sourceW":400,"sourceH":150},
+"effect_task_light_07":{"x":336,"y":0,"w":332,"h":102,"offX":33,"offY":28,"sourceW":400,"sourceH":150},
+"effect_task_light_08":{"x":672,"y":0,"w":333,"h":100,"offX":33,"offY":29,"sourceW":400,"sourceH":150},
+"effect_task_light_09":{"x":343,"y":206,"w":334,"h":95,"offX":34,"offY":29,"sourceW":400,"sourceH":150},
+"effect_task_light_10":{"x":681,"y":206,"w":334,"h":95,"offX":35,"offY":29,"sourceW":400,"sourceH":150}}}

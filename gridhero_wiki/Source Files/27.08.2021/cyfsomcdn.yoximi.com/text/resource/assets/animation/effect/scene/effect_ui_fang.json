@@ -1,0 +1,11 @@
+{"file":"effect_ui_fang.png","frames":{
+"effect_ui_fang_01":{"x":208,"y":206,"w":97,"h":96,"offX":14,"offY":12,"sourceW":120,"sourceH":120},
+"effect_ui_fang_02":{"x":103,"y":205,"w":101,"h":94,"offX":9,"offY":13,"sourceW":120,"sourceH":120},
+"effect_ui_fang_03":{"x":232,"y":0,"w":112,"h":98,"offX":7,"offY":15,"sourceW":120,"sourceH":120},
+"effect_ui_fang_04":{"x":345,"y":105,"w":110,"h":99,"offX":9,"offY":9,"sourceW":120,"sourceH":120},
+"effect_ui_fang_05":{"x":348,"y":0,"w":108,"h":101,"offX":9,"offY":9,"sourceW":120,"sourceH":120},
+"effect_ui_fang_06":{"x":0,"y":113,"w":99,"h":103,"offX":12,"offY":10,"sourceW":120,"sourceH":120},
+"effect_ui_fang_07":{"x":232,"y":102,"w":109,"h":100,"offX":7,"offY":12,"sourceW":120,"sourceH":120},
+"effect_ui_fang_08":{"x":115,"y":106,"w":113,"h":95,"offX":7,"offY":15,"sourceW":120,"sourceH":120},
+"effect_ui_fang_09":{"x":115,"y":0,"w":113,"h":102,"offX":7,"offY":8,"sourceW":120,"sourceH":120},
+"effect_ui_fang_10":{"x":0,"y":0,"w":111,"h":109,"offX":8,"offY":8,"sourceW":120,"sourceH":120}}}

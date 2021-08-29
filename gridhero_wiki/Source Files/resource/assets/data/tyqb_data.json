@@ -1,0 +1,31 @@
+{
+	"gdTYQBTask":{
+			"1":{"desc":"Defeat any Boss in Middle Continent {@1:} times","taskid":1},
+			"2":{"desc":"Challenge Element Temple {@1:} times","taskid":2},
+			"3":{"desc":"Participate in Mining {@1:} times","taskid":3},
+			"4":{"desc":"Participation in Arena {@1:} times","taskid":4},
+			"5":{"desc":"Challenge the Infinite Abyss {@1:} times","taskid":5},
+			"6":{"desc":"Add products to the shelf {@1:} times in Consignment House","taskid":6},
+			"7":{"desc":"Buy products {@1:} times in the Consignment House","taskid":7},
+			"8":{"desc":"Go to the Ingot Mall and buy products {@1:} times","taskid":8},
+			"9":{"desc":"Buy Coins {@1:} times","taskid":9},
+			"10":{"desc":"Modify equipment {@1:} times","taskid":10},
+			"11":{"desc":"Buy products {@1:} times in the Coin Mall","taskid":11},
+			"12":{"desc":"Use Teleport Stone to teleport {@1:} times in the battle map","taskid":12},
+			"13":{"desc":"Forge equipment at Blacksmith {@1:} times","taskid":13},
+			"14":{"desc":"Refresh equipment {@1:} times in Blacksmith","taskid":14},
+			"15":{"desc":"Buy elixir {@1:} times at Pharmacy Owner","taskid":15},
+			"16":{"desc":"Purchase {@1:} times at the Prefect","taskid":16},
+			"17":{"desc":"Tap and view ads {@1:} times","taskid":17},
+			"18":{"desc":"Decompose {@1:} skill books in Bag","taskid":18},
+			"19":{"desc":"Sign up for the Dragon vs. Tiger event {@1:} times","taskid":19},
+			"20":{"desc":"Bet {@1:} times in Dragon vs. Tiger","taskid":20},
+			"21":{"desc":"Sign In {@1:} times","taskid":21},
+			"22":{"desc":"Activate Multiplier {@1:} times","taskid":22},
+			"23":{"desc":"Plunder other players {@1:} in Mining","taskid":23},
+			"24":{"desc":"Hire Focused Miner {@1:} times in Mining","taskid":24},
+			"25":{"desc":"Kill any boss in Moon Island {@1:} times","taskid":25},
+			"26":{"desc":"Defeat any boss in The No.1 Pass {@1:} times","taskid":26},
+			"27":{"desc":"Complete 1 lucky draw","taskid":27}
+		}
+}
