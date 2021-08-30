@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var monstersViewModel = MonsterListViewModel()
+    
     var body: some View {
         TabView {
             BossList()
                 .tabItem {
-                    Label("Boss", systemImage: "list.dash")
+                    Text("Boss")
                 }
-            ItemList()
+            MonsterList()
                 .tabItem {
-                    Label("Items", systemImage: "list.dash")
+                    Text("Monster")
                 }
-        }
+        }.environmentObject(monstersViewModel)
     }
 }
 

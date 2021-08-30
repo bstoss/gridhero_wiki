@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BossDetailViewModel: ObservableObject {
+class MonsterDetailViewModel: ObservableObject {
     
     let monster: Monster
     

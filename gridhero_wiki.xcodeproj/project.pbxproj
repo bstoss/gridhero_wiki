@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585A23D926DD6C5300DEE233 /* MonsterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A23D826DD6C5300DEE233 /* MonsterList.swift */; };
+		585A23DB26DD740400DEE233 /* BossRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A23DA26DD740400DEE233 /* BossRow.swift */; };
 		5882CADD26DBC0A70055B00B /* gridhero_wikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CADC26DBC0A70055B00B /* gridhero_wikiApp.swift */; };
 		5882CADF26DBC0A70055B00B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CADE26DBC0A70055B00B /* ContentView.swift */; };
 		5882CAE126DBC0AB0055B00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5882CAE026DBC0AB0055B00B /* Assets.xcassets */; };
 		5882CAE426DBC0AB0055B00B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5882CAE326DBC0AB0055B00B /* Preview Assets.xcassets */; };
 		5882CAEF26DBC1B30055B00B /* BossList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAEE26DBC1B30055B00B /* BossList.swift */; };
 		5882CAF126DBC2A70055B00B /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF026DBC2A70055B00B /* ItemList.swift */; };
-		5882CAF426DBC3DE0055B00B /* BossViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF326DBC3DE0055B00B /* BossViewModel.swift */; };
+		5882CAF426DBC3DE0055B00B /* MonsterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF326DBC3DE0055B00B /* MonsterListViewModel.swift */; };
 		5882CAF626DBC4CE0055B00B /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF526DBC4CE0055B00B /* Monster.swift */; };
 		5882CAF826DBC53F0055B00B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF726DBC53F0055B00B /* Global.swift */; };
 		5882CAFA26DBC5590055B00B /* Loot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882CAF926DBC5590055B00B /* Loot.swift */; };
 		5882D4B426DBC91A0055B00B /* monster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5882D4AE26DBC8F00055B00B /* monster_data.json */; };
 		5882D4B526DBC9270055B00B /* loot_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5882D46C26DBC8F00055B00B /* loot_data.json */; };
-		5882D4B926DBCB710055B00B /* BossRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4B826DBCB710055B00B /* BossRow.swift */; };
+		5882D4B926DBCB710055B00B /* MonsterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4B826DBCB710055B00B /* MonsterRow.swift */; };
 		5882D4BB26DBCD4A0055B00B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BA26DBCD4A0055B00B /* SearchBar.swift */; };
-		5882D4BD26DBCF350055B00B /* BossDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BC26DBCF350055B00B /* BossDetail.swift */; };
-		5882D4BF26DBCFF90055B00B /* BossDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BE26DBCFF90055B00B /* BossDetailViewModel.swift */; };
+		5882D4BD26DBCF350055B00B /* MonsterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BC26DBCF350055B00B /* MonsterDetail.swift */; };
+		5882D4BF26DBCFF90055B00B /* MonsterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4BE26DBCFF90055B00B /* MonsterDetailViewModel.swift */; };
 		5882D4C026DBD53E0055B00B /* item_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5882D47E26DBC8F00055B00B /* item_data.json */; };
 		5882D4C226DBD69F0055B00B /* LootRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882D4C126DBD69F0055B00B /* LootRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		585A23D826DD6C5300DEE233 /* MonsterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterList.swift; sourceTree = "<group>"; };
+		585A23DA26DD740400DEE233 /* BossRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossRow.swift; sourceTree = "<group>"; };
 		5882CAD926DBC0A70055B00B /* gridhero_wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gridhero_wiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5882CADC26DBC0A70055B00B /* gridhero_wikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridhero_wikiApp.swift; sourceTree = "<group>"; };
 		5882CADE26DBC0A70055B00B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,7 +40,7 @@
 		5882CAE526DBC0AB0055B00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5882CAEE26DBC1B30055B00B /* BossList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossList.swift; sourceTree = "<group>"; };
 		5882CAF026DBC2A70055B00B /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
-		5882CAF326DBC3DE0055B00B /* BossViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossViewModel.swift; sourceTree = "<group>"; };
+		5882CAF326DBC3DE0055B00B /* MonsterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListViewModel.swift; sourceTree = "<group>"; };
 		5882CAF526DBC4CE0055B00B /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		5882CAF726DBC53F0055B00B /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		5882CAF926DBC5590055B00B /* Loot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loot.swift; sourceTree = "<group>"; };
@@ -524,10 +528,10 @@
 		5882D4B126DBC8F00055B00B /* chengzhang_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chengzhang_data.json; sourceTree = "<group>"; };
 		5882D4B226DBC8F00055B00B /* guild_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guild_data.json; sourceTree = "<group>"; };
 		5882D4B326DBC8F00055B00B /* tyqb_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tyqb_data.json; sourceTree = "<group>"; };
-		5882D4B826DBCB710055B00B /* BossRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossRow.swift; sourceTree = "<group>"; };
+		5882D4B826DBCB710055B00B /* MonsterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterRow.swift; sourceTree = "<group>"; };
 		5882D4BA26DBCD4A0055B00B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		5882D4BC26DBCF350055B00B /* BossDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDetail.swift; sourceTree = "<group>"; };
-		5882D4BE26DBCFF90055B00B /* BossDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDetailViewModel.swift; sourceTree = "<group>"; };
+		5882D4BC26DBCF350055B00B /* MonsterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetail.swift; sourceTree = "<group>"; };
+		5882D4BE26DBCFF90055B00B /* MonsterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailViewModel.swift; sourceTree = "<group>"; };
 		5882D4C126DBD69F0055B00B /* LootRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -594,8 +598,8 @@
 		5882CAF226DBC3CD0055B00B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5882D4BE26DBCFF90055B00B /* BossDetailViewModel.swift */,
-				5882CAF326DBC3DE0055B00B /* BossViewModel.swift */,
+				5882D4BE26DBCFF90055B00B /* MonsterDetailViewModel.swift */,
+				5882CAF326DBC3DE0055B00B /* MonsterListViewModel.swift */,
 				5882CAF526DBC4CE0055B00B /* Monster.swift */,
 				5882CAF726DBC53F0055B00B /* Global.swift */,
 				5882CAF926DBC5590055B00B /* Loot.swift */,
@@ -1267,9 +1271,11 @@
 			isa = PBXGroup;
 			children = (
 				5882CAEE26DBC1B30055B00B /* BossList.swift */,
-				5882D4B826DBCB710055B00B /* BossRow.swift */,
-				5882D4BC26DBCF350055B00B /* BossDetail.swift */,
+				5882D4B826DBCB710055B00B /* MonsterRow.swift */,
+				585A23DA26DD740400DEE233 /* BossRow.swift */,
+				5882D4BC26DBCF350055B00B /* MonsterDetail.swift */,
 				5882D4C126DBD69F0055B00B /* LootRow.swift */,
+				585A23D826DD6C5300DEE233 /* MonsterList.swift */,
 			);
 			path = Boss;
 			sourceTree = "<group>";
@@ -1355,17 +1361,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5882D4B926DBCB710055B00B /* BossRow.swift in Sources */,
+				585A23D926DD6C5300DEE233 /* MonsterList.swift in Sources */,
+				5882D4B926DBCB710055B00B /* MonsterRow.swift in Sources */,
 				5882CAF126DBC2A70055B00B /* ItemList.swift in Sources */,
-				5882CAF426DBC3DE0055B00B /* BossViewModel.swift in Sources */,
+				5882CAF426DBC3DE0055B00B /* MonsterListViewModel.swift in Sources */,
 				5882CADF26DBC0A70055B00B /* ContentView.swift in Sources */,
 				5882CAFA26DBC5590055B00B /* Loot.swift in Sources */,
 				5882CAEF26DBC1B30055B00B /* BossList.swift in Sources */,
 				5882D4C226DBD69F0055B00B /* LootRow.swift in Sources */,
-				5882D4BD26DBCF350055B00B /* BossDetail.swift in Sources */,
+				5882D4BD26DBCF350055B00B /* MonsterDetail.swift in Sources */,
 				5882CAF626DBC4CE0055B00B /* Monster.swift in Sources */,
-				5882D4BF26DBCFF90055B00B /* BossDetailViewModel.swift in Sources */,
+				5882D4BF26DBCFF90055B00B /* MonsterDetailViewModel.swift in Sources */,
 				5882D4BB26DBCD4A0055B00B /* SearchBar.swift in Sources */,
+				585A23DB26DD740400DEE233 /* BossRow.swift in Sources */,
 				5882CADD26DBC0A70055B00B /* gridhero_wikiApp.swift in Sources */,
 				5882CAF826DBC53F0055B00B /* Global.swift in Sources */,
 			);

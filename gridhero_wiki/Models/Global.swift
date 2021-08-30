@@ -30,3 +30,11 @@ public struct Global {
         }
     }()
 }
+
+public enum Rarity: Int {
+    case common = 1
+    case uncommon = 2
+    case rare = 3
+    case epic = 4
+    case unique = 5
+}

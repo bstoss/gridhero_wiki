@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct BossDetail: View {
+struct MonsterDetail: View {
     
-    var bossDetailViewModel: BossDetailViewModel
+    var monsterDetailViewModel: MonsterDetailViewModel
     @State private var searchText: String = ""
     @State private var rarity = -1
 
@@ -29,11 +29,11 @@ struct BossDetail: View {
                 .pickerStyle(SegmentedPickerStyle())
                 .padding(7)
                 
-                List(bossDetailViewModel.filteredLootList(searchText: searchText, raritiy: rarity)) { lootElem in
+                List(monsterDetailViewModel.filteredLootList(searchText: searchText, raritiy: rarity)) { lootElem in
                     LootRow(loot: lootElem)
                         .foregroundColor(rowColor(sid: lootElem.sid))
                 }
-                .navigationTitle("\(bossDetailViewModel.monster.name) Drops")
+                .navigationTitle("\(monsterDetailViewModel.monster.name) Drops")
                 
             }
         
@@ -68,7 +68,7 @@ struct BossDetail: View {
 
 struct BossDetail_Previews: PreviewProvider {
     static var previews: some View {
-        BossDetail(bossDetailViewModel:
-                    BossDetailViewModel(monster: Monster(id: 7009, name: "My Monster", isBoss: 1, lvl: 99, rewardid: 8904)))
+        MonsterDetail(monsterDetailViewModel:
+                        MonsterDetailViewModel(monster: Monster(id: 7009, name: "My Monster", isBoss: 1, isHuman: 0, lvl: 99, rewardid: 8904, qty: 2)))
     }
 }

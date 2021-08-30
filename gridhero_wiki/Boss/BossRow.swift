@@ -2,7 +2,8 @@
 //  BossRow.swift
 //  gridhero_wiki
 //
-//  Created by bjurner on 29.08.21.
+//  Created by Björn Roßborsky-Stoß on 30.08.21.
+//  Copyright © 2021 bjurner. All rights reserved.
 //
 
 import SwiftUI
@@ -35,6 +36,6 @@ struct BossRow: View {
 
 struct BossRow_Previews: PreviewProvider {
     static var previews: some View {
-        BossRow(monster: Monster(id: 7009, name: "My Monster", isBoss: 1, lvl: 99, rewardid: 8904))
+        BossRow(monster: Monster(id: 7009, name: "My Monster", isBoss: 1, isHuman: 0, lvl: 99, rewardid: 8904, qty: 5))
     }
 }

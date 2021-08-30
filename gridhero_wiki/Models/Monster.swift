@@ -27,6 +27,22 @@ public struct MonsterData: Codable {
                 
         }
     }()
+    
+    public lazy var monsters: [Monster] = {
+        gdMonsters.filter({ $0.value.isBoss == 0 && $0.value.isHuman == 0 && $0.value.rewardid != nil }).map({ $0.value }).sorted { left, right in
+            
+            if left.lvl != right.lvl {
+                return left.lvl < right.lvl
+            }
+            
+            if left.name != right.name {
+                return left.name < right.name
+            }
+            
+            return left.id < right.id
+                
+        }
+    }()
 }
 
 
@@ -35,9 +51,12 @@ public struct Monster: Codable, Identifiable {
     public var id: Int
     public var name: String
     public var isBoss: Int
+    public var isHuman: Int
     public var lvl: Int
     public var rewardid: Int?
+    public var qty: Int // the color of the mob at the map
     
+   
 //    public var color: UIColor {
 //        if (id-20_000) > 0 {
 //            return .systemYellow
