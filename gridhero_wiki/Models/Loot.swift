@@ -15,6 +15,38 @@ public struct Loot: Codable, Identifiable {
     public var id: Int
     public var elems: [Int: LootElem]
     
+    public func expandableElems(chance: Float? = nil) -> [LootElem] {
+        var allNamedDrops: [LootElem] = []
+        
+        for elem in elems {
+            var drop = elem.value
+//            if let chance = chance {
+//                //drop.chance *= chance
+//            }
+            
+            guard let loot = Global.shared.lootData.gdLoots[drop.sid] else {
+                print("Loot Item missing: \(drop.sid)")
+                allNamedDrops.append(drop)
+                continue
+            }
+            drop.childs = []
+            
+            for namedDrop in loot.expandableElems(chance: drop.chance) {
+                drop.childs?.append(namedDrop)
+//                allNamedDrops.append(namedDrop)
+            }
+            
+            allNamedDrops.append(drop)
+        }
+        return allNamedDrops.sorted { left, right in
+            if left.name != right.name {
+                return left.name! < right.name!
+            }
+            
+            return left.sid < right.sid
+        }
+    }
+    
     public func allNamedDrops(chance: Float? = nil) -> [LootElem] {
         var allNamedDrops: [LootElem] = []
         
@@ -26,8 +58,11 @@ public struct Loot: Codable, Identifiable {
             if drop.name != nil {
                 allNamedDrops.append(drop)
             } else {
-                
-                for namedDrop in Global.shared.lootData.gdLoots[drop.sid]!.allNamedDrops(chance: drop.chance) {
+                guard let loot = Global.shared.lootData.gdLoots[drop.sid] else {
+                    print("Loot Item missing: \(drop.sid)")
+                    continue
+                }
+                for namedDrop in loot.allNamedDrops(chance: drop.chance) {
 //                    var drop = namedDrop
 //                    drop.chance *= elem.value.chance
                     allNamedDrops.append(namedDrop)
@@ -47,6 +82,8 @@ public struct Loot: Codable, Identifiable {
 }
 
 public struct LootElem: Codable, Identifiable {
+    
+    
     public var id: Int {
         return sid
     }
@@ -55,6 +92,9 @@ public struct LootElem: Codable, Identifiable {
     public var max: Int
     public var sid: Int // either other loot  or item if name is set
     public var name: String? // if set, sid can be used to get more data from item database
+    
+    
+    public var childs: [LootElem]?
     
 //    public var color: UIColor {
 //        if (sid-760_000) > 0 {

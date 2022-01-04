@@ -1,0 +1,37 @@
+{
+	"gdCZLJ":{
+			"1":{"id":1,"boundingot":0,"ingot":400,"price":6,"sid":48230},
+			"2":{"id":2,"boundingot":0,"ingot":2000,"price":30,"sid":48231},
+			"3":{"id":3,"boundingot":0,"ingot":3000,"price":68,"sid":48232},
+			"4":{"id":4,"boundingot":0,"ingot":4000,"price":128,"sid":48233},
+			"5":{"id":5,"boundingot":0,"ingot":7200,"price":328,"sid":48234},
+			"6":{"id":6,"boundingot":0,"ingot":15200,"price":648,"sid":48235}
+		},
+	"gdRechargeCountReward":{
+			"1":{
+					"1":{"count":5,"event_id":20041,"gift_id":216,"item_id":50780},
+					"2":{"count":15,"event_id":20041,"gift_id":217,"item_id":50781},
+					"3":{"count":30,"event_id":20041,"gift_id":218,"item_id":50782}
+				},
+			"2":{
+					"1":{"count":50,"event_id":20042,"gift_id":219,"item_id":50783},
+					"2":{"count":100,"event_id":20042,"gift_id":220,"item_id":50784},
+					"3":{"count":200,"event_id":20042,"gift_id":221,"item_id":50785}
+				},
+			"3":{
+					"1":{"count":350,"event_id":20043,"gift_id":222,"item_id":50786},
+					"2":{"count":550,"event_id":20043,"gift_id":223,"item_id":50787},
+					"3":{"count":800,"event_id":20043,"gift_id":224,"item_id":50788}
+				},
+			"4":{
+					"1":{"count":1100,"event_id":20044,"gift_id":225,"item_id":50789},
+					"2":{"count":1500,"event_id":20044,"gift_id":226,"item_id":50790},
+					"3":{"count":2000,"event_id":20044,"gift_id":227,"item_id":50791}
+				},
+			"5":{
+					"1":{"count":2600,"event_id":20045,"gift_id":228,"item_id":50792},
+					"2":{"count":3300,"event_id":20045,"gift_id":229,"item_id":50793},
+					"3":{"count":4100,"event_id":20045,"gift_id":230,"item_id":50794}
+				}
+		}
+}

@@ -21,6 +21,10 @@ struct ContentView: View {
                 .tabItem {
                     Text("Monster")
                 }
+            ItemsList()
+                .tabItem {
+                    Text("Items")
+                }
         }.environmentObject(monstersViewModel)
     }
 }

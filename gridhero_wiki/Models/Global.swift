@@ -10,6 +10,8 @@ import Foundation
 public struct Global {
     public static var shared = Global()
 
+    // game source https://cyfsomcdn.yoximi.com/text/resource/assets/zip_data/1.mp3?v=6669
+    
     public lazy var monsterData: MonsterData = {
         let datafileUrl =
                 Bundle.main.path(forResource: "monster_data", ofType: "json")!

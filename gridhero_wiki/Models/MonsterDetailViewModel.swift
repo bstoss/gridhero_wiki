@@ -11,13 +11,20 @@ class MonsterDetailViewModel: ObservableObject {
     
     let monster: Monster
     
+    var lootData: Loot?
     var loot: [LootElem] = []
-    
+    var loot2: [LootElem] = []
     init(monster: Monster) {
         self.monster = monster
         if let lootData = Global.shared.lootData.gdLoots[monster.rewardid!] {
+            
             loot = lootData.allNamedDrops()
+            loot2 = lootData.expandableElems()
         }
+    }
+    
+    func rawList () -> [LootElem] {
+        return loot2
     }
     
     func filteredLootList(searchText: String, raritiy: Int) -> [LootElem] {

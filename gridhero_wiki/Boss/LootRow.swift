@@ -11,7 +11,27 @@ struct LootRow: View {
     var loot: LootElem
     
     var body: some View {
-        Text("\(loot.sid) - \(loot.name!) - \(loot.chance * 100)%")
+        VStack(alignment: .leading, spacing: 4) {
+            
+        if let name = loot.name {
+            Text("\(name) - \(loot.chance * 100)% - \(loot.min)/\(loot.max)")
+        } else {
+            Text("\(loot.sid) - Drop Box - \(loot.chance * 100)% - \(loot.min)/\(loot.max)")
+        }
+            
+            if let chance = chance() {
+                Text("\(chance)")
+                    .font(.footnote)
+            }
+            
+        }
+    }
+    
+    func chance() -> Float? {
+        guard let map = loot.childs?.compactMap({ $0.chance }) else {
+            return nil
+        }
+        return map.reduce(0, +)
     }
 }
 

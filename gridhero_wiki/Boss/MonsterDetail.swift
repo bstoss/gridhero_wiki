@@ -29,11 +29,17 @@ struct MonsterDetail: View {
                 .pickerStyle(SegmentedPickerStyle())
                 .padding(7)
                 
-                List(monsterDetailViewModel.filteredLootList(searchText: searchText, raritiy: rarity)) { lootElem in
+                List(monsterDetailViewModel.rawList(), children: \.childs) { lootElem in
+                   
                     LootRow(loot: lootElem)
                         .foregroundColor(rowColor(sid: lootElem.sid))
                 }
                 .navigationTitle("\(monsterDetailViewModel.monster.name) Drops")
+////                List(monsterDetailViewModel.filteredLootList(searchText: searchText, raritiy: rarity)) { lootElem in
+//                    LootRow(loot: lootElem)
+//                        .foregroundColor(rowColor(sid: lootElem.sid))
+//                }
+//
                 
             }
         

@@ -1,0 +1,164 @@
+{
+	"gdSLGGMonster":{
+			"1":{
+					"monster":{"1":900},
+					"taskid":19
+				},
+			"2":{
+					"monster":{"1":901},
+					"taskid":20
+				},
+			"3":{
+					"monster":{"1":902},
+					"taskid":21
+				},
+			"4":{
+					"monster":{"1":903},
+					"taskid":22
+				},
+			"5":{
+					"monster":{"1":904},
+					"taskid":23
+				},
+			"6":{
+					"monster":{"1":905},
+					"taskid":24
+				},
+			"7":{
+					"monster":{"1":906},
+					"taskid":25
+				},
+			"8":{
+					"monster":{"1":907,"2":10907,"3":20907},
+					"taskid":26
+				},
+			"9":{
+					"monster":{"1":908,"2":10908,"3":20908},
+					"taskid":27
+				},
+			"10":{
+					"monster":{"1":909,"2":10909,"3":20909},
+					"taskid":28
+				},
+			"11":{
+					"monster":{"1":910,"2":10910,"3":20910},
+					"taskid":29
+				},
+			"12":{
+					"monster":{"1":911,"2":10911,"3":20911},
+					"taskid":30
+				},
+			"13":{
+					"monster":{"1":912,"2":10912,"3":20912},
+					"taskid":31
+				},
+			"14":{
+					"monster":{"1":913,"2":10913,"3":20913},
+					"taskid":32
+				},
+			"15":{
+					"monster":{"1":914,"2":10914,"3":20914},
+					"taskid":33
+				},
+			"16":{
+					"monster":{"1":915,"2":10915,"3":20915},
+					"taskid":34
+				},
+			"17":{
+					"monster":{"1":916,"2":10916,"3":20916},
+					"taskid":35
+				},
+			"18":{
+					"monster":{"1":917,"2":10917,"3":20917},
+					"taskid":36
+				}
+		},
+	"gdSLGGTask":{
+			"1":{"desc":"During the event, participate in mining {@1:} times","isSubmit":0,"taskid":1,"taskname":"Mining","type":1},
+			"2":{"desc":"During the event, challenge {@1:} times in Acient Arena","isSubmit":0,"taskid":2,"taskname":"Arena","type":1},
+			"3":{"desc":"During the event, go to challenge the guards in the Colosseum and get S rating {@1:} times","isSubmit":0,"taskid":3,"taskname":"Colosseum","type":1},
+			"4":{"desc":"During the event, upgrade Fame Level to level {@1:}","isSubmit":0,"taskid":4,"taskname":"Fame","type":0},
+			"5":{"desc":"During the event, upgrade your level to level {@1:}","isSubmit":0,"taskid":5,"taskname":"Level","type":0},
+			"6":{"desc":"During the event, go to Artisan to complete Orb appraisal {@1:} times","isSubmit":0,"taskid":6,"taskname":"Appraisal","type":1},
+			"7":{"desc":"During the event, add products to the shelf {@1:} times in Market","isSubmit":0,"taskid":7,"taskname":"Enrollment","type":1},
+			"8":{"desc":"During the event, go to the Market and buy products {@1:} times","isSubmit":0,"taskid":8,"taskname":"Shopping","type":1},
+			"9":{"desc":"During the event, go to the Gem Mall and buy products {@1:} times","isSubmit":0,"taskid":9,"taskname":"Gem Mall","type":1},
+			"10":{"desc":"During the event, purify equipment {@1:} times","isSubmit":0,"taskid":10,"taskname":"Purifying","type":1},
+			"11":{"desc":"During the event, go to Appraiser and appraise equipment {@1:} times","isSubmit":0,"taskid":11,"taskname":"Appraisal","type":1},
+			"12":{"desc":0,"isSubmit":0,"taskid":12,"taskname":"贿赂商人","type":1},
+			"13":{"desc":"During the event, successfully strengthen body {@1:} times","isSubmit":0,"taskid":13,"taskname":"Strengthening","type":1},
+			"14":{"desc":"During the event, increase {@1:} levels of your skill","isSubmit":0,"taskid":14,"taskname":"Learning","type":1},
+			"15":{"desc":"During the event, increase {@1:} bag slots","isSubmit":0,"taskid":15,"taskname":"Extension","type":1},
+			"16":{"desc":"During the event, please strive to improve your Battle Power to {@1:}","isSubmit":0,"taskid":16,"taskname":"Battle Power","type":0},
+			"17":{"desc":"During the event, watch ads {@1:} times","isSubmit":0,"taskid":17,"taskname":"Ads","type":1},
+			"18":{"desc":"During the event,  exchange coins {@1:} times on Get Coins interface","isSubmit":0,"taskid":18,"taskname":"Coins","type":1},
+			"19":{"desc":"During the event, Defeat the Hobgoblin {@1:} times","isSubmit":0,"taskid":19,"taskname":"Hunting","type":1},
+			"20":{"desc":"During the event, Defeat the Orc Chieftain {@1:} times","isSubmit":0,"taskid":20,"taskname":"Hunting","type":1},
+			"21":{"desc":"During the event, Defeat the Bugbear {@1:} times","isSubmit":0,"taskid":21,"taskname":"Hunting","type":1},
+			"22":{"desc":"During the event, Defeat the Young Green Dragon {@1:} times","isSubmit":0,"taskid":22,"taskname":"Hunting","type":1},
+			"23":{"desc":"During the event, Defeat the The Great Ogre {@1:} times","isSubmit":0,"taskid":23,"taskname":"Hunting","type":1},
+			"24":{"desc":"During the event, Defeat the Drow Priest {@1:} times","isSubmit":0,"taskid":24,"taskname":"Hunting","type":1},
+			"25":{"desc":"During the event, Defeat the Drow Queen {@1:} times","isSubmit":0,"taskid":25,"taskname":"Hunting","type":1},
+			"26":{"desc":"During the event, Defeat the Sahuagin Baron {@1:} times","isSubmit":0,"taskid":26,"taskname":"Hunting","type":1},
+			"27":{"desc":"During the event, Defeat the Twelve-Headed Hydra {@1:} times","isSubmit":0,"taskid":27,"taskname":"Hunting","type":1},
+			"28":{"desc":"During the event, Defeat the Naga lord {@1:} times","isSubmit":0,"taskid":28,"taskname":"Hunting","type":1},
+			"29":{"desc":"During the event, Defeat the Troll Shaman {@1:} times","isSubmit":0,"taskid":29,"taskname":"Hunting","type":1},
+			"30":{"desc":"During the event, Defeat the Duergar Lord {@1:} times","isSubmit":0,"taskid":30,"taskname":"Hunting","type":1},
+			"31":{"desc":"During the event, Defeat the Kobold Ghost Tutor {@1:} times","isSubmit":0,"taskid":31,"taskname":"Hunting","type":1},
+			"32":{"desc":"During the event, Defeat the Adult Dragon Body Kobold {@1:} times","isSubmit":0,"taskid":32,"taskname":"Hunting","type":1},
+			"33":{"desc":"During the event, Defeat the Swamp Hag {@1:} times","isSubmit":0,"taskid":33,"taskname":"Hunting","type":1},
+			"34":{"desc":"During the event, Defeat the Lizardfolk Lord {@1:} times","isSubmit":0,"taskid":34,"taskname":"Hunting","type":1},
+			"35":{"desc":"During the event, Defeat the Stone Golem {@1:} times","isSubmit":0,"taskid":35,"taskname":"Hunting","type":1},
+			"36":{"desc":"During the event, Defeat the Adult Black Dragon {@1:} times","isSubmit":0,"taskid":36,"taskname":"Hunting","type":1},
+			"37":{"desc":"During the event, accumulative login reaches {@1:} days","isSubmit":0,"taskid":37,"taskname":"Cumulative Login","type":1},
+			"38":{"desc":"During the event, Battle Power of Archive reaches {@1:}","isSubmit":0,"taskid":38,"taskname":"Archive","type":0},
+			"39":{"desc":"During the event, Total top-up reaches {@1:} (Limited to gem top-up)","isSubmit":0,"taskid":39,"taskname":"Recharge","type":1},
+			"40":{"desc":"During the event, Total gem consumed {@1:} (Market is not included)","isSubmit":0,"taskid":40,"taskname":"Consumption","type":1},
+			"41":{"desc":"During the event, submit level {@1:} Equipment {@2:} times","isSubmit":1,"taskid":41,"taskname":"Contribution","type":1},
+			"42":{"desc":"During the event, submit {@1:} Equipment {@2:} times","isSubmit":1,"taskid":42,"taskname":"Contribution","type":1},
+			"43":{"desc":"During the event, submit items {@1:} {@2:} times","isSubmit":1,"taskid":43,"taskname":"Contribution","type":1},
+			"44":{"desc":"During the event, submit {@1:} Orb {@2:} times","isSubmit":1,"taskid":44,"taskname":"Contribution","type":1},
+			"45":{"desc":"Challenge Temple of Elements {@1:} times during the event","isSubmit":0,"taskid":45,"taskname":"Challenge","type":1},
+			"46":{"desc":"During the event, complete Rune Engraving {@1:} times","isSubmit":0,"taskid":46,"taskname":"Engraving","type":1},
+			"47":{"desc":"During the event, Complete treasure tools fusion {@1:} times","isSubmit":0,"taskid":47,"taskname":"Fusion","type":1},
+			"48":{"desc":"During the event, submit {@1:}-quality blank runes {@2:} times","isSubmit":1,"taskid":48,"taskname":"Consumption","type":1},
+			"49":{"desc":"During the event, submit {@1:} quality treasure {@2:} times","isSubmit":1,"taskid":49,"taskname":"Contribution","type":1},
+			"50":{"desc":"During the event, go to the Elemental Temple to assist other players {@1:} times","isSubmit":0,"taskid":50,"taskname":"Challenge","type":1},
+			"51":{"desc":"During the event, enhance the full body to level {@1:}","isSubmit":0,"taskid":51,"taskname":"Strengthening","type":0},
+			"52":{"desc":"During the event, recycle equipment {@1:} times","isSubmit":0,"taskid":52,"taskname":"Recycling","type":1},
+			"53":{"desc":"During the event, go to the Coin Mall and buy products {@1:} times","isSubmit":0,"taskid":53,"taskname":"Coin Mall","type":1},
+			"54":{"desc":"Sell items in Bag {@1:} times during the event","isSubmit":0,"taskid":54,"taskname":"Sale","type":1},
+			"55":{"desc":"During the event, Challenge Infinite Abyss {@1:} times","isSubmit":0,"taskid":55,"taskname":"Infinite Abyss","type":1},
+			"56":{"desc":"During the event, use Teleport Scroll {@1:} times on the battle map","isSubmit":0,"taskid":56,"taskname":"Travel","type":1},
+			"57":{"desc":"During the event, go to forge your equipment {@1:} times at Blacksmith","isSubmit":0,"taskid":57,"taskname":"Forging","type":1},
+			"58":{"desc":"During the event, Complete the main line task","isSubmit":0,"taskid":58,"taskname":"Task","type":0},
+			"59":{"desc":"During the event, Increase your Orb Power to {@1:}","isSubmit":0,"taskid":59,"taskname":"Orb Power","type":0},
+			"60":{"desc":"During the event, Raise treasure tool proficiency to level {@1:}","isSubmit":0,"taskid":60,"taskname":"Proficiency","type":0},
+			"61":{"desc":"During the event, upgrade your Sweeping Strikes/Lightning Bolt/Dark Bolt level and reach level {@1:}","isSubmit":0,"taskid":61,"taskname":"Skill","type":0},
+			"62":{"desc":0,"isSubmit":0,"taskid":62,"taskname":"Upgrade level","type":0},
+			"63":{"desc":0,"isSubmit":0,"taskid":63,"taskname":"Upgrade level","type":0},
+			"64":{"desc":0,"isSubmit":0,"taskid":64,"taskname":"Upgrade level","type":0},
+			"65":{"desc":0,"isSubmit":0,"taskid":65,"taskname":"Upgrade level","type":0},
+			"66":{"desc":"During the event, plunder others players {@1:} times in Mining","isSubmit":0,"taskid":66,"taskname":"Robbery","type":1},
+			"67":{"desc":"During the event, reach F {@1:} in Infinite Abyss","isSubmit":0,"taskid":67,"taskname":"Infinite Abyss","type":0},
+			"68":{"desc":"During the event, go to the Bag interface to decompose {@1:} skill books","isSubmit":0,"taskid":68,"taskname":"Decomposition","type":1},
+			"69":{"desc":"During the event, buy potion {@1:} times at Physician","isSubmit":0,"taskid":69,"taskname":"Potion","type":1},
+			"70":{"desc":"During the event, access items at the Custodian {@1:} times","isSubmit":0,"taskid":70,"taskname":"Access","type":1},
+			"71":{"desc":"During the event, view the ranking {@1:} times at Monument","isSubmit":0,"taskid":71,"taskname":"Ranking","type":1},
+			"72":{"desc":"During the event, go to the Prefect and purchase items {@1:} times","isSubmit":0,"taskid":72,"taskname":"Honor","type":1},
+			"73":{"desc":"During the event, total coins consumed {@1:}","isSubmit":0,"taskid":73,"taskname":"Consumption","type":1},
+			"74":{"desc":"Cultivate any Orb {@1:} times during the event","isSubmit":0,"taskid":74,"taskname":"Culture","type":1},
+			"75":{"desc":"During the event, reach round {@1:} in Colosseum","isSubmit":0,"taskid":75,"taskname":"Colosseum","type":0},
+			"76":{"desc":"During the event, go to the Temple of Elements to successfully hire other players {@1:} times","isSubmit":0,"taskid":76,"taskname":"Rent","type":1},
+			"77":{"desc":0,"isSubmit":0,"taskid":77,"taskname":"Boost Luck Points","type":0},
+			"78":{"desc":"During the event, go to the Temple of Elements interface to praise players who have been hired or assisted {@1:} times","isSubmit":0,"taskid":78,"taskname":"Like Players","type":1},
+			"79":{"desc":"During the event, deploy {@1:} Treasure","isSubmit":0,"taskid":79,"taskname":"Deployment","type":0},
+			"80":{"desc":"During the event, go to the Temple of Elements and pass layer {@1:} {@2:} times","isSubmit":0,"taskid":80,"taskname":"Challenge","type":1},
+			"81":{"desc":"During the event, extend your storage box capacity to {@1:} storage box slots to {@1:} at Custodian","isSubmit":0,"taskid":81,"taskname":"Extension","type":0},
+			"82":{"desc":"Go to Divinity's Reach {@1:} times","isSubmit":0,"taskid":82,"taskname":"Campsite","type":1},
+			"83":{"desc":"Go to Mercenary Station {@1:} times","isSubmit":0,"taskid":83,"taskname":"Campsite","type":1},
+			"84":{"desc":"Go to Pirate Isle {@1:} times","isSubmit":0,"taskid":84,"taskname":"Campsite","type":1},
+			"85":{"desc":"Go to Silvermoon City {@1:} times","isSubmit":0,"taskid":85,"taskname":"Campsite","type":1},
+			"86":{"desc":"Go to Icewind City {@1:} times","isSubmit":0,"taskid":86,"taskname":"Campsite","type":1}
+		}
+}
